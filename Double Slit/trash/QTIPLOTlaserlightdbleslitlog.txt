@@ -1,0 +1,127 @@
+[2019-10-13 16:08:29	Plot: ''Graph1'']
+Non-linear Fit of dataset: Table1_2, using function: Io*(l*D*sin(pi*a*(x+xo)/(l*D))/(pi*a*(x+xo))*cos(pi*d*(x+xo)/(l*D)))^2
+Sort: No
+Weighting Method: Instrumental, using error bars dataset: Table1_3
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 1.8000000000000e-03 to x = 9.5000000000000e-03
+
+Parameter                          Value                                   Error                                   
+-------------------------------------------------------------------
+l                                           7.5583076455837e-07  1.0209623991474e-08  
+-------------------------------------------------------------------
+Errors were scaled with sqrt(Chi^2/doF) = 3.7105086000084e+02
+
+Statistics                                            Table1_2                                           
+------------------------------------------------------------
+N (data points)                                 78                                                       
+Degrees of Freedom (doF)             77                                                       
+Chi^2/doF                                        1.3767874070736e+05                
+RSS (Residual Sum of Squares)      1.0601263034467e+07                
+R                                                         8.5577745641744e-01                 
+R^2                                                     7.3235505491231e-01                 
+Adjusted R^2                                    7.3235505491231e-01                 
+RMSE (Root Mean Squared Error)  3.7105086000084e+02                
+Iterations                                           1                                                         
+Status                                                 success                                             
+------------------------------------------------------------
+D = 4.0000000000000e-01 (constant)
+Io = 2.5580000000000e+00 (constant)
+a = 8.3200000000000e-05 (constant)
+d = 3.0940000000000e-04 (constant)
+xo = -6.0000000000000e-03 (constant)
+---------------------------------------------------------------------------------------
+[2019-10-13 16:19:44	Plot: ''Graph1'']
+Non-linear Fit of dataset: Table1_2, using function: Io*(l*D*sin(pi*a*(x+xo)/(l*D))/(pi*a*(x+xo))*cos(pi*d*(x+xo)/(l*D)))^2
+Sort: No
+Weighting Method: Instrumental, using error bars dataset: Table1_3
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 1.8000000000000e-03 to x = 9.5000000000000e-03
+
+Parameter                          Value                                   Error                                   
+-------------------------------------------------------------------
+l                                           6.6821240048891e-07  1.5536900979502e-09  
+-------------------------------------------------------------------
+Errors were scaled with sqrt(Chi^2/doF) = 9.4448732657233e+01
+
+Statistics                                            Table1_2                                           
+------------------------------------------------------------
+N (data points)                                 78                                                       
+Degrees of Freedom (doF)             77                                                       
+Chi^2/doF                                        8.9205631005575e+03                
+RSS (Residual Sum of Squares)      6.8688335874293e+05                
+R                                                         9.9129137444725e-01                 
+R^2                                                     9.8265858905352e-01                 
+Adjusted R^2                                    9.8265858905352e-01                 
+RMSE (Root Mean Squared Error)  9.4448732657233e+01                
+Iterations                                           1                                                         
+Status                                                 success                                             
+------------------------------------------------------------
+D = 4.5000000000000e-01 (constant)
+Io = 2.5580000000000e+00 (constant)
+a = 6.3200000000000e-05 (constant)
+d = 3.0940000000000e-04 (constant)
+xo = -6.0500000000000e-03 (constant)
+---------------------------------------------------------------------------------------
+[2019-10-13 18:22:22	Plot: ''Graph2'']
+Non-linear Fit of dataset: Table2_2, using function: Io*(l*D*sin(pi*a*(x+xo)/(l*D))/(pi*a*(x+xo))*cos(pi*d*(x+xo)/(l*D)))^2
+Sort: No
+Weighting Method: No weighting
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 1.8000000000000e-03 to x = 9.5000000000000e-03
+
+Parameter                           Value                                    Error                                    
+---------------------------------------------------------------------
+Io                                          2.9600121218780e+00  8.8374441675162e-02   
+l                                            6.0697297554230e-07   5.0786492089166e-09   
+---------------------------------------------------------------------
+Errors were scaled with sqrt(Chi^2/doF) = 2.6385253672143e-01
+
+Statistics                                            Table2_2                                           
+------------------------------------------------------------
+N (data points)                                 78                                                       
+Degrees of Freedom (doF)             76                                                       
+Chi^2/doF                                        6.9618161134331e-02                 
+RSS (Residual Sum of Squares)      5.2909802462092e+00                
+R                                                         9.3081748394291e-01                 
+R^2                                                     8.6642118841381e-01                 
+Adjusted R^2                                    8.6466357247189e-01                 
+RMSE (Root Mean Squared Error)  2.6385253672143e-01                 
+Iterations                                           5                                                         
+Status                                                 success                                             
+------------------------------------------------------------
+D = 5.0000000000000e-01 (constant)
+a = 8.3200000000000e-05 (constant)
+d = 3.0940000000000e-04 (constant)
+xo = -6.0500000000000e-03 (constant)
+---------------------------------------------------------------------------------------
+[2019-10-13 18:23:08	Plot: ''Graph2'']
+Non-linear Fit of dataset: Table2_2, using function: Io*(l*D*sin(pi*a*(x+xo)/(l*D))/(pi*a*(x+xo))*cos(pi*d*(x+xo)/(l*D)))^2
+Sort: No
+Weighting Method: No weighting
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 1.8000000000000e-03 to x = 9.5000000000000e-03
+
+Parameter                           Value                                    Error                                    
+---------------------------------------------------------------------
+Io                                          2.9599625112475e+00  8.8372943831401e-02   
+l                                            6.0699345200011e-07   5.0788205187864e-09   
+---------------------------------------------------------------------
+Errors were scaled with sqrt(Chi^2/doF) = 2.6385251511435e-01
+
+Statistics                                            Table2_2                                           
+------------------------------------------------------------
+N (data points)                                 78                                                       
+Degrees of Freedom (doF)             76                                                       
+Chi^2/doF                                        6.9618149732168e-02                 
+RSS (Residual Sum of Squares)      5.2909793796447e+00                
+R                                                         9.3081749569480e-01                 
+R^2                                                     8.6642121029154e-01                 
+Adjusted R^2                                    8.6466359463748e-01                 
+RMSE (Root Mean Squared Error)  2.6385251511435e-01                 
+Iterations                                           1                                                         
+Status                                                 success                                             
+------------------------------------------------------------
+D = 5.0000000000000e-01 (constant)
+a = 8.3200000000000e-05 (constant)
+d = 3.0940000000000e-04 (constant)
+xo = -6.0500000000000e-03 (constant)

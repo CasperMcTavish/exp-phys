@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE fit>
+<fit version="1.1">
+<model>user1</model>
+<type>2</type>
+<function>Io*(l*D*sin(pi*a*(x+xo)/(l*D))/(pi*a*(x+xo))*cos(pi*d*(x+xo)/(l*D)))^2</function>
+<parameter>
+    <name>D</name>
+    <explanation></explanation>
+    <constValue>5.0000000000000e-01</constValue>
+</parameter>
+<parameter>
+    <name>Io</name>
+    <explanation></explanation>
+    <value>2.6241900000000e+00</value>
+</parameter>
+<parameter>
+    <name>a</name>
+    <explanation></explanation>
+    <constValue>8.3200000000000e-05</constValue>
+</parameter>
+<parameter>
+    <name>d</name>
+    <explanation></explanation>
+    <constValue>3.5640000000000e-04</constValue>
+</parameter>
+<parameter>
+    <name>l</name>
+    <explanation></explanation>
+    <value>6.7000000000000e-07</value>
+</parameter>
+<parameter>
+    <name>xo</name>
+    <explanation></explanation>
+    <constValue>-6.0605733371992e-03</constValue>
+</parameter>
+</fit>
