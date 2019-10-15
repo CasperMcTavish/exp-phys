@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE qti>
+<qti app="QtiPlot" version="1.0.0-rc10" dpi="96" arch="Win64" script="muParser" windows="6" expand="1" log="[2019-10-03 17:00:09&#9;Plot: ''Graph5'']&#10;Non-linear Fit of dataset: Table3_2, using function: Io*(l*D*sin(pi*a*(x)/(l*D))/(pi*a*(x))*cos(pi*d*(x)/(l*D)))^2&#10;Sort: No&#10;Weighting Method: No weighting&#10;Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001&#10;From x = -6.1000000000000e-03 to x = 3.8000000000000e-03&#10;&#10;Parameter                         Value                                 Error                                 &#10;---------------------------------------------------------------------&#10;D                                       -1.9709659157498e+00  3.4022992153403e+14    &#10;Io                                      1.3308333702295e+00    1.3075220653260e-01     &#10;a                                        -2.0322614364301e-04   4.6790234453891e+03    &#10;d                                       4.9223083640366e-05     1.1332988369738e+03    &#10;l                                        5.6418696322739e-07     9.7390464801604e+07    &#10;---------------------------------------------------------------------&#10;Errors were scaled with sqrt(Chi^2/doF) = 5.2996218199141e-01&#10;&#10;Statistics                                       Table3_2                                       &#10;------------------------------------------------------------&#10;N (data points)                              100                                               &#10;Degrees of Freedom (doF)            95                                                 &#10;Chi^2/doF                                     2.8085991434109e-01                &#10;RSS (Residual Sum of Squares)      2.6681691862404e+01                &#10;R                                                   6.7345711243738e-01                &#10;R^2                                               4.5354448229250e-01                &#10;Adjusted R^2                                4.3053582891534e-01                &#10;RMSE (Root Mean Squared Error)  5.2996218199141e-01                &#10;Iterations                                      49                                                 &#10;Status                                            success                                         &#10;------------------------------------------------------------&#10;[2019-10-03 17:02:42&#9;Plot: ''Graph5'']&#10;Non-linear Fit of dataset: Table3_2, using function: Io*(l*D*sin(pi*a*(x)/(l*D))/(pi*a*(x))*cos(pi*d*(x)/(l*D)))^2&#10;Sort: No&#10;Weighting Method: No weighting&#10;Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001&#10;From x = -6.1000000000000e-03 to x = 3.8000000000000e-03&#10;&#10;Parameter                       Value                               Error                                &#10;-------------------------------------------------------------------&#10;Io                                     2.5909029958721e+00  4.9482490494673e-02   &#10;a                                      2.5423935626833e-02   7.9031335243165e+04  &#10;d                                      1.3265415986890e-01   4.1236083718402e+05  &#10;l                                       2.5724083730405e-04   7.9964357801530e+02  &#10;-------------------------------------------------------------------&#10;Errors were scaled with sqrt(Chi^2/doF) = 1.4362156613754e-01&#10;&#10;Statistics                                       Table3_2                                       &#10;------------------------------------------------------------&#10;N (data points)                              100                                               &#10;Degrees of Freedom (doF)            96                                                 &#10;Chi^2/doF                                     2.0627154259800e-02                &#10;RSS (Residual Sum of Squares)      1.9802068089408e+00                &#10;R                                                   9.7951227188309e-01                &#10;R^2                                               9.5944429076957e-01                &#10;Adjusted R^2                                9.5817692485612e-01                &#10;RMSE (Root Mean Squared Error)  1.4362156613754e-01                &#10;Iterations                                      15                                                 &#10;Status                                            success                                         &#10;------------------------------------------------------------&#10;D = 5.0000000000000e-01 (constant)&#10;---------------------------------------------------------------------------------------&#10;[2019-10-03 17:02:42&#9;Plot: ''Graph5'']&#10;Non-linear Fit of dataset: Table3_2, using function: Io*(l*D*sin(pi*a*(x)/(l*D))/(pi*a*(x))*cos(pi*d*(x)/(l*D)))^2&#10;Sort: No&#10;Weighting Method: No weighting&#10;Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001&#10;From x = -6.1000000000000e-03 to x = 3.8000000000000e-03&#10;&#10;Parameter                       Value                               Error                                &#10;-------------------------------------------------------------------&#10;Io                                     2.5909029958721e+00  4.9482490494673e-02   &#10;a                                      2.5423935626833e-02   7.9031335243165e+04  &#10;d                                      1.3265415986890e-01   4.1236083718402e+05  &#10;l                                       2.5724083730405e-04   7.9964357801530e+02  &#10;-------------------------------------------------------------------&#10;Errors were scaled with sqrt(Chi^2/doF) = 1.4362156613754e-01&#10;&#10;Statistics                                                                  Table3_2                                                                  &#10;------------------------------------------------------------------------------------------&#10;N (data points)                                                         100                                                                          &#10;Degrees of Freedom (doF)                                       96                                                                            &#10;Chi^2/doF                                                                2.0627154259800e-02                                            &#10;RSS (Residual Sum of Squares)                                 1.9802068089408e+00                                           &#10;R                                                                              9.7951227188309e-01                                            &#10;R^2                                                                          9.5944429076957e-01                                            &#10;Adjusted R^2                                                           9.5817692485612e-01                                            &#10;RMSE (Root Mean Squared Error)                             1.4362156613754e-01                                            &#10;Iterations                                                                 1                                                                              &#10;Status                                                                       iteration is not making progress towards solution  &#10;------------------------------------------------------------------------------------------&#10;D = 5.0000000000000e-01 (constant)&#10;---------------------------------------------------------------------------------------&#10;[2019-10-04 14:21:36&#9;Plot: ''Graph5'']&#10;Non-linear Fit of dataset: Table3_2, using function: Io*(l*D*sin(pi*a*(x)/(l*D))/(pi*a*(x))*cos(pi*d*(x)/(l*D)))^2&#10;Sort: No&#10;Weighting Method: No weighting&#10;Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001&#10;From x = -6.1000000000000e-03 to x = 3.8000000000000e-03&#10;&#10;Parameter                        Value                                Error                                 &#10;--------------------------------------------------------------------&#10;l                                        -9.1389066020526e-03  3.4461247439138e+02   &#10;--------------------------------------------------------------------&#10;Errors were scaled with sqrt(Chi^2/doF) = 2.0210281849099e+00&#10;&#10;Statistics                                       Table3_2                                       &#10;------------------------------------------------------------&#10;N (data points)                              100                                               &#10;Degrees of Freedom (doF)            99                                                 &#10;Chi^2/doF                                     4.0845549242004e+00                &#10;RSS (Residual Sum of Squares)      4.0437093749584e+02                &#10;R                                                   nan                                               &#10;R^2                                               -7.2817360733604e+00              &#10;Adjusted R^2                                -7.2817360733604e+00              &#10;RMSE (Root Mean Squared Error)  2.0210281849099e+00                &#10;Iterations                                      3                                                   &#10;Status                                            success                                         &#10;------------------------------------------------------------&#10;D = 5.0000000000000e-01 (constant)&#10;Io = 2.5000000000000e+00 (constant)&#10;a = 1.0000000000000e-04 (constant)&#10;d = 4.0000000000000e-04 (constant)&#10;---------------------------------------------------------------------------------------&#10;">
+	<window type="1" name="Table1" date="2458757.4864245" x="0" y="-24" w="543" h="929" state="-1">
+		<tab rows="101" cols="5" labels="0">
+			<col name="1" type="6" num="0" prec="13" plot="1" width="100" stat="0" data="0;0.1;0.2;0.3;0.4;0.5;0.6;0.7;0.8;0.9;1;1.1;1.2;1.3;1.4;1.5;1.6;1.7;1.8;1.9;2;2.1;2.2;2.3;2.4;2.5;2.6;2.7;2.8;2.9;3;3.1;3.2;3.3;3.4;3.5;3.6;3.7;3.8;3.9;4;4.1;4.2;4.3;4.4;4.5;4.6;4.7;4.8;4.9;5;5.1;5.2;5.3;5.4;5.5;5.6;5.7;5.8;5.9;6;6.1;6.2;6.3;6.4;6.5;6.6;6.7;6.8;6.9;7;7.1;7.2;7.3;7.4;7.5;7.6;7.7;7.8;7.9;8;8.1;8.2;8.3;8.4;8.5;8.6;8.7;8.8;8.9;9;9.1;9.2;9.3;9.4;9.5;9.6;9.7;9.8;9.9;10;"/>
+			<col name="2" type="6" num="0" prec="13" plot="2" width="100" stat="0" data="0.03;0.027;0.024;0.018;0.016;0.015;0.015;0.015;0.016;0.017;0.029;0.035;0.036;0.043;0.052;0.061;0.067;0.07;0.078;0.098;0.135;0.182;0.222;0.237;0.204;0.155;0.093;0.082;0.144;0.29;0.493;0.677;0.76;0.68;0.504;0.245;0.072;0.099;0.354;0.792;1.211;1.515;1.494;1.221;0.724;0.255;0.048;0.215;0.732;1.431;2.04;2.283;2.063;1.465;0.76;0.198;0.064;0.436;1.166;1.965;2.51;2.558;2.08;1.318;0.562;0.105;0.141;0.629;1.357;2.011;2.325;2.168;1.624;0.94;0.331;0.07;0.202;0.633;1.149;1.508;1.582;1.339;0.922;0.47;0.141;0.066;0.195;0.432;0.646;0.744;0.698;0.545;0.327;0.153;0.064;0.06;0.105;0.125;0.074;0.064;0.095;"/>
+			<col name="3" type="6" num="0" prec="13" plot="5" width="100" stat="0" data="0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;"/>
+			<col name="4" type="6" num="0" prec="13" plot="4" width="100" stat="0" data="0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;"/>
+			<col name="5" type="6" num="0" prec="13" plot="2" width="100" stat="0" data="-0.0038;-0.0037;-0.0036;-0.0035;-0.0034;-0.0033;-0.0032;-0.0031;-0.003;-0.0029;-0.0028;-0.0027;-0.0026;-0.0025;-0.0024;-0.0023;-0.0022;-0.0021;-0.002;-0.0019;-0.0018;-0.0017;-0.0016;-0.0015;-0.0014;-0.0013;-0.0012;-0.0011;-0.001;-0.0009;-0.0008;-0.0007;-0.0006;-0.0005;-0.0004;-0.0003;-0.0002;-0.0001;0;0.0001;0.0002;0.0003;0.0004;0.0005;0.0006;0.0007;0.0008;0.0009;0.001;0.0011;0.0012;0.0013;0.0014;0.0015;0.0016;0.0017;0.0018;0.0019;0.002;0.0021;0.0022;0.0023;0.0024;0.0025;0.0026;0.0027;0.0028;0.0029;0.003;0.0031;0.0032;0.0033;0.0034;0.0035;0.0036;0.0037;0.0038;0.0039;0.004;0.0041;0.0042;0.0043;0.0044;0.0045;0.0046;0.0047;0.0048;0.0049;0.005;0.0051;0.0052;0.0053;0.0054;0.0055;0.0056;0.0057;0.0058;0.0059;0.006;0.0061;"/>
+		</tab>
+	</window>
+	<window type="1" name="Table2" date="2458758.609455" x="735" y="50" w="620" h="448" state="-1">
+		<tab rows="102" cols="4" labels="0">
+			<col name="1" type="6" num="0" prec="13" plot="1" width="100" stat="0" data="-5;-4.9;-4.8;-4.7;-4.6;-4.5;-4.4;-4.3;-4.2;-4.1;-4;-3.9;-3.8;-3.7;-3.6;-3.5;-3.4;-3.3;-3.2;-3.1;-3;-2.9;-2.8;-2.7;-2.6;-2.5;-2.4;-2.3;-2.2;-2.1;-2;-1.9;-1.8;-1.7;-1.6;-1.5;-1.4;-1.3;-1.2;-1.1;-1;-0.9;-0.8;-0.7;-0.6;-0.5;-0.4;-0.3;-0.2;-0.1;0;0.1;0.2;0.3;0.4;0.5;0.6;0.7;0.8;0.9;1;1.1;1.2;1.3;1.4;1.5;1.6;1.7;1.8;1.9;2;2.1;2.2;2.3;2.4;2.5;2.6;2.7;2.8;2.9;3;3.1;3.2;3.3;3.4;3.5;3.6;3.7;3.8;3.9;4;4.1;4.2;4.3;4.4;4.5;4.6;4.7;4.8;4.9;5;"/>
+			<col name="2" type="6" num="0" prec="13" plot="2" width="100" stat="0" data="0.03;0.027;0.024;0.018;0.016;0.015;0.015;0.015;0.016;0.017;0.029;0.035;0.036;0.043;0.052;0.061;0.067;0.07;0.078;0.098;0.135;0.182;0.222;0.237;0.204;0.155;0.093;0.082;0.144;0.29;0.493;0.677;0.76;0.68;0.504;0.245;0.072;0.099;0.354;0.792;1.211;1.515;1.494;1.221;0.724;0.255;0.048;0.215;0.732;1.431;2.04;2.283;2.063;1.465;0.76;0.198;0.064;0.436;1.166;1.965;2.51;2.558;2.08;1.318;0.562;0.105;0.141;0.629;1.357;2.011;2.325;2.168;1.624;0.94;0.331;0.07;0.202;0.633;1.149;1.508;1.582;1.339;0.922;0.47;0.141;0.066;0.195;0.432;0.646;0.744;0.698;0.545;0.327;0.153;0.064;0.06;0.105;0.125;0.074;0.064;0.095;"/>
+			<col name="3" type="6" num="0" prec="13" plot="2" width="100" stat="0" data="0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;0.001;"/>
+			<col name="4" type="6" num="0" prec="13" plot="2" width="100" stat="0" data="0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;0.005;"/>
+		</tab>
+	</window>
+	<window type="1" name="Table3" date="2458759.6133931" x="25" y="0" w="602" h="939" state="1">
+		<tab rows="101" cols="2" labels="0">
+			<col name="1" type="6" num="0" prec="13" plot="1" width="100" stat="0" data="-0.0061;-0.006;-0.0059;-0.0058;-0.0057;-0.0056;-0.0055;-0.0054;-0.0053;-0.0052;-0.0051;-0.005;-0.0049;-0.0048;-0.0047;-0.0046;-0.0045;-0.0044;-0.0043;-0.0042;-0.0041;-0.004;-0.0039;-0.0038;-0.0037;-0.0036;-0.0035;-0.0034;-0.0033;-0.0032;-0.0031;-0.003;-0.0029;-0.0028;-0.0027;-0.0026;-0.0025;-0.0024;-0.0023;-0.0022;-0.0021;-0.002;-0.0019;-0.0018;-0.0017;-0.0016;-0.0015;-0.0014;-0.0013;-0.0012;-0.0011;-0.001;-0.0009;-0.0008;-0.0007;-0.0006;-0.0005;-0.0004;-0.0003;-0.0002;-0.0001;2.35814e-18;0.0001;0.0002;0.0003;0.0004;0.0005;0.0006;0.0007;0.0008;0.0009;0.001;0.0011;0.0012;0.0013;0.0014;0.0015;0.0016;0.0017;0.0018;0.0019;0.002;0.0021;0.0022;0.0023;0.0024;0.0025;0.0026;0.0027;0.0028;0.0029;0.003;0.0031;0.0032;0.0033;0.0034;0.0035;0.0036;0.0037;0.0038;0.0039;"/>
+			<col name="2" type="6" num="0" prec="13" plot="2" width="52" stat="0" data="0.03;0.027;0.024;0.018;0.016;0.015;0.015;0.015;0.016;0.017;0.029;0.035;0.036;0.043;0.052;0.061;0.067;0.07;0.078;0.098;0.135;0.182;0.222;0.237;0.204;0.155;0.093;0.082;0.144;0.29;0.493;0.677;0.76;0.68;0.504;0.245;0.072;0.099;0.354;0.792;1.211;1.515;1.494;1.221;0.724;0.255;0.048;0.215;0.732;1.431;2.04;2.283;2.063;1.465;0.76;0.198;0.064;0.436;1.166;1.965;2.51;2.558;2.08;1.318;0.562;0.105;0.141;0.629;1.357;2.011;2.325;2.168;1.624;0.94;0.331;0.07;0.202;0.633;1.149;1.508;1.582;1.339;0.922;0.47;0.141;0.066;0.195;0.432;0.646;0.744;0.698;0.545;0.327;0.153;0.064;0.06;0.105;0.125;0.074;0.064;"/>
+		</tab>
+	</window>
+	<window type="3" name="Graph2" date="2458758.6125784" x="534" y="63" w="1080" h="826" state="-1" dpi="96">
+		<layout cw="1064" ch="767" w="904" h="678" left="5" right="5" top="5" bottom="5" rows="1" cols="1" vSpace="5" hSpace="5" hAlign="0" vAlign="0" align="0" common="0" link="0" scale="1" currentLayer="0" sPrint="0" cmPrint="0" atUnits="1" atdIndex="0" atPolicy="4" alMode="0" luMode="2"/>
+		<tab x="5" y="5" w="1054" h="767" autoscale="1" maxMajorTicks="20" gap="1" scaleFont="1" dataMargins="1">
+			<page x="0.00469925" y="0.0065189" w="0.990602" h="1"/>
+			<title text="Title" color="#000000" font="Lucida Sans Unicode,14.0305,-1,5,75,0,0,0,0,0" align="4228" fmw="47"/>
+			<frame bg="#ffffff,0"/>
+			<canvas x="74" y="85" w="916" h="635" fixRatio="0" bg="#ffffff,0"/>
+			<grid xAxis="2" yAxis="0">
+				<majx lc="#a0a0a4" lw="1" ls="0"/>
+				<minx lc="#a0a0a4" lw="1" ls="1"/>
+				<majy lc="#a0a0a4" lw="1" ls="0"/>
+				<miny lc="#a0a0a4" lw="1" ls="1"/>
+			</grid>
+			<curve type="1" z="21" table="Table2" x="1" y="2" from="0" to="-1" line="0" lc="#000000" lw="1" ls="0" brc="#000000" brs="0">
+				<symbol style="1" size="7" lc="#000000" lw="1" ls="0" brc="#000000"/>
+				<errors type="1" z="22" table="Table1" col="3" from="0" to="-1" line="0" lc="#000000" lw="1" ls="0" brc="#000000" brs="0" cap="8" plus="1" minus="1" symb="1"/>
+				<errors type="0" z="23" table="Table1" col="4" from="0" to="-1" line="0" lc="#000000" lw="1" ls="0" brc="#000000" brs="0" cap="8" plus="1" minus="1" symb="1"/>
+			</curve>
+			<curve type="19" z="24" name="F1" f="0" y="Io * (l*D*sin(pi*a*(x+xo)/(l*D))/(pi*a*(x+xo)) * cos(pi*d*(x+xo)/(l*D)))^2" from="-5" to="5" points="100" line="1" lc="#ff0000" lw="1" ls="0" brc="#000000" brs="0">
+				<param name="D" val="0.5"/>
+				<param name="Io" val="2.5"/>
+				<param name="a" val="0.0001"/>
+				<param name="d" val="0.0005"/>
+				<param name="l" val="0.001"/>
+				<param name="xo" val="-1.1"/>
+			</curve>
+			<axis id="0" on="1" type="0" format="0" prec="6" lw="1">
+				<div from="-0.5" to="3" step="0" maj="8" min="5" type="0"/>
+				<ticks maj="1" majl="8" min="1" minl="5"/>
+				<title text="%(?Y)" color="#000000" font="Lucida Sans Unicode,11.2244,-1,5,75,0,0,0,0,0" align="5124" space="2" fmw="40"/>
+				<labels space="4" font="Lucida Sans Unicode,11.2244,-1,5,50,0,0,0,0,0" align="0"/>
+			</axis>
+			<axis id="1" on="1" type="0" format="0" prec="6" lw="1">
+				<div from="-0.5" to="3" step="0" maj="8" min="5" type="0"/>
+				<ticks maj="1" majl="8" min="1" minl="5"/>
+				<title text="%(?Y)" color="#000000" font="Lucida Sans Unicode,11.2244,-1,5,75,0,0,0,0,0" align="5124" space="2" fmw="40"/>
+				<labels space="4" font="Lucida Sans Unicode,11.2244,-1,5,50,0,0,0,0,0" align="0"/>
+			</axis>
+			<axis id="2" on="1" type="0" format="0" prec="6" lw="1">
+				<div from="-6" to="6" step="0" maj="7" min="5" type="0"/>
+				<ticks maj="1" majl="8" min="1" minl="5"/>
+				<title text="%(?X)" color="#000000" font="Lucida Sans Unicode,11.2244,-1,5,75,0,0,0,0,0" align="5124" space="2" fmw="40"/>
+				<labels space="4" font="Lucida Sans Unicode,11.2244,-1,5,50,0,0,0,0,0" align="0"/>
+			</axis>
+			<axis id="3" on="1" type="0" format="0" prec="6" lw="1">
+				<div from="-6" to="6" step="0" maj="7" min="5" type="0"/>
+				<ticks maj="1" majl="8" min="1" minl="5"/>
+				<title text="%(?X)" color="#000000" font="Lucida Sans Unicode,11.2244,-1,5,75,0,0,0,0,0" align="5124" space="2" fmw="40"/>
+				<labels space="4" font="Lucida Sans Unicode,11.2244,-1,5,50,0,0,0,0,0" align="0"/>
+			</axis>
+			<item type="2" x="-5.86885245901639" y="2.94479495268139" frame="1" lc="#000000" lw="1" ls="0" bg="#ffffff,0" onTop="1" at="0" on="1" auto="1" font="Lucida Sans Unicode,11.2244,-1,5,50,0,0,0,0,0" text="\l(1)%(1)&#10;\l(2)%(2)"/>
+		</tab>
+	</window>
+	<window type="3" name="Graph3" date="2458759.5799765" x="629" y="56" w="1087" h="908" active="1" dpi="96">
+		<layout cw="1071" ch="849" w="911" h="678" left="5" right="5" top="5" bottom="5" rows="1" cols="1" vSpace="5" hSpace="5" hAlign="0" vAlign="0" align="0" common="0" link="0" scale="1" currentLayer="0" sPrint="0" cmPrint="0" atUnits="1" atdIndex="0" atPolicy="4" alMode="0" luMode="2"/>
+		<tab x="5" y="5" w="986" h="747" autoscale="1" maxMajorTicks="20" gap="1" scaleFont="1" dataMargins="1">
+			<page x="0.00466853" y="0.00588928" w="0.920635" h="0.879859"/>
+			<title text="Title" color="#000000" font="Lucida Sans Unicode,13.7485,-1,5,75,0,0,0,0,0" align="4228" fmw="43"/>
+			<frame bg="#ffffff,0"/>
+			<canvas x="74" y="85" w="848" h="615" fixRatio="0" bg="#ffffff,0"/>
+			<grid xAxis="2" yAxis="0">
+				<majx lc="#a0a0a4" lw="1" ls="0"/>
+				<minx lc="#a0a0a4" lw="1" ls="1"/>
+				<majy lc="#a0a0a4" lw="1" ls="0"/>
+				<miny lc="#a0a0a4" lw="1" ls="1"/>
+			</grid>
+			<curve type="2" z="21" table="Table2" x="1" y="2" from="0" to="-1" line="1" lc="#000000" lw="1" ls="0" brc="#000000" brs="0">
+				<symbol style="1" size="7" lc="#000000" lw="1" ls="0" brc="#000000"/>
+				<errors type="1" z="22" table="Table2" col="3" from="0" to="-1" line="0" lc="#000000" lw="1" ls="0" brc="#000000" brs="0" cap="8" plus="1" minus="1" symb="1"/>
+				<errors type="0" z="23" table="Table2" col="4" from="0" to="-1" line="0" lc="#000000" lw="1" ls="0" brc="#000000" brs="0" cap="8" plus="1" minus="1" symb="1"/>
+			</curve>
+			<axis id="0" on="1" type="0" format="0" prec="6" lw="1">
+				<div from="-0.5" to="3" step="0" maj="8" min="5" type="0"/>
+				<ticks maj="1" majl="8" min="1" minl="5"/>
+				<title text="%(?Y)" color="#000000" font="Lucida Sans Unicode,10.9988,-1,5,75,0,0,0,0,0" align="5124" space="2" fmw="40"/>
+				<labels space="4" font="Lucida Sans Unicode,10.9988,-1,5,50,0,0,0,0,0" align="0"/>
+			</axis>
+			<axis id="1" on="1" type="0" format="0" prec="6" lw="1">
+				<div from="-0.5" to="3" step="0" maj="8" min="5" type="0"/>
+				<ticks maj="1" majl="8" min="1" minl="5"/>
+				<title text="%(?Y)" color="#000000" font="Lucida Sans Unicode,10.9988,-1,5,75,0,0,0,0,0" align="5124" space="2" fmw="40"/>
+				<labels space="4" font="Lucida Sans Unicode,10.9988,-1,5,50,0,0,0,0,0" align="0"/>
+			</axis>
+			<axis id="2" on="1" type="0" format="0" prec="6" lw="1">
+				<div from="-6" to="6" step="0" maj="7" min="5" type="0"/>
+				<ticks maj="1" majl="8" min="1" minl="5"/>
+				<title text="%(?X)" color="#000000" font="Lucida Sans Unicode,10.9988,-1,5,75,0,0,0,0,0" align="5124" space="2" fmw="40"/>
+				<labels space="4" font="Lucida Sans Unicode,10.9988,-1,5,50,0,0,0,0,0" align="0"/>
+			</axis>
+			<axis id="3" on="1" type="0" format="0" prec="6" lw="1">
+				<div from="-6" to="6" step="0" maj="7" min="5" type="0"/>
+				<ticks maj="1" majl="8" min="1" minl="5"/>
+				<title text="%(?X)" color="#000000" font="Lucida Sans Unicode,10.9988,-1,5,75,0,0,0,0,0" align="5124" space="2" fmw="40"/>
+				<labels space="4" font="Lucida Sans Unicode,10.9988,-1,5,50,0,0,0,0,0" align="0"/>
+			</axis>
+			<item type="2" x="-5.88131868131868" y="2.95347119645495" frame="1" lc="#000000" lw="1" ls="0" bg="#ffffff,0" onTop="1" at="0" on="1" auto="1" font="Lucida Sans Unicode,10.9988,-1,5,50,0,0,0,0,0" text="\l(1)%(1)"/>
+		</tab>
+	</window>
+	<window type="3" name="Graph5" date="2458759.620322" x="758" y="21" w="1080" h="908" dpi="96">
+		<layout cw="1064" ch="849" w="904" h="668" left="5" right="5" top="5" bottom="5" rows="1" cols="1" vSpace="5" hSpace="5" hAlign="0" vAlign="0" align="0" common="0" link="0" scale="1" currentLayer="0" sPrint="0" cmPrint="0" atUnits="1" atdIndex="0" atPolicy="4" alMode="0" luMode="2"/>
+		<tab x="5" y="5" w="1054" h="810" autoscale="1" maxMajorTicks="20" gap="1" scaleFont="1" dataMargins="1">
+			<page x="0.00469925" y="0.00588928" w="0.990602" h="0.954064"/>
+			<title text="Laser Light via Two Slit Interference" color="#000000" font="Lucida Sans Unicode,15,-1,5,75,0,0,0,0,0" align="4228" fmw="377"/>
+			<frame bg="#ffffff,0"/>
+			<canvas x="80" y="90" w="904" h="668" fixRatio="0" bg="#ffffff,0"/>
+			<grid xAxis="2" yAxis="0">
+				<majx lc="#a0a0a4" lw="1" ls="0"/>
+				<minx lc="#a0a0a4" lw="1" ls="1"/>
+				<majy lc="#a0a0a4" lw="1" ls="0"/>
+				<miny lc="#a0a0a4" lw="1" ls="1"/>
+			</grid>
+			<curve type="1" z="21" table="Table3" x="1" y="2" from="0" to="-1" line="0" lc="#000000" lw="1" ls="0" brc="#000000" brs="0">
+				<symbol style="1" size="7" lc="#000000" lw="1" ls="0" brc="#000000"/>
+			</curve>
+			<curve type="19" z="22" name="F1" f="0" y="Io * (l*D*sin(pi*a*(x)/(l*D))/(pi*a*(x)) * cos(pi*d*(x)/(l*D)))^2" from="-0.006" to="0.004" points="100" line="1" lc="#ff0000" lw="1" ls="0" brc="#000000" brs="0" on="0">
+				<param name="D" val="0.5"/>
+				<param name="Io" val="2.5"/>
+				<param name="a" val="0.0001"/>
+				<param name="d" val="0.00035"/>
+				<param name="l" val="6.5e-07"/>
+			</curve>
+			<curve type="19" z="23" name="user1Fit1" f="0" y="Io*(l*D*sin(pi*a*(x)/(l*D))/(pi*a*(x))*cos(pi*d*(x)/(l*D)))^2" from="-0.0061" to="0.0038" points="100" line="1" lc="#000000" lw="1" ls="0" brc="#000000" brs="0" on="0">
+				<param name="D" val="-1.97096591574982"/>
+				<param name="Io" val="1.33083337022955"/>
+				<param name="a" val="-0.000203226143643013"/>
+				<param name="d" val="4.92230836403657e-05"/>
+				<param name="l" val="5.6418696322739e-07"/>
+			</curve>
+			<curve type="19" z="24" name="user1Fit2" f="0" y="Io*(l*D*sin(pi*a*(x)/(l*D))/(pi*a*(x))*cos(pi*d*(x)/(l*D)))^2" from="-0.0061" to="0.0038" points="100" line="1" lc="#000000" lw="1" ls="0" brc="#000000" brs="0" on="0">
+				<param name="D" val="0.5"/>
+				<param name="Io" val="2.5909029958721"/>
+				<param name="a" val="0.0254239356268325"/>
+				<param name="d" val="0.1326541598689"/>
+				<param name="l" val="0.000257240837304047"/>
+			</curve>
+			<curve type="19" z="25" name="user1Fit3" f="0" y="Io*(l*D*sin(pi*a*(x)/(l*D))/(pi*a*(x))*cos(pi*d*(x)/(l*D)))^2" from="-0.0061" to="0.0038" points="100" line="1" lc="#000000" lw="1" ls="0" brc="#000000" brs="0" on="0">
+				<param name="D" val="0.5"/>
+				<param name="Io" val="2.5909029958721"/>
+				<param name="a" val="0.0254239356268325"/>
+				<param name="d" val="0.1326541598689"/>
+				<param name="l" val="0.000257240837304047"/>
+			</curve>
+			<curve type="19" z="26" name="user1Fit4" f="0" y="Io*(l*D*sin(pi*a*(x)/(l*D))/(pi*a*(x))*cos(pi*d*(x)/(l*D)))^2" from="-0.0061" to="0.0038" points="100" line="1" lc="#000000" lw="1" ls="0" brc="#000000" brs="0" on="0">
+				<param name="D" val="0.5"/>
+				<param name="Io" val="2.5"/>
+				<param name="a" val="0.0001"/>
+				<param name="d" val="0.0004"/>
+				<param name="l" val="-0.0091389066020526"/>
+			</curve>
+			<axis id="0" on="1" type="0" format="0" prec="6" lw="1">
+				<div from="-0.5" to="3" step="0" maj="8" min="5" type="0"/>
+				<ticks maj="1" majl="9" min="1" minl="5"/>
+				<title text="Intensity (V)" color="#000000" font="Lucida Sans Unicode,12,-1,5,75,0,0,0,0,0" align="5124" space="2" fmw="106"/>
+				<labels space="4" font="Lucida Sans Unicode,12,-1,5,50,0,0,0,0,0" align="0"/>
+			</axis>
+			<axis id="1" on="1" type="0" format="0" prec="6" lw="1">
+				<div from="-0.5" to="3" step="0" maj="8" min="5" type="0"/>
+				<ticks maj="1" majl="9" min="1" minl="5"/>
+				<title text="%(?Y)" color="#000000" font="Lucida Sans Unicode,12,-1,5,75,0,0,0,0,0" align="5124" space="2" fmw="43"/>
+				<labels space="4" font="Lucida Sans Unicode,12,-1,5,50,0,0,0,0,0" align="0"/>
+			</axis>
+			<axis id="2" on="1" type="0" format="0" prec="6" lw="1">
+				<div from="-0.008" to="0.006" step="0" maj="8" min="5" type="0"/>
+				<ticks maj="1" majl="9" min="1" minl="5"/>
+				<title text="micrometer readings (m)" color="#000000" font="Lucida Sans Unicode,12,-1,5,75,0,0,0,0,0" align="5124" space="2" fmw="220"/>
+				<labels space="4" font="Lucida Sans Unicode,12,-1,5,50,0,0,0,0,0" align="0"/>
+			</axis>
+			<axis id="3" on="1" type="0" format="0" prec="6" lw="1">
+				<div from="-0.008" to="0.004" step="0" maj="7" min="5" type="0"/>
+				<ticks maj="1" majl="9" min="1" minl="5"/>
+				<title text="%(?X)" color="#000000" font="Lucida Sans Unicode,12,-1,5,75,0,0,0,0,0" align="5124" space="2" fmw="43"/>
+				<labels space="4" font="Lucida Sans Unicode,12,-1,5,50,0,0,0,0,0" align="0"/>
+			</axis>
+			<item type="2" x="-0.00784496124031008" y="2.94752623688156" frame="1" lc="#000000" lw="1" ls="0" bg="#ffffff,0" onTop="1" at="0" on="1" auto="1" font="Lucida Sans Unicode,12,-1,5,50,0,0,0,0,0" text="\l(1)%(1)&#10;\l(2)%(2)&#10;\l(3)%(3)&#10;\l(4)%(4)&#10;\l(5)%(5)&#10;\l(6)%(6)"/>
+			<filter type="11" inCrv="0" from="-0.0061" to="0.0038" outCrv="2" points="100" recalc="1" sort="0" fmt="e" prec="13" modifiedData="0" alg="0" sclErr="1" chi2="26.6816918624037" func="1" path="C:/Users/johnw/OneDrive/Desktop/user1.fit" model="user1" form="Io*(l*D*sin(pi*a*(x)/(l*D))/(pi*a*(x))*cos(pi*d*(x)/(l*D)))^2">
+				<parameter name="D" val="-1.97096591574982" err="4.12149949481468e+29"/>
+				<parameter name="Io" val="1.33083337022955" err="0.0608706997338908"/>
+				<parameter name="a" val="-0.000203226143643013" err="77950819.1970499"/>
+				<parameter name="d" val="4.92230836403657e-05" err="4572978.15852181"/>
+				<parameter name="l" val="5.6418696322739e-07" err="3.37709375740727e+16"/>
+			</filter>
+			<filter type="11" inCrv="0" from="-0.0061" to="0.0038" outCrv="3" points="100" recalc="1" sort="0" fmt="e" prec="13" modifiedData="0" alg="0" sclErr="1" chi2="1.98020680894082" func="1" path="C:/Users/johnw/OneDrive/Desktop/user1.fit" model="user1" form="Io*(l*D*sin(pi*a*(x)/(l*D))/(pi*a*(x))*cos(pi*d*(x)/(l*D)))^2">
+				<parameter name="Io" val="2.5909029958721" err="0.118703570774532"/>
+				<parameter name="a" val="0.0254239356268325" err="302802406558.339"/>
+				<parameter name="d" val="0.1326541598689" err="8243573393664.83"/>
+				<parameter name="l" val="0.000257240837304047" err="30999421.6268255"/>
+				<constParameter name="D" val="0.5"/>
+			</filter>
+			<filter type="11" inCrv="0" from="-0.0061" to="0.0038" outCrv="4" points="100" recalc="1" sort="0" fmt="e" prec="13" modifiedData="0" alg="0" sclErr="1" chi2="1.98020680894082" func="1" path="C:/Users/johnw/OneDrive/Desktop/user1.fit" model="user1" form="Io*(l*D*sin(pi*a*(x)/(l*D))/(pi*a*(x))*cos(pi*d*(x)/(l*D)))^2">
+				<parameter name="Io" val="2.5909029958721" err="0.118703570774532"/>
+				<parameter name="a" val="0.0254239356268325" err="302802406558.339"/>
+				<parameter name="d" val="0.1326541598689" err="8243573393664.83"/>
+				<parameter name="l" val="0.000257240837304047" err="30999421.6268255"/>
+				<constParameter name="D" val="0.5"/>
+			</filter>
+			<filter type="11" inCrv="0" from="-0.0061" to="0.0038" outCrv="5" points="100" recalc="1" sort="0" fmt="e" prec="13" modifiedData="0" alg="0" sclErr="1" chi2="404.370937495838" func="1" path="C:/Users/johnw/OneDrive/Desktop/user1.fit" model="user1" form="Io*(l*D*sin(pi*a*(x)/(l*D))/(pi*a*(x))*cos(pi*d*(x)/(l*D)))^2">
+				<parameter name="l" val="-0.0091389066020526" err="29074.8342744826"/>
+				<constParameter name="D" val="0.5"/>
+				<constParameter name="Io" val="2.5"/>
+				<constParameter name="a" val="0.0001"/>
+				<constParameter name="d" val="0.0004"/>
+			</filter>
+		</tab>
+	</window>
+</qti>

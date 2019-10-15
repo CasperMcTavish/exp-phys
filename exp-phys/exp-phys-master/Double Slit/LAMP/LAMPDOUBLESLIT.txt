@@ -1,0 +1,32 @@
+[2019-10-14 00:18:55	Plot: ''Graph1'']
+Non-linear Fit of dataset: doubleslitlamp_Counts, using function: (Io*(l*D*sin(pi*a*(x+xo)/(l*D))/(pi*a*(x+xo))*cos(pi*d*(x+xo)/(l*D)))^2)+20
+Sort: No
+Weighting Method: No weighting
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 2.8000000000000e-03 to x = 8.4000000000000e-03
+
+Parameter                            Value                                     Error                                     
+----------------------------------------------------------------------
+D                                            5.2219053419752e-01    6.4946127707691e+06   
+Io                                           6.7194347587320e+01   1.7543831153776e+00   
+l                                             5.3143247361903e-07    6.6095570653877e+00   
+xo                                          -5.7911911273326e-03  5.8701604308476e-06    
+----------------------------------------------------------------------
+Errors were scaled with sqrt(Chi^2/doF) = 4.9356955009377e+00
+
+Statistics                                            doubleslitlamp_Counts                  
+------------------------------------------------------------
+N (data points)                                 57                                                       
+Degrees of Freedom (doF)             53                                                       
+Chi^2/doF                                        2.4361090077977e+01                
+RSS (Residual Sum of Squares)      1.2911377741328e+03                
+R                                                         9.6240860276570e-01                 
+R^2                                                     9.2623031867742e-01                 
+Adjusted R^2                                    9.2205467633840e-01                 
+RMSE (Root Mean Squared Error)  4.9356955009377e+00                
+Iterations                                           7                                                         
+Status                                                 success                                             
+------------------------------------------------------------
+a = 8.3200000000000e-05 (constant)
+d = 3.5000000000000e-04 (constant)
+---------------------------------------------------------------------------------------

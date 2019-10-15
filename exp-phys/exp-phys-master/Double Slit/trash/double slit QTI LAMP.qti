@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE qti>
+<qti app="QtiPlot" version="1.0.0-rc10" dpi="144" arch="Win64" script="muParser" windows="2" expand="1">
+	<window type="1" name="Table1" date="2458760.7065232" x="0" y="-51" w="355" h="448">
+		<tab rows="57" cols="2" labels="0">
+			<col name="1" type="6" num="0" prec="13" plot="1" width="100" stat="0" data="6.225;6.225;6.225;6.125;6.125;6.125;6.025;6.025;6.025;5.925;5.925;5.925;5.825;5.825;5.825;5.725;5.725;5.725;5.625;5.625;5.625;5.525;5.525;5.525;5.425;5.425;5.425;5.325;5.325;5.325;5.225;5.225;5.225;5.125;5.125;5.125;5.025;5.025;5.025;4.925;4.925;4.925;4.825;4.825;4.825;4.725;4.725;4.725;4.625;4.625;4.625;4.525;4.525;4.525;4.425;4.425;4.425;"/>
+			<col name="2" type="6" num="0" prec="13" plot="2" width="100" stat="0" data="75.42083;74.49538;73.445939;56.44328;51.4992;53.23737;35.510922;35.596474;33.620375;21.446834;25.151065;21.034051;22.355318;26.566991;23.43357;39.506131;39.314348;45.032;63.38526;62.06989;58.9779;78.01954;81.86736;77.44111;72.216;72.36473;68.49372;47.46539;50.60767;48.54946;34.014362;33.315573;33.202926;25.575227;26.331779;27.325836;22.692827;27.363106;28.49596;34.515505;39.141939;36.555133;54.07932;52.81969;52.4959;61.8339;63.22633;59.07582;51.18042;55.07504;50.65071;47.22969;39.53248;39.678069;34.794172;33.212827;34.386577;"/>
+		</tab>
+	</window>
+	<window type="3" name="Graph1" date="2458760.7074941" x="355" y="-51" w="1044" h="908" active="1" dpi="144">
+		<layout cw="1028" ch="820" w="904" h="678" left="5" right="5" top="5" bottom="5" rows="1" cols="1" vSpace="5" hSpace="5" hAlign="0" vAlign="0" align="0" common="0" link="0" scale="1" currentLayer="0" sPrint="0" cmPrint="0" atUnits="1" atdIndex="0" atPolicy="4" alMode="0" luMode="2"/>
+		<tab x="31" y="-14" w="1018" h="805" autoscale="1" maxMajorTicks="20" gap="1" scaleFont="1" dataMargins="1">
+			<page x="0.0301556" y="-0.0170732" w="0.990272" h="0.981707"/>
+			<title text="Title" color="#000000" font="Lucida Sans Unicode,10,-1,5,75,0,0,0,0,0" align="4228" fmw="48"/>
+			<frame bg="#ffffff,0"/>
+			<canvas x="88" y="71" w="904" h="663" fixRatio="0" bg="#ffffff,0"/>
+			<grid xAxis="2" yAxis="0">
+				<majx lc="#a0a0a4" lw="1" ls="0"/>
+				<minx lc="#a0a0a4" lw="1" ls="1"/>
+				<majy lc="#a0a0a4" lw="1" ls="0"/>
+				<miny lc="#a0a0a4" lw="1" ls="1"/>
+			</grid>
+			<curve type="1" z="21" table="Table1" x="1" y="2" from="0" to="-1" line="0" lc="#000000" lw="1" ls="0" brc="#000000" brs="0">
+				<symbol style="1" size="7" lc="#000000" lw="1" ls="0" brc="#000000"/>
+			</curve>
+			<axis id="0" on="1" type="0" format="0" prec="6" lw="1">
+				<div from="20" to="90" step="0" maj="8" min="5" type="0"/>
+				<ticks maj="1" majl="9" min="1" minl="5"/>
+				<title text="%(?Y)" color="#000000" font="Lucida Sans Unicode,8,-1,5,75,0,0,0,0,0" align="5124" space="2" fmw="43"/>
+				<labels space="4" font="Lucida Sans Unicode,8,-1,5,50,0,0,0,0,0" align="0"/>
+			</axis>
+			<axis id="1" on="1" type="0" format="0" prec="6" lw="1">
+				<div from="20" to="90" step="0" maj="8" min="5" type="0"/>
+				<ticks maj="1" majl="9" min="1" minl="5"/>
+				<title text="%(?Y)" color="#000000" font="Lucida Sans Unicode,8,-1,5,75,0,0,0,0,0" align="5124" space="2" fmw="43"/>
+				<labels space="4" font="Lucida Sans Unicode,8,-1,5,50,0,0,0,0,0" align="0"/>
+			</axis>
+			<axis id="2" on="1" type="0" format="0" prec="6" lw="1">
+				<div from="4" to="6.5" step="0" maj="6" min="5" type="0"/>
+				<ticks maj="1" majl="9" min="1" minl="5"/>
+				<title text="%(?X)" color="#000000" font="Lucida Sans Unicode,8,-1,5,75,0,0,0,0,0" align="5124" space="2" fmw="43"/>
+				<labels space="4" font="Lucida Sans Unicode,8,-1,5,50,0,0,0,0,0" align="0"/>
+			</axis>
+			<axis id="3" on="1" type="0" format="0" prec="6" lw="1">
+				<div from="4" to="6.5" step="0" maj="6" min="5" type="0"/>
+				<ticks maj="1" majl="9" min="1" minl="5"/>
+				<title text="%(?X)" color="#000000" font="Lucida Sans Unicode,8,-1,5,75,0,0,0,0,0" align="5124" space="2" fmw="43"/>
+				<labels space="4" font="Lucida Sans Unicode,8,-1,5,50,0,0,0,0,0" align="0"/>
+			</axis>
+			<item type="2" x="4.02768549280177" y="88.9660265878877" frame="1" lc="#000000" lw="1" ls="0" bg="#ffffff,0" onTop="1" at="0" on="1" auto="1" font="Lucida Sans Unicode,8,-1,5,50,0,0,0,0,0" text="\l(1)%(1)"/>
+		</tab>
+	</window>
+</qti>

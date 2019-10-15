@@ -1,0 +1,69 @@
+A2
+
+[2019-10-13 21:40:43	Plot: ''Graph1'']
+Non-linear Fit of dataset: a2slitlaser_a2, using function: Io*(l*D*sin(pi*a*(x+xo)/(l*D))/(pi*a*(x+xo))*cos(pi*d*(x+xo)/(l*D)))^2
+Sort: No
+Weighting Method: Instrumental, using error bars dataset: a2slitlaser_3
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 1.0000000000000e-03 to x = 1.0000000000000e-02
+
+Parameter                            Value                                     Error                                     
+----------------------------------------------------------------------
+Io                                           6.6231776050552e-01    6.0763052719461e-03    
+l                                             7.9193121256787e-07    7.9649340432267e-09    
+xo                                          -6.5932043574352e-03  1.8613816961728e-05    
+----------------------------------------------------------------------
+Errors were scaled with sqrt(Chi^2/doF) = 1.2822830191435e+01
+
+Statistics                                            a2slitlaser_a2                                   
+------------------------------------------------------------
+N (data points)                                 19                                                       
+Degrees of Freedom (doF)             16                                                       
+Chi^2/doF                                        1.6442497411839e+02                
+RSS (Residual Sum of Squares)      2.6307995858942e+03                
+R                                                         9.9874638897029e-01                 
+R^2                                                     9.9749434948119e-01                 
+Adjusted R^2                                    9.9718114316634e-01                 
+RMSE (Root Mean Squared Error)  1.2822830191435e+01                
+Iterations                                           4                                                         
+Status                                                 success                                             
+------------------------------------------------------------
+D = 5.0000000000000e-01 (constant)
+a = 8.3200000000000e-05 (constant)
+d = 0.0000000000000e+00 (constant)
+---------------------------------------------------------------------------------------
+
+A1=-=-=-=-=-=-=-=-=-=-=-=------------------=-=-=-======================================================-=-=-=-=
+
+[2019-10-13 21:54:37	Plot: ''a1a2'']
+Non-linear Fit of dataset: a2slitlaser_a1, using function: Io*(l*D*sin(pi*a*(x+xo)/(l*D))/(pi*a*(x+xo))*cos(pi*d*(x+xo)/(l*D)))^2
+Sort: No
+Weighting Method: Instrumental, using error bars dataset: a2slitlaser_3
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 0.0000000000000e+00 to x = 9.0000000000000e-03
+
+Parameter                            Value                                     Error                                     
+----------------------------------------------------------------------
+Io                                           5.5348963933288e-01    2.4080383373275e-03    
+l                                             9.0193276966217e-07    4.2746515777258e-09    
+xo                                          -4.8041473513062e-03  1.0023579484934e-05    
+----------------------------------------------------------------------
+Errors were scaled with sqrt(Chi^2/doF) = 5.4253265864018e+00
+
+Statistics                                            a2slitlaser_a1                                   
+------------------------------------------------------------
+N (data points)                                 19                                                        
+Degrees of Freedom (doF)             16                                                       
+Chi^2/doF                                        2.9434168569119e+01                
+RSS (Residual Sum of Squares)      4.7094669710590e+02                
+R                                                         9.9964282984187e-01                 
+R^2                                                     9.9928578725425e-01                 
+Adjusted R^2                                    9.9919651066103e-01                 
+RMSE (Root Mean Squared Error)  5.4253265864018e+00                
+Iterations                                           3                                                         
+Status                                                 success                                             
+------------------------------------------------------------
+D = 5.0000000000000e-01 (constant)
+a = 8.3200000000000e-05 (constant)
+d = 0.0000000000000e+00 (constant)
+---------------------------------------------------------------------------------------

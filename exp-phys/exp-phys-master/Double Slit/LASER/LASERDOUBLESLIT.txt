@@ -1,0 +1,32 @@
+[2019-10-13 22:22:33	Plot: ''Graph4'']
+Non-linear Fit of dataset: Table2_Intensity (V), using function: Io*(l*D*sin(pi*a*(x+xo)/(l*D))/(pi*a*(x+xo))*cos(pi*d*(x+xo)/(l*D)))^2
+Sort: No
+Weighting Method: No weighting
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 1.8000000000000e-03 to x = 9.5000000000000e-03
+
+Parameter                            Value                                     Error                                     
+----------------------------------------------------------------------
+D                                            4.5041510479459e-01    2.0578115036817e-03    
+Io                                           2.8400799436116e+00   5.2203460961151e-02    
+xo                                          -6.0605828495422e-03  4.8635138371554e-06    
+----------------------------------------------------------------------
+Errors were scaled with sqrt(Chi^2/doF) = 1.6604850729925e-01
+
+Statistics                                            Table2_Intensity (V)                        
+------------------------------------------------------------
+N (data points)                                 78                                                       
+Degrees of Freedom (doF)             75                                                       
+Chi^2/doF                                        2.7572106776309e-02                 
+RSS (Residual Sum of Squares)      2.0679080082232e+00                
+R                                                         9.7354636749996e-01                 
+R^2                                                     9.4779252967237e-01                 
+Adjusted R^2                                    9.4640033046364e-01                 
+RMSE (Root Mean Squared Error)  1.6604850729925e-01                 
+Iterations                                           3                                                         
+Status                                                 success                                             
+------------------------------------------------------------
+a = 7.3200000000000e-05 (constant)
+d = 3.0940000000000e-04 (constant)
+l = 6.6999999999429e-07 (constant)
+---------------------------------------------------------------------------------------
