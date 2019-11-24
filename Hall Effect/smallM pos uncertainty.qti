@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE qti>
+<qti app="QtiPlot" version="1.0.0-rc10" dpi="144" arch="Win64" script="muParser" windows="17" expand="1" log="[2019-11-14 15:15:26&#9;Plot: ''XvVoltage'']&#10;Polynomial Fit of dataset: xvalues_Voltage, using function: a0+a1*x+a2*x^2&#10;Sort: No&#10;Weighting Method: No weighting&#10;From x = 0.0000000000000e+00 to x = 3.0000000000000e+01&#10;&#10;Parameter                        Value                                Error                                 &#10;--------------------------------------------------------------------&#10;a0                                     6.4485714285714e+01   1.4846149779162e-01    &#10;a1                                     -5.9642857142857e-01  2.3178543913697e-02    &#10;a2                                     2.1857142857144e-02    7.4230748895809e-04    &#10;--------------------------------------------------------------------&#10;Errors were scaled with sqrt(Chi^2/doF) = 1.7008401285415e-01&#10;&#10;Statistics                                       xvalues_Voltage                            &#10;------------------------------------------------------------&#10;N (data points)                              7                                                   &#10;Degrees of Freedom (doF)            4                                                   &#10;Chi^2/doF                                     2.8928571428571e-02                &#10;RSS (Residual Sum of Squares)      1.1571428571428e-01                &#10;R                                                   9.9790586515086e-01                &#10;R^2                                               9.9581611570248e-01                &#10;Adjusted R^2                                9.9372417355372e-01                &#10;RMSE (Root Mean Squared Error)  1.7008401285415e-01                &#10;------------------------------------------------------------&#10;[2019-11-14 15:17:11&#9;Plot: ''Graph1'']&#10;Polynomial Fit of dataset: xvalues_Voltage, using function: a0+a1*x+a2*x^2&#10;Sort: No&#10;Weighting Method: No weighting&#10;From x = 0.0000000000000e+00 to x = 3.0000000000000e+01&#10;&#10;Parameter                        Value                                Error                                 &#10;--------------------------------------------------------------------&#10;a0                                     6.4485714285714e+01   1.4846149779162e-01    &#10;a1                                     -5.9642857142857e-01  2.3178543913697e-02    &#10;a2                                     2.1857142857144e-02    7.4230748895809e-04    &#10;--------------------------------------------------------------------&#10;Errors were scaled with sqrt(Chi^2/doF) = 1.7008401285415e-01&#10;&#10;Statistics                                       xvalues_Voltage                            &#10;------------------------------------------------------------&#10;N (data points)                              7                                                   &#10;Degrees of Freedom (doF)            4                                                   &#10;Chi^2/doF                                     2.8928571428571e-02                &#10;RSS (Residual Sum of Squares)      1.1571428571428e-01                &#10;R                                                   9.9790586515086e-01                &#10;R^2                                               9.9581611570248e-01                &#10;Adjusted R^2                                9.9372417355372e-01                &#10;RMSE (Root Mean Squared Error)  1.7008401285415e-01                &#10;------------------------------------------------------------&#10;[2019-11-14 15:17:16&#9;Plot: ''Graph1'']&#10;Polynomial Fit of dataset: xvalues_Voltage, using function: a0+a1*x+a2*x^2&#10;Sort: No&#10;Weighting Method: No weighting&#10;From x = 0.0000000000000e+00 to x = 3.0000000000000e+01&#10;&#10;Parameter                        Value                                Error                                 &#10;--------------------------------------------------------------------&#10;a0                                     6.4485714285714e+01   1.4846149779162e-01    &#10;a1                                     -5.9642857142857e-01  2.3178543913697e-02    &#10;a2                                     2.1857142857144e-02    7.4230748895809e-04    &#10;--------------------------------------------------------------------&#10;Errors were scaled with sqrt(Chi^2/doF) = 1.7008401285415e-01&#10;&#10;Statistics                                       xvalues_Voltage                            &#10;------------------------------------------------------------&#10;N (data points)                              7                                                   &#10;Degrees of Freedom (doF)            4                                                   &#10;Chi^2/doF                                     2.8928571428571e-02                &#10;RSS (Residual Sum of Squares)      1.1571428571428e-01                &#10;R                                                   9.9790586515086e-01                &#10;R^2                                               9.9581611570248e-01                &#10;Adjusted R^2                                9.9372417355372e-01                &#10;RMSE (Root Mean Squared Error)  1.7008401285415e-01                &#10;------------------------------------------------------------&#10;[2019-11-14 15:17:17&#9;Plot: ''Graph1'']&#10;Polynomial Fit of dataset: xvalues_Voltage, using function: a0+a1*x+a2*x^2&#10;Sort: No&#10;Weighting Method: No weighting&#10;From x = 0.0000000000000e+00 to x = 3.0000000000000e+01&#10;&#10;Parameter                        Value                                Error                                 &#10;--------------------------------------------------------------------&#10;a0                                     6.4485714285714e+01   1.4846149779162e-01    &#10;a1                                     -5.9642857142857e-01  2.3178543913697e-02    &#10;a2                                     2.1857142857144e-02    7.4230748895809e-04    &#10;--------------------------------------------------------------------&#10;Errors were scaled with sqrt(Chi^2/doF) = 1.7008401285415e-01&#10;&#10;Statistics                                       xvalues_Voltage                            &#10;------------------------------------------------------------&#10;N (data points)                              7                                                   &#10;Degrees of Freedom (doF)            4                                                   &#10;Chi^2/doF                                     2.8928571428571e-02                &#10;RSS (Residual Sum of Squares)      1.1571428571428e-01                &#10;R                                                   9.9790586515086e-01                &#10;R^2                                               9.9581611570248e-01                &#10;Adjusted R^2                                9.9372417355372e-01                &#10;RMSE (Root Mean Squared Error)  1.7008401285415e-01                &#10;------------------------------------------------------------&#10;[2019-11-14 15:18:16&#9;Plot: ''Graph1'']&#10;Polynomial Fit of dataset: xvalues_Voltage, using function: a0+a1*x+a2*x^2&#10;Sort: No&#10;Weighting Method: No weighting&#10;From x = 0.0000000000000e+00 to x = 3.0000000000000e+01&#10;&#10;Parameter                        Value                                Error                                 &#10;--------------------------------------------------------------------&#10;a0                                     6.4485714285714e+01   1.4846149779162e-01    &#10;a1                                     -5.9642857142857e-01  2.3178543913697e-02    &#10;a2                                     2.1857142857144e-02    7.4230748895809e-04    &#10;--------------------------------------------------------------------&#10;Errors were scaled with sqrt(Chi^2/doF) = 1.7008401285415e-01&#10;&#10;Statistics                                       xvalues_Voltage                            &#10;------------------------------------------------------------&#10;N (data points)                              7                                                   &#10;Degrees of Freedom (doF)            4                                                   &#10;Chi^2/doF                                     2.8928571428571e-02                &#10;RSS (Residual Sum of Squares)      1.1571428571428e-01                &#10;R                                                   9.9790586515086e-01                &#10;R^2                                               9.9581611570248e-01                &#10;Adjusted R^2                                9.9372417355372e-01                &#10;RMSE (Root Mean Squared Error)  1.7008401285415e-01                &#10;------------------------------------------------------------&#10;[2019-11-14 15:20:55&#9;Plot: ''Graph1'']&#10;Polynomial Fit of dataset: xvalues_Voltage, using function: a0+a1*x+a2*x^2&#10;Sort: No&#10;Weighting Method: No weighting&#10;From x = 0.0000000000000e+00 to x = 3.0000000000000e+01&#10;&#10;Parameter                        Value                                Error                                 &#10;--------------------------------------------------------------------&#10;a0                                     6.4485714285714e+01   1.4846149779162e-01    &#10;a1                                     -5.9642857142857e-01  2.3178543913697e-02    &#10;a2                                     2.1857142857144e-02    7.4230748895809e-04    &#10;--------------------------------------------------------------------&#10;Errors were scaled with sqrt(Chi^2/doF) = 1.7008401285415e-01&#10;&#10;Statistics                                       xvalues_Voltage                            &#10;------------------------------------------------------------&#10;N (data points)                              7                                                   &#10;Degrees of Freedom (doF)            4                                                   &#10;Chi^2/doF                                     2.8928571428571e-02                &#10;RSS (Residual Sum of Squares)      1.1571428571428e-01                &#10;R                                                   9.9790586515086e-01                &#10;R^2                                               9.9581611570248e-01                &#10;Adjusted R^2                                9.9372417355372e-01                &#10;RMSE (Root Mean Squared Error)  1.7008401285415e-01                &#10;------------------------------------------------------------&#10;[2019-11-14 15:24:37&#9;Plot: ''YvVoltage'']&#10;Polynomial Fit of dataset: yvalues_Voltage, using function: a0+a1*x+a2*x^2&#10;Sort: No&#10;Weighting Method: No weighting&#10;From x = -3.5000000000000e+01 to x = 3.0000000000000e+01&#10;&#10;Parameter                        Value                                Error                                 &#10;--------------------------------------------------------------------&#10;a0                                     6.1368571428572e+01   6.3114030966256e-02    &#10;a1                                     -3.5607142857143e-02  2.1694220019312e-03    &#10;a2                                     -4.0357142857069e-03  1.1679775437666e-04    &#10;--------------------------------------------------------------------&#10;Errors were scaled with sqrt(Chi^2/doF) = 1.5756878522703e-01&#10;&#10;Statistics                                       yvalues_Voltage                            &#10;-----------------------------------------------------------&#10;N (data points)                              14                                                 &#10;Degrees of Freedom (doF)            11                                                 &#10;Chi^2/doF                                     2.4827922077922e-02                &#10;RSS (Residual Sum of Squares)      2.7310714285714e-01                &#10;R                                                   9.9562340349050e-01                &#10;R^2                                               9.9126596157800e-01                &#10;Adjusted R^2                                9.8967795459218e-01                &#10;RMSE (Root Mean Squared Error)  1.5756878522703e-01                &#10;-----------------------------------------------------------&#10;[2019-11-14 15:25:29&#9;Plot: ''Graph1'']&#10;Polynomial Fit of dataset: yvalues_Voltage, using function: a0+a1*x+a2*x^2&#10;Sort: No&#10;Weighting Method: No weighting&#10;From x = -3.5000000000000e+01 to x = 2.5000000000000e+01&#10;&#10;Parameter                        Value                                Error                                 &#10;--------------------------------------------------------------------&#10;a0                                     6.1405694305694e+01   3.0989229982653e-02    &#10;a1                                     -4.0479520479520e-02  1.3134488870505e-03    &#10;a2                                     -4.2677322677372e-03  6.7826208875217e-05    &#10;--------------------------------------------------------------------&#10;Errors were scaled with sqrt(Chi^2/doF) = 7.5869913379704e-02&#10;&#10;Statistics                                       yvalues_Voltage                            &#10;-----------------------------------------------------------&#10;N (data points)                              13                                                 &#10;Degrees of Freedom (doF)            10                                                 &#10;Chi^2/doF                                     5.7562437562438e-03                &#10;RSS (Residual Sum of Squares)      5.7562437562438e-02                &#10;R                                                   9.9874069431255e-01                &#10;R^2                                               9.9748297447591e-01                &#10;Adjusted R^2                                9.9697956937109e-01                &#10;RMSE (Root Mean Squared Error)  7.5869913379704e-02                &#10;-----------------------------------------------------------&#10;[2019-11-14 15:26:23&#9;Plot: ''Graph1'']&#10;Polynomial Fit of dataset: zvalues_Voltage, using function: a0+a1*x+a2*x^2&#10;Sort: No&#10;Weighting Method: No weighting&#10;From x = -1.0000000000000e+01 to x = 1.0000000000000e+01&#10;&#10;Parameter                        Value                                Error                                 &#10;--------------------------------------------------------------------&#10;a0                                     6.0218750000000e+01   4.9419999084619e-02    &#10;a1                                     1.4285714285714e-02    4.7020042043170e-03    &#10;a2                                     -1.1830357142857e-02  8.0481055255892e-04    &#10;--------------------------------------------------------------------&#10;Errors were scaled with sqrt(Chi^2/doF) = 7.8679579246944e-02&#10;&#10;Statistics                                       zvalues_Voltage                            &#10;------------------------------------------------------------&#10;N (data points)                              6                                                   &#10;Degrees of Freedom (doF)            3                                                   &#10;Chi^2/doF                                     6.1904761904761e-03                &#10;RSS (Residual Sum of Squares)      1.8571428571428e-02                &#10;R                                                   9.9340819317888e-01                &#10;R^2                                               9.8685983827493e-01                &#10;Adjusted R^2                                9.7809973045822e-01                &#10;RMSE (Root Mean Squared Error)  7.8679579246944e-02                &#10;------------------------------------------------------------&#10;">
+	<window type="1" name="xvalues" date="2458801.5519238" x="0" y="0" w="403" h="525">
+		<tab rows="30" cols="2" labels="2">
+			<col name="Position" type="6" num="0" prec="13" plot="1" width="171" stat="0" unit="mm" data="0;5;10;15;20;25;30;"/>
+			<col name="Voltage" type="6" num="0" prec="13" plot="2" width="151" stat="0" unit="mV" data="64.4;62.1;60.8;60.6;61.1;63.1;66.4;"/>
+		</tab>
+	</window>
+	<window type="1" name="yvalues" date="2458801.5817394" x="406" y="10" w="379" h="523">
+		<tab rows="30" cols="2" labels="2">
+			<col name="Position" type="6" num="0" prec="13" plot="1" width="100" stat="0" unit="mm" data="-35;-30;-25;-20;-15;-10;-5;0;5;10;15;20;25;"/>
+			<col name="Voltage" type="6" num="0" prec="13" plot="2" width="100" stat="0" unit="mV" data="57.7;58.7;59.7;60.4;61.1;61.5;61.5;61.4;61.1;60.5;59.9;58.9;57.7;"/>
+		</tab>
+	</window>
+	<window type="1" name="zvalues" date="2458801.5823421" x="473" y="434" w="355" h="448" state="1" active="1">
+		<tab rows="30" cols="2" labels="2">
+			<col name="Position" type="6" num="0" prec="13" plot="1" width="100" stat="0" unit="mV" data="-10;-6;-2;2;6;10;"/>
+			<col name="Voltage" type="6" num="0" prec="13" plot="2" width="100" stat="0" unit="mV" data="58.9;59.7;60.1;60.3;59.8;59.2;"/>
+		</tab>
+	</window>
+	<window type="1" name="Polynomial1" date="2458801.6357182" x="1138" y="0" w="355" h="448" state="-1" label="Polynomial Fit of xvalues_Voltage" title="2" comment="Polynomial Fit of xvalues_Voltage">
+		<tab rows="7" cols="2" labels="0">
+			<col name="1" type="6" num="0" prec="13" plot="1" width="100" stat="0" data="0;5;10;15;20;25;30;"/>
+			<col name="2" type="6" num="0" prec="13" plot="2" width="100" stat="0" data="64.4857142857138;62.0499999999996;60.7071428571425;60.4571428571427;61.3;63.2357142857146;66.2642857142863;"/>
+		</tab>
+	</window>
+	<window type="1" name="FitResiduals1" date="2458801.6357197" x="1138" y="0" w="355" h="448" state="-1" label="Residuals of Polynomial Fit" title="2">
+		<tab rows="7" cols="2" labels="0">
+			<col name="1" type="6" num="0" prec="13" plot="1" width="46" stat="0" data="0;5;10;15;20;25;30;"/>
+			<col name="residue" type="6" num="0" prec="13" plot="2" width="171" stat="0" data="-0.08571428571382;0.0500000000004306;0.0928571428574756;0.142857142857324;-0.200000000000024;-0.135714285714592;0.135714285713661;"/>
+		</tab>
+	</window>
+	<window type="1" name="Polynomial2" date="2458801.6369427" x="1240" y="370" w="355" h="448" state="-1" label="Polynomial Fit of xvalues_Voltage" title="2" comment="Polynomial Fit of xvalues_Voltage">
+		<tab rows="7" cols="2" labels="0">
+			<col name="1" type="6" num="0" prec="13" plot="1" width="100" stat="0" data="0;5;10;15;20;25;30;"/>
+			<col name="2" type="6" num="0" prec="13" plot="2" width="100" stat="0" data="64.4857142857138;62.0499999999996;60.7071428571425;60.4571428571427;61.3;63.2357142857146;66.2642857142863;"/>
+		</tab>
+	</window>
+	<window type="1" name="Polynomial3" date="2458801.6369906" x="1240" y="370" w="355" h="448" state="-1" label="Polynomial Fit of xvalues_Voltage" title="2" comment="Polynomial Fit of xvalues_Voltage">
+		<tab rows="7" cols="2" labels="0">
+			<col name="1" type="6" num="0" prec="13" plot="1" width="100" stat="0" data="0;5;10;15;20;25;30;"/>
+			<col name="2" type="6" num="0" prec="13" plot="2" width="100" stat="0" data="64.4857142857138;62.0499999999996;60.7071428571425;60.4571428571427;61.3;63.2357142857146;66.2642857142863;"/>
+		</tab>
+	</window>
+	<window type="1" name="Polynomial4" date="2458801.6370112" x="1240" y="370" w="355" h="448" state="-1" label="Polynomial Fit of xvalues_Voltage" title="2" comment="Polynomial Fit of xvalues_Voltage">
+		<tab rows="7" cols="2" labels="0">
+			<col name="1" type="6" num="0" prec="13" plot="1" width="100" stat="0" data="0;5;10;15;20;25;30;"/>
+			<col name="2" type="6" num="0" prec="13" plot="2" width="100" stat="0" data="64.4857142857138;62.0499999999996;60.7071428571425;60.4571428571427;61.3;63.2357142857146;66.2642857142863;"/>
+		</tab>
+	</window>
+	<window type="1" name="Polynomial5" date="2458801.6376942" x="1240" y="0" w="355" h="448" state="-1" label="Polynomial Fit of xvalues_Voltage" title="2" comment="Polynomial Fit of xvalues_Voltage">
+		<tab rows="7" cols="2" labels="0">
+			<col name="1" type="6" num="0" prec="13" plot="1" width="100" stat="0" data="0;5;10;15;20;25;30;"/>
+			<col name="2" type="6" num="0" prec="13" plot="2" width="100" stat="0" data="64.4857142857138;62.0499999999996;60.7071428571425;60.4571428571427;61.3;63.2357142857146;66.2642857142863;"/>
+		</tab>
+	</window>
+	<window type="1" name="FitResiduals2" date="2458801.6376946" x="1240" y="0" w="355" h="448" state="-1" label="Residuals of Polynomial Fit" title="2">
+		<tab rows="7" cols="2" labels="0">
+			<col name="1" type="6" num="0" prec="13" plot="1" width="46" stat="0" data="0;5;10;15;20;25;30;"/>
+			<col name="residue" type="6" num="0" prec="13" plot="2" width="171" stat="0" data="-0.08571428571382;0.0500000000004306;0.0928571428574756;0.142857142857324;-0.200000000000024;-0.135714285714592;0.135714285713661;"/>
+		</tab>
+	</window>
+	<window type="1" name="Polynomial6" date="2458801.6395284" x="1240" y="370" w="355" h="448" state="-1" label="Polynomial Fit of xvalues_Voltage" title="2" comment="Polynomial Fit of xvalues_Voltage">
+		<tab rows="7" cols="2" labels="0">
+			<col name="1" type="6" num="0" prec="13" plot="1" width="100" stat="0" data="0;5;10;15;20;25;30;"/>
+			<col name="2" type="6" num="0" prec="13" plot="2" width="100" stat="0" data="64.4857142857138;62.0499999999996;60.7071428571425;60.4571428571427;61.3;63.2357142857146;66.2642857142863;"/>
+		</tab>
+	</window>
+	<window type="1" name="Polynomial7" date="2458801.6420954" x="1445" y="2" w="355" h="448" state="-1" label="Polynomial Fit of yvalues_Voltage" title="2" comment="Polynomial Fit of yvalues_Voltage">
+		<tab rows="14" cols="2" labels="0">
+			<col name="1" type="6" num="0" prec="13" plot="1" width="100" stat="0" data="-35;-30;-25;-20;-15;-10;-5;0;5;10;15;20;25;30;"/>
+			<col name="2" type="6" num="0" prec="13" plot="2" width="100" stat="0" data="57.6710714285808;58.8046428571498;59.7364285714335;60.4664285714318;60.9946428571448;61.3210714285725;61.4457142857148;61.3685714285718;61.0896428571434;60.6089285714296;59.9264285714306;59.0421428571461;57.9560714285764;56.6682142857212;"/>
+		</tab>
+	</window>
+	<window type="1" name="Polynomial8" date="2458801.6426979" x="1445" y="0" w="355" h="448" state="-1" label="Polynomial Fit of yvalues_Voltage" title="2" comment="Polynomial Fit of yvalues_Voltage">
+		<tab rows="13" cols="2" labels="0">
+			<col name="1" type="6" num="0" prec="13" plot="1" width="100" stat="0" data="-35;-30;-25;-20;-15;-10;-5;0;5;10;15;20;25;"/>
+			<col name="2" type="6" num="0" prec="13" plot="2" width="100" stat="0" data="57.5945054944994;58.7791208791164;59.7503496503465;60.5081918081898;61.0526473526462;61.3837162837158;61.5013986013985;61.4056943056943;61.0966033966033;60.5741258741254;59.8382617382606;58.889010989009;57.7263736263705;"/>
+		</tab>
+	</window>
+	<window type="1" name="Polynomial9" date="2458801.6433308" x="160" y="409" w="355" h="448" state="-1" label="Polynomial Fit of zvalues_Voltage" title="2" comment="Polynomial Fit of zvalues_Voltage">
+		<tab rows="6" cols="2" labels="0">
+			<col name="1" type="6" num="0" prec="13" plot="1" width="100" stat="0" data="-10;-6;-2;2;6;10;"/>
+			<col name="2" type="6" num="0" prec="13" plot="2" width="100" stat="0" data="58.8928571428572;59.7071428571429;60.1428571428572;60.2;59.8785714285715;59.1785714285715;"/>
+		</tab>
+	</window>
+	<window type="3" name="XvVoltage" date="2458801.6339924" x="596" y="-64" w="1044" h="908" dpi="144">
+		<layout cw="1028" ch="820" w="904" h="678" left="5" right="5" top="5" bottom="5" rows="1" cols="1" vSpace="5" hSpace="5" hAlign="0" vAlign="0" align="0" common="0" link="0" scale="1" currentLayer="0" sPrint="0" cmPrint="0" atUnits="1" atdIndex="0" atPolicy="4" alMode="0" luMode="2"/>
+		<tab x="5" y="52" w="996" h="783" autoscale="1" maxMajorTicks="20" gap="1" scaleFont="1" dataMargins="1">
+			<page x="0.00486381" y="0.0634146" w="0.968872" h="0.954878"/>
+			<title text="X against Voltage" color="#000000" font="Lucida Sans Unicode,10,-1,5,75,0,0,0,0,0" align="4228" fmw="183"/>
+			<frame bg="#ffffff,0"/>
+			<canvas x="62" y="90" w="904" h="688" fixRatio="0" bg="#ffffff,0"/>
+			<grid xAxis="2" yAxis="0">
+				<majx lc="#a0a0a4" lw="1" ls="0"/>
+				<minx lc="#a0a0a4" lw="1" ls="1"/>
+				<majy lc="#a0a0a4" lw="1" ls="0"/>
+				<miny lc="#a0a0a4" lw="1" ls="1"/>
+			</grid>
+			<curve type="1" z="21" table="xvalues" x="Position" y="Voltage" from="0" to="-1" line="0" lc="#000000" lw="1" ls="0" brc="#000000" brs="0">
+				<symbol style="1" size="7" lc="#000000" lw="1" ls="0" brc="#000000"/>
+			</curve>
+			<curve type="0" z="22" table="Polynomial6" x="1" y="2" from="0" to="-1" line="1" lc="#ff0000" lw="1" ls="0" brc="#000000" brs="0"/>
+			<axis id="0" on="1" type="0" format="0" prec="6" lw="1">
+				<div from="60" to="67" step="0" maj="8" min="5" type="0"/>
+				<ticks maj="1" majl="9" min="1" minl="5"/>
+				<title text="%(?Y)" color="#000000" font="Lucida Sans Unicode,8,-1,5,75,0,0,0,0,0" align="5124" space="2" fmw="43"/>
+				<labels space="4" font="Lucida Sans Unicode,8,-1,5,50,0,0,0,0,0" align="0"/>
+			</axis>
+			<axis id="1" on="1" type="0" format="0" prec="6" lw="1">
+				<div from="60" to="67" step="0" maj="8" min="5" type="0"/>
+				<ticks maj="1" majl="9" min="1" minl="5"/>
+				<title text=" " color="#000000" font="Lucida Sans Unicode,8,-1,5,50,0,0,0,0,0" align="132" space="2" fmw="5"/>
+			</axis>
+			<axis id="2" on="1" type="0" format="0" prec="6" lw="1">
+				<div from="-5" to="35" step="0" maj="9" min="5" type="0"/>
+				<ticks maj="1" majl="9" min="1" minl="5"/>
+				<title text="%(?X)" color="#000000" font="Lucida Sans Unicode,8,-1,5,75,0,0,0,0,0" align="5124" space="2" fmw="43"/>
+				<labels space="4" font="Lucida Sans Unicode,8,-1,5,50,0,0,0,0,0" align="0"/>
+			</axis>
+			<axis id="3" on="1" type="0" format="0" prec="6" lw="1">
+				<div from="-5" to="35" step="0" maj="9" min="5" type="0"/>
+				<ticks maj="1" majl="9" min="1" minl="5"/>
+			</axis>
+			<item type="2" x="-4.55703211517165" y="66.8981077147016" frame="1" lc="#000000" lw="1" ls="0" bg="#ffffff,0" onTop="1" at="0" on="1" auto="1" font="Lucida Sans Unicode,8,-1,5,50,0,0,0,0,0" text="\l(1)%(1)&#10;\l(2)%(2)"/>
+			<filter type="2" inCrv="0" from="0" to="30" outCrv="1" points="7" outTable="Polynomial6" recalc="1" sort="0" fmt="e" prec="13" modifiedData="0" sclErr="0" chi2="0.115714285714285" func="0" order="2">
+				<parameter name="a0" val="64.4857142857138" err="0.0220408163265305"/>
+				<parameter name="a1" val="-0.596428571428571" err="0.000537244897959182"/>
+				<parameter name="a2" val="0.021857142857144" err="5.51020408163264e-07"/>
+			</filter>
+		</tab>
+	</window>
+	<window type="3" name="YvVoltage" date="2458801.6410734" x="766" y="53" w="1044" h="908" fw="2" fh="46" state="1" dpi="144">
+		<layout cw="1028" ch="820" w="904" h="678" left="5" right="5" top="5" bottom="5" rows="1" cols="1" vSpace="5" hSpace="5" hAlign="0" vAlign="0" align="0" common="0" link="0" scale="1" currentLayer="0" sPrint="0" cmPrint="0" atUnits="1" atdIndex="0" atPolicy="4" alMode="0" luMode="2"/>
+		<tab x="5" y="5" w="996" h="820" autoscale="1" maxMajorTicks="20" gap="1" scaleFont="1" dataMargins="1">
+			<page x="0.00486381" y="0.00609756" w="0.968872" h="1"/>
+			<title text="Y against Voltage" color="#000000" font="Lucida Sans Unicode,10,-1,5,75,0,0,0,0,0" align="4228" fmw="182"/>
+			<frame bg="#ffffff,0"/>
+			<canvas x="62" y="90" w="904" h="678" fixRatio="0" bg="#ffffff,0"/>
+			<grid xAxis="2" yAxis="0">
+				<majx lc="#a0a0a4" lw="1" ls="0"/>
+				<minx lc="#a0a0a4" lw="1" ls="1"/>
+				<majy lc="#a0a0a4" lw="1" ls="0"/>
+				<miny lc="#a0a0a4" lw="1" ls="1"/>
+			</grid>
+			<curve type="1" z="21" table="yvalues" x="Position" y="Voltage" from="0" to="-1" line="0" lc="#000000" lw="1" ls="0" brc="#000000" brs="0">
+				<symbol style="1" size="7" lc="#000000" lw="1" ls="0" brc="#000000"/>
+			</curve>
+			<curve type="0" z="22" table="Polynomial8" x="1" y="2" from="0" to="-1" line="1" lc="#ff0000" lw="1" ls="0" brc="#000000" brs="0"/>
+			<axis id="0" on="1" type="0" format="0" prec="6" lw="1">
+				<div from="57" to="62" step="0" maj="6" min="5" type="0"/>
+				<ticks maj="1" majl="9" min="1" minl="5"/>
+				<title text="%(?Y)" color="#000000" font="Lucida Sans Unicode,8,-1,5,75,0,0,0,0,0" align="5124" space="2" fmw="43"/>
+				<labels space="4" font="Lucida Sans Unicode,8,-1,5,50,0,0,0,0,0" align="0"/>
+			</axis>
+			<axis id="1" on="1" type="0" format="0" prec="6" lw="1">
+				<div from="56" to="62" step="0" maj="7" min="5" type="0"/>
+				<ticks maj="1" majl="9" min="1" minl="5"/>
+				<labels space="4" font="Lucida Sans Unicode,8,-1,5,50,0,0,0,0,0" align="0"/>
+			</axis>
+			<axis id="2" on="1" type="0" format="0" prec="6" lw="1">
+				<div from="-40" to="30" step="0" maj="8" min="5" type="0"/>
+				<ticks maj="1" majl="9" min="1" minl="5"/>
+				<title text="%(?X)" color="#000000" font="Lucida Sans Unicode,8,-1,5,75,0,0,0,0,0" align="5124" space="2" fmw="43"/>
+				<labels space="4" font="Lucida Sans Unicode,8,-1,5,50,0,0,0,0,0" align="0"/>
+			</axis>
+			<axis id="3" on="1" type="0" format="0" prec="6" lw="1">
+				<div from="-40" to="40" step="0" maj="9" min="5" type="0"/>
+				<ticks maj="1" majl="9" min="1" minl="5"/>
+				<title text="%(?X)" color="#000000" font="Lucida Sans Unicode,8,-1,5,75,0,0,0,0,0" align="5124" space="2" fmw="43"/>
+				<labels space="4" font="Lucida Sans Unicode,8,-1,5,50,0,0,0,0,0" align="0"/>
+			</axis>
+			<item type="2" x="-39.2248062015504" y="61.9261447562777" frame="1" lc="#000000" lw="1" ls="0" bg="#ffffff,0" onTop="1" at="0" on="1" auto="1" font="Lucida Sans Unicode,8,-1,5,50,0,0,0,0,0" text="\l(1)%(1)&#10;\l(2)%(2)"/>
+			<filter type="2" inCrv="0" from="-35" to="25" outCrv="1" points="13" outTable="Polynomial8" recalc="1" sort="0" fmt="e" prec="13" modifiedData="0" sclErr="0" chi2="0.0575624375624375" func="0" order="2">
+				<parameter name="a0" val="61.4056943056943" err="0.000960332374917789"/>
+				<parameter name="a1" val="-0.0404795204795202" err="1.72514797889423e-06"/>
+				<parameter name="a2" val="-0.00426773226773722" err="4.60039461038462e-09"/>
+			</filter>
+		</tab>
+	</window>
+	<window type="3" name="ZvVoltage" date="2458801.6430167" x="612" y="0" w="1074" h="908" fw="2" fh="46" state="1" dpi="144">
+		<layout cw="1058" ch="820" w="904" h="678" left="5" right="5" top="5" bottom="5" rows="1" cols="1" vSpace="5" hSpace="5" hAlign="0" vAlign="0" align="0" common="0" link="0" scale="1" currentLayer="0" sPrint="0" cmPrint="0" atUnits="1" atdIndex="0" atPolicy="4" alMode="0" luMode="2"/>
+		<tab x="5" y="52" w="1011" h="773" autoscale="1" maxMajorTicks="20" gap="1" scaleFont="1" dataMargins="1">
+			<page x="0.0047259" y="0.0634146" w="0.955577" h="0.942683"/>
+			<title text="Z against Voltage" color="#000000" font="Lucida Sans Unicode,10,-1,5,75,0,0,0,0,0" align="4228" fmw="182"/>
+			<frame bg="#ffffff,0"/>
+			<canvas x="77" y="90" w="904" h="678" fixRatio="0" bg="#ffffff,0"/>
+			<grid xAxis="2" yAxis="0">
+				<majx lc="#a0a0a4" lw="1" ls="0"/>
+				<minx lc="#a0a0a4" lw="1" ls="1"/>
+				<majy lc="#a0a0a4" lw="1" ls="0"/>
+				<miny lc="#a0a0a4" lw="1" ls="1"/>
+			</grid>
+			<curve type="1" z="21" table="zvalues" x="Position" y="Voltage" from="0" to="-1" line="0" lc="#000000" lw="1" ls="0" brc="#000000" brs="0">
+				<symbol style="1" size="7" lc="#000000" lw="1" ls="0" brc="#000000"/>
+			</curve>
+			<curve type="0" z="22" table="Polynomial9" x="1" y="2" from="0" to="-1" line="1" lc="#ff0000" lw="1" ls="0" brc="#000000" brs="0"/>
+			<axis id="0" on="1" type="0" format="0" prec="6" lw="1">
+				<div from="58.8" to="60.4" step="0" maj="9" min="5" type="0"/>
+				<ticks maj="1" majl="9" min="1" minl="5"/>
+				<title text="%(?Y)" color="#000000" font="Lucida Sans Unicode,8,-1,5,75,0,0,0,0,0" align="5124" space="2" fmw="43"/>
+				<labels space="4" font="Lucida Sans Unicode,8,-1,5,50,0,0,0,0,0" align="0"/>
+			</axis>
+			<axis id="1" on="1" type="0" format="0" prec="6" lw="1">
+				<div from="58.8" to="60.4" step="0" maj="9" min="5" type="0"/>
+				<ticks maj="1" majl="9" min="1" minl="5"/>
+				<title text=" " color="#000000" font="Lucida Sans Unicode,8,-1,5,50,0,0,0,0,0" align="132" space="2" fmw="5"/>
+			</axis>
+			<axis id="2" on="1" type="0" format="0" prec="6" lw="1">
+				<div from="-15" to="15" step="0" maj="7" min="5" type="0"/>
+				<ticks maj="1" majl="9" min="1" minl="5"/>
+				<title text="%(?X)" color="#000000" font="Lucida Sans Unicode,8,-1,5,75,0,0,0,0,0" align="5124" space="2" fmw="43"/>
+				<labels space="4" font="Lucida Sans Unicode,8,-1,5,50,0,0,0,0,0" align="0"/>
+			</axis>
+			<axis id="3" on="1" type="0" format="0" prec="6" lw="1">
+				<div from="-15" to="15" step="0" maj="7" min="5" type="0"/>
+				<ticks maj="1" majl="9" min="1" minl="5"/>
+			</axis>
+			<item type="2" x="-14.6677740863787" y="60.3763663220089" frame="1" lc="#000000" lw="1" ls="0" bg="#ffffff,0" onTop="1" at="0" on="1" auto="1" font="Lucida Sans Unicode,8,-1,5,50,0,0,0,0,0" text="\l(1)%(1)&#10;\l(2)%(2)"/>
+			<filter type="2" inCrv="0" from="-10" to="10" outCrv="1" points="6" outTable="Polynomial9" recalc="1" sort="0" fmt="e" prec="13" modifiedData="0" sclErr="0" chi2="0.0185714285714284" func="0" order="2">
+				<parameter name="a0" val="60.21875" err="0.00244233630952379"/>
+				<parameter name="a1" val="0.0142857142857139" err="2.21088435374147e-05"/>
+				<parameter name="a2" val="-0.0118303571428567" err="6.47720025510198e-07"/>
+			</filter>
+		</tab>
+	</window>
+</qti>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE qti>
+<qti app="QtiPlot" version="1.0.0-rc10" dpi="144" arch="Win64" script="muParser" windows="3" expand="1">
+	<window type="1" name="xvalues" date="2458801.5519238" x="0" y="0" w="403" h="525">
+		<tab rows="30" cols="2" labels="0">
+			<col name="Position (mm)" type="6" num="0" prec="13" plot="1" width="100" stat="0" data="0;5;10;15;20;25;30;"/>
+			<col name="Voltage (mV)" type="6" num="0" prec="13" plot="2" width="100" stat="0" data="64.4;62.1;60.8;60.6;61.1;63.1;66.4;"/>
+		</tab>
+	</window>
+	<window type="1" name="yvalues" date="2458801.5817394" x="404" y="5" w="379" h="523">
+		<tab rows="30" cols="2" labels="0">
+			<col name="1" type="6" num="0" prec="13" plot="1" width="100" stat="0"/>
+			<col name="2" type="6" num="0" prec="13" plot="2" width="100" stat="0"/>
+		</tab>
+	</window>
+	<window type="1" name="zvalues" date="2458801.5823421" x="783" y="0" w="355" h="448" active="1">
+		<tab rows="30" cols="2" labels="0">
+			<col name="1" type="6" num="0" prec="13" plot="1" width="100" stat="0"/>
+			<col name="2" type="6" num="0" prec="13" plot="2" width="100" stat="0"/>
+		</tab>
+	</window>
+</qti>

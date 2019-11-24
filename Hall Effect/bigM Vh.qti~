@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE qti>
+<qti app="QtiPlot" version="1.0.0-rc10" dpi="144" arch="Win64" script="muParser" windows="14" expand="1" log="[2019-11-21 15:46:13&#9;Plot: ''Graph1'']&#10;Linear Regression of dataset: BmagPtypeNfacing_Hall Voltage, using function: A*x+B&#10;Sort: No&#10;Weighting Method: No weighting&#10;From x = 0.0000000000000e+00 to x = 3.0000000000000e+01&#10;&#10;Parameter                       Value                               Error                                &#10;-------------------------------------------------------------------&#10;B (y-intercept)                 7.7272727272724e-02   5.0674966697280e-02   &#10;A (slope)                          1.4821212121212e+00  2.8552109141621e-03   &#10;-------------------------------------------------------------------&#10;Errors were scaled with sqrt(Chi^2/doF) = 8.9837114104956e-02&#10;&#10;Statistics                                       BmagPtypeNfacing_Hall Voltage   &#10;-----------------------------------------------------------&#10;N (data points)                              11                                                 &#10;Degrees of Freedom (doF)            9                                                   &#10;Chi^2/doF                                     8.0707070707069e-03                &#10;RSS (Residual Sum of Squares)      7.2636363636362e-02                &#10;R                                                   9.9998330022657e-01                &#10;R^2                                               9.9996660073203e-01                &#10;Adjusted R^2                                9.9996288970225e-01                &#10;RMSE (Root Mean Squared Error)  8.9837114104956e-02                &#10;-----------------------------------------------------------&#10;[2019-11-21 16:03:02&#9;Plot: ''BmagPtypeSGraph'']&#10;Linear Regression of dataset: BmagPtypeSfacing_Hall Voltage, using function: A*x+B&#10;Sort: No&#10;Weighting Method: No weighting&#10;From x = 0.0000000000000e+00 to x = 3.0000000000000e+01&#10;&#10;Parameter                         Value                                 Error                                 &#10;---------------------------------------------------------------------&#10;B (y-intercept)                   9.3636363636360e-02     3.7112986101549e-02     &#10;A (slope)                            -1.5129696969697e+00  2.0910798739603e-03     &#10;---------------------------------------------------------------------&#10;Errors were scaled with sqrt(Chi^2/doF) = 6.5794292221202e-02&#10;&#10;Statistics                                       BmagPtypeSfacing_Hall Voltage    &#10;------------------------------------------------------------&#10;N (data points)                              11                                                 &#10;Degrees of Freedom (doF)            9                                                   &#10;Chi^2/doF                                     4.3288888888889e-03                &#10;RSS (Residual Sum of Squares)      3.8960000000000e-02                &#10;R                                                   9.9999140417236e-01                &#10;R^2                                               9.9998280841860e-01                &#10;Adjusted R^2                                9.9998089824289e-01                &#10;RMSE (Root Mean Squared Error)  6.5794292221202e-02                &#10;------------------------------------------------------------&#10;[2019-11-21 16:07:49&#9;Plot: ''BmagPtypeSGraph'']&#10;Linear Regression of dataset: BmagPtypeSfacing_Hall Voltage, using function: A*x+B&#10;Sort: No&#10;Weighting Method: No weighting&#10;From x = 0.0000000000000e+00 to x = 3.0000000000000e+01&#10;&#10;Parameter                         Value                                 Error                                 &#10;---------------------------------------------------------------------&#10;B (y-intercept)                   9.3636363636360e-02     3.7112986101549e-02     &#10;A (slope)                            -1.5129696969697e+00  2.0910798739603e-03     &#10;---------------------------------------------------------------------&#10;Errors were scaled with sqrt(Chi^2/doF) = 6.5794292221202e-02&#10;&#10;Statistics                                       BmagPtypeSfacing_Hall Voltage    &#10;------------------------------------------------------------&#10;N (data points)                              11                                                 &#10;Degrees of Freedom (doF)            9                                                   &#10;Chi^2/doF                                     4.3288888888889e-03                &#10;RSS (Residual Sum of Squares)      3.8960000000000e-02                &#10;R                                                   9.9999140417236e-01                &#10;R^2                                               9.9998280841860e-01                &#10;Adjusted R^2                                9.9998089824289e-01                &#10;RMSE (Root Mean Squared Error)  6.5794292221202e-02                &#10;------------------------------------------------------------&#10;[2019-11-21 16:08:35&#9;Plot: ''BmagNtypeNGraph'']&#10;Linear Regression of dataset: Table1_Hall Voltage, using function: A*x+B&#10;Sort: No&#10;Weighting Method: No weighting&#10;From x = 0.0000000000000e+00 to x = 3.0000000000000e+01&#10;&#10;Parameter                        Value                                Error                                 &#10;--------------------------------------------------------------------&#10;B (y-intercept)                  -3.6363636363636e-02  1.8282549247271e-02    &#10;A (slope)                           1.0727272727273e-01    1.0301049522410e-03    &#10;--------------------------------------------------------------------&#10;Errors were scaled with sqrt(Chi^2/doF) = 3.2411495653627e-02&#10;&#10;Statistics                                       Table1_Hall Voltage                      &#10;------------------------------------------------------------&#10;N (data points)                              11                                                 &#10;Degrees of Freedom (doF)            9                                                   &#10;Chi^2/doF                                     1.0505050505051e-03                &#10;RSS (Residual Sum of Squares)      9.4545454545455e-03                &#10;R                                                   9.9958530709415e-01                &#10;R^2                                               9.9917078615851e-01                &#10;Adjusted R^2                                9.9907865128723e-01                &#10;RMSE (Root Mean Squared Error)  3.2411495653627e-02                &#10;------------------------------------------------------------&#10;[2019-11-21 16:10:53&#9;Plot: ''BmagNtypeNGraph'']&#10;Linear Regression of dataset: Table1_Hall Voltage, using function: A*x+B&#10;Sort: No&#10;Weighting Method: No weighting&#10;From x = 0.0000000000000e+00 to x = 3.0000000000000e+01&#10;&#10;Parameter                      Value                              Error                               &#10;-----------------------------------------------------------------&#10;B (y-intercept)                5.4545454545455e-02  3.6915011715979e-02  &#10;A (slope)                         9.7757575757576e-01  2.0799252810075e-03  &#10;-----------------------------------------------------------------&#10;Errors were scaled with sqrt(Chi^2/doF) = 6.5443321147603e-02&#10;&#10;Statistics                                       Table1_Hall Voltage                      &#10;------------------------------------------------------------&#10;N (data points)                              11                                                 &#10;Degrees of Freedom (doF)            9                                                   &#10;Chi^2/doF                                     4.2828282828283e-03                &#10;RSS (Residual Sum of Squares)      3.8545454545455e-02                &#10;R                                                   9.9997962986699e-01                &#10;R^2                                               9.9995926014893e-01                &#10;Adjusted R^2                                9.9995473349881e-01                &#10;RMSE (Root Mean Squared Error)  6.5443321147603e-02                &#10;------------------------------------------------------------&#10;[2019-11-21 16:14:24&#9;Plot: ''BmagNtypeNGraph'']&#10;Linear Regression of dataset: BmagNtypeNfacing_Hall Voltage, using function: A*x+B&#10;Sort: No&#10;Weighting Method: No weighting&#10;From x = 0.0000000000000e+00 to x = 3.0000000000000e+01&#10;&#10;Parameter                      Value                              Error                               &#10;-----------------------------------------------------------------&#10;B (y-intercept)                5.4545454545455e-02  3.6915011715979e-02  &#10;A (slope)                         9.7757575757576e-01  2.0799252810075e-03  &#10;-----------------------------------------------------------------&#10;Errors were scaled with sqrt(Chi^2/doF) = 6.5443321147603e-02&#10;&#10;Statistics                                       BmagNtypeNfacing_Hall Voltage   &#10;------------------------------------------------------------&#10;N (data points)                              11                                                 &#10;Degrees of Freedom (doF)            9                                                   &#10;Chi^2/doF                                     4.2828282828283e-03                &#10;RSS (Residual Sum of Squares)      3.8545454545455e-02                &#10;R                                                   9.9997962986699e-01                &#10;R^2                                               9.9995926014893e-01                &#10;Adjusted R^2                                9.9995473349881e-01                &#10;RMSE (Root Mean Squared Error)  6.5443321147603e-02                &#10;------------------------------------------------------------&#10;[2019-11-21 16:17:36&#9;Plot: ''Graph1'']&#10;Linear Regression of dataset: Table1_Hall Voltage, using function: A*x+B&#10;Sort: No&#10;Weighting Method: No weighting&#10;From x = 0.0000000000000e+00 to x = 3.0000000000000e+01&#10;&#10;Parameter                        Value                                Error                                 &#10;--------------------------------------------------------------------&#10;B (y-intercept)                  6.3636363636363e-02    3.3056703377684e-02    &#10;A (slope)                           -9.7878787878788e-01  1.8625342337966e-03    &#10;--------------------------------------------------------------------&#10;Errors were scaled with sqrt(Chi^2/doF) = 5.8603271532769e-02&#10;&#10;Statistics                                       Table1_Hall Voltage                      &#10;------------------------------------------------------------&#10;N (data points)                              11                                                 &#10;Degrees of Freedom (doF)            9                                                   &#10;Chi^2/doF                                     3.4343434343435e-03                &#10;RSS (Residual Sum of Squares)      3.0909090909091e-02                &#10;R                                                   9.9998370579178e-01                &#10;R^2                                               9.9996741184905e-01                &#10;Adjusted R^2                                9.9996379094339e-01                &#10;RMSE (Root Mean Squared Error)  5.8603271532769e-02                &#10;------------------------------------------------------------&#10;">
+	<window type="1" name="BmagPtypeNfacing" date="2458808.6550252" x="351" y="-1" w="357" h="454">
+		<tab rows="30" cols="2" labels="2">
+			<col name="Current" type="6" num="0" prec="13" plot="1" width="100" stat="0" unit="mA" data="0;3;6;9;12;15;18;21;24;27;30;"/>
+			<col name="Hall Voltage" type="6" num="0" prec="13" plot="2" width="100" stat="0" unit="mV" data="0;4.6;9.1;13.4;17.8;22.3;26.6;31.3;35.6;40.1;44.6;"/>
+		</tab>
+	</window>
+	<window type="1" name="Linear1" date="2458808.6571045" x="1425" y="51" w="355" h="448" state="-1" label="Linear Regression of BmagPtypeNfacing_Hall Voltage" title="2" comment="Linear Regression of BmagPtypeNfacing_Hall Voltage">
+		<tab rows="11" cols="2" labels="0">
+			<col name="1" type="6" num="0" prec="13" plot="1" width="100" stat="0" data="0;3;6;9;12;15;18;21;24;27;30;"/>
+			<col name="2" type="6" num="0" prec="13" plot="2" width="100" stat="0" data="0.0772727272727245;4.52363636363636;8.97;13.4163636363636;17.8627272727273;22.3090909090909;26.7554545454545;31.2018181818182;35.6481818181818;40.0945454545455;44.5409090909091;"/>
+		</tab>
+	</window>
+	<window type="1" name="BmagPtypeSfacing" date="2458808.6665264" x="1425" y="0" w="355" h="448">
+		<tab rows="30" cols="2" labels="2">
+			<col name="Current" type="6" num="0" prec="13" plot="1" width="100" stat="0" unit="mA" data="0;3;6;9;12;15;18;21;24;27;30;"/>
+			<col name="Hall Voltage" type="6" num="0" prec="13" plot="2" width="100" stat="0" unit="mV" data="0;-4.4;-8.91;-13.51;-18.12;-22.52;-27.23;-31.63;-36.23;-40.73;-45.33;"/>
+		</tab>
+	</window>
+	<window type="1" name="Linear2" date="2458808.6687815" x="0" y="454" w="355" h="448" state="-1" label="Linear Regression of BmagPtypeSfacing_Hall Voltage" title="2" comment="Linear Regression of BmagPtypeSfacing_Hall Voltage">
+		<tab rows="11" cols="2" labels="0">
+			<col name="1" type="6" num="0" prec="13" plot="1" width="100" stat="0" data="0;3;6;9;12;15;18;21;24;27;30;"/>
+			<col name="2" type="6" num="0" prec="13" plot="2" width="100" stat="0" data="0.0936363636363602;-4.44527272727273;-8.98418181818182;-13.5230909090909;-18.062;-22.6009090909091;-27.1398181818182;-31.6787272727273;-36.2176363636364;-40.7565454545455;-45.2954545454545;"/>
+		</tab>
+	</window>
+	<window type="1" name="BmagNtypeNfacing" date="2458808.670397" x="0" y="0" w="355" h="448">
+		<tab rows="30" cols="2" labels="2">
+			<col name="Current" type="6" num="0" prec="13" plot="1" width="100" stat="0" unit="mA" data="0;3;6;9;12;15;18;21;24;27;30;"/>
+			<col name="Hall Voltage" type="6" num="0" prec="13" plot="2" width="100" stat="0" unit="mV" data="0;3;5.9;8.9;11.9;14.7;17.6;20.5;23.6;26.4;29.4;"/>
+		</tab>
+	</window>
+	<window type="1" name="Linear3" date="2458808.672105" x="355" y="0" w="355" h="448" state="-1" label="Linear Regression of BmagPtypeSfacing_Hall Voltage" title="2" comment="Linear Regression of BmagPtypeSfacing_Hall Voltage">
+		<tab rows="11" cols="2" labels="0">
+			<col name="1" type="6" num="0" prec="13" plot="1" width="100" stat="0" data="0;3;6;9;12;15;18;21;24;27;30;"/>
+			<col name="2" type="6" num="0" prec="13" plot="2" width="100" stat="0" data="0.0936363636363602;-4.44527272727273;-8.98418181818182;-13.5230909090909;-18.062;-22.6009090909091;-27.1398181818182;-31.6787272727273;-36.2176363636364;-40.7565454545455;-45.2954545454545;"/>
+		</tab>
+	</window>
+	<window type="1" name="Linear4" date="2458808.6726286" x="355" y="0" w="355" h="448" state="-1" label="Linear Regression of Table1_Hall Voltage" title="2" comment="Linear Regression of Table1_Hall Voltage">
+		<tab rows="11" cols="2" labels="0">
+			<col name="1" type="6" num="0" prec="13" plot="1" width="100" stat="0" data="0;3;6;9;12;15;18;21;24;27;30;"/>
+			<col name="2" type="6" num="0" prec="13" plot="2" width="100" stat="0" data="0.0545454545454547;2.98727272727273;5.92;8.85272727272727;11.7854545454545;14.7181818181818;17.6509090909091;20.5836363636364;23.5163636363636;26.4490909090909;29.3818181818182;"/>
+		</tab>
+	</window>
+	<window type="1" name="Linear5" date="2458808.6766708" x="355" y="0" w="355" h="448" state="-1" label="Linear Regression of BmagNtypeNfacing_Hall Voltage" title="2" comment="Linear Regression of BmagNtypeNfacing_Hall Voltage">
+		<tab rows="11" cols="2" labels="0">
+			<col name="1" type="6" num="0" prec="13" plot="1" width="100" stat="0" data="0;3;6;9;12;15;18;21;24;27;30;"/>
+			<col name="2" type="6" num="0" prec="13" plot="2" width="100" stat="0" data="0.0545454545454547;2.98727272727273;5.92;8.85272727272727;11.7854545454545;14.7181818181818;17.6509090909091;20.5836363636364;23.5163636363636;26.4490909090909;29.3818181818182;"/>
+		</tab>
+	</window>
+	<window type="1" name="Table1" date="2458808.6780509" x="0" y="0" w="355" h="448" state="1">
+		<tab rows="30" cols="2" labels="2">
+			<col name="Current" type="6" num="0" prec="13" plot="1" width="100" stat="0" unit="mA" data="0;3;6;9;12;15;18;21;24;27;30;"/>
+			<col name="Hall Voltage" type="6" num="0" prec="13" plot="2" width="100" stat="0" unit="mV" data="0;-2.9;-5.8;-8.7;-11.6;-14.6;-17.5;-20.6;-23.4;-26.4;-29.3;"/>
+		</tab>
+	</window>
+	<window type="1" name="Linear6" date="2458808.6788992" x="1070" y="0" w="355" h="448" state="-1" label="Linear Regression of Table1_Hall Voltage" title="2" comment="Linear Regression of Table1_Hall Voltage">
+		<tab rows="11" cols="2" labels="0">
+			<col name="1" type="6" num="0" prec="13" plot="1" width="100" stat="0" data="0;3;6;9;12;15;18;21;24;27;30;"/>
+			<col name="2" type="6" num="0" prec="13" plot="2" width="100" stat="0" data="0.0636363636363626;-2.87272727272727;-5.80909090909091;-8.74545454545455;-11.6818181818182;-14.6181818181818;-17.5545454545455;-20.4909090909091;-23.4272727272727;-26.3636363636364;-29.3;"/>
+		</tab>
+	</window>
+	<window type="3" name="BmagPtypeNGraph" date="2458808.6566789" x="0" y="0" w="1070" h="908" fw="2" fh="46" state="1" dpi="144">
+		<layout cw="1054" ch="820" w="904" h="678" left="5" right="5" top="5" bottom="5" rows="1" cols="1" vSpace="5" hSpace="5" hAlign="0" vAlign="0" align="0" common="0" link="0" scale="1" currentLayer="0" sPrint="0" cmPrint="0" atUnits="1" atdIndex="0" atPolicy="4" alMode="0" luMode="2"/>
+		<tab x="5" y="52" w="1009" h="773" autoscale="1" maxMajorTicks="20" gap="1" scaleFont="1" dataMargins="1">
+			<page x="0.00474383" y="0.0634146" w="0.957306" h="0.942683"/>
+			<title text="Big Magnet P-type N facing" color="#000000" font="Lucida Sans Unicode,10,-1,5,75,0,0,0,0,0" align="4228" fmw="287"/>
+			<frame bg="#ffffff,0"/>
+			<canvas x="75" y="90" w="904" h="678" fixRatio="0" bg="#ffffff,0"/>
+			<grid xAxis="2" yAxis="0">
+				<majx lc="#a0a0a4" lw="1" ls="0"/>
+				<minx lc="#a0a0a4" lw="1" ls="1"/>
+				<majy lc="#a0a0a4" lw="1" ls="0"/>
+				<miny lc="#a0a0a4" lw="1" ls="1"/>
+			</grid>
+			<curve type="1" z="21" table="BmagPtypeNfacing" x="Current" y="Hall Voltage" from="0" to="-1" line="0" lc="#000000" lw="1" ls="0" brc="#000000" brs="0">
+				<symbol style="1" size="7" lc="#000000" lw="1" ls="0" brc="#000000"/>
+			</curve>
+			<curve type="0" z="22" table="Linear1" x="1" y="2" from="0" to="-1" line="1" lc="#ff0000" lw="1" ls="0" brc="#000000" brs="0"/>
+			<axis id="0" on="1" type="0" format="0" prec="6" lw="1">
+				<div from="-10" to="50" step="0" maj="7" min="5" type="0"/>
+				<ticks maj="1" majl="9" min="1" minl="5"/>
+				<title text="%(?Y)" color="#000000" font="Lucida Sans Unicode,8,-1,5,75,0,0,0,0,0" align="5124" space="2" fmw="43"/>
+				<labels space="4" font="Lucida Sans Unicode,8,-1,5,50,0,0,0,0,0" align="0"/>
+			</axis>
+			<axis id="1" on="1" type="0" format="0" prec="6" lw="1">
+				<div from="-10" to="50" step="0" maj="7" min="5" type="0"/>
+				<ticks maj="1" majl="9" min="1" minl="5"/>
+				<title text=" " color="#000000" font="Lucida Sans Unicode,8,-1,5,50,0,0,0,0,0" align="132" space="2" fmw="5"/>
+			</axis>
+			<axis id="2" on="1" type="0" format="0" prec="6" lw="1">
+				<div from="-5" to="35" step="0" maj="9" min="5" type="0"/>
+				<ticks maj="1" majl="9" min="1" minl="5"/>
+				<title text="%(?X)" color="#000000" font="Lucida Sans Unicode,8,-1,5,75,0,0,0,0,0" align="5124" space="2" fmw="43"/>
+				<labels space="4" font="Lucida Sans Unicode,8,-1,5,50,0,0,0,0,0" align="0"/>
+			</axis>
+			<axis id="3" on="1" type="0" format="0" prec="6" lw="1">
+				<div from="-5" to="35" step="0" maj="9" min="5" type="0"/>
+				<ticks maj="1" majl="9" min="1" minl="5"/>
+			</axis>
+			<filter type="0" inCrv="0" from="0" to="30" outCrv="1" points="11" outTable="Linear1" recalc="1" sort="0" fmt="e" prec="13" modifiedData="0" sclErr="0" chi2="0.0726363636363624" func="0">
+				<parameter name="B" val="0.0772727272727245" explain="y-intercept" err="0.00256795224977039"/>
+				<parameter name="A" val="1.48212121212121" explain="slope" err="8.15222936435044e-06"/>
+			</filter>
+		</tab>
+	</window>
+	<window type="3" name="BmagPtypeSGraph" date="2458808.6673171" x="225" y="205" w="1070" h="908" dpi="144">
+		<layout cw="1054" ch="820" w="904" h="678" left="5" right="5" top="5" bottom="5" rows="1" cols="1" vSpace="5" hSpace="5" hAlign="0" vAlign="0" align="0" common="0" link="0" scale="1" currentLayer="0" sPrint="0" cmPrint="0" atUnits="1" atdIndex="0" atPolicy="4" alMode="0" luMode="2"/>
+		<tab x="5" y="5" w="1044" h="820" autoscale="1" maxMajorTicks="20" gap="1" scaleFont="1" dataMargins="1">
+			<page x="0.00474383" y="0.00609756" w="0.990512" h="1"/>
+			<title text="Big Magnet P-type S facing" color="#000000" font="Lucida Sans Unicode,10.608,-1,5,75,0,0,0,0,0" align="4228" fmw="303"/>
+			<frame bg="#ffffff,0"/>
+			<canvas x="78" y="45" w="937" h="722" fixRatio="0" bg="#ffffff,0"/>
+			<grid xAxis="2" yAxis="0">
+				<majx lc="#a0a0a4" lw="1" ls="0"/>
+				<minx lc="#a0a0a4" lw="1" ls="1"/>
+				<majy lc="#a0a0a4" lw="1" ls="0"/>
+				<miny lc="#a0a0a4" lw="1" ls="1"/>
+			</grid>
+			<curve type="1" z="21" table="BmagPtypeSfacing" x="Current" y="Hall Voltage" from="0" to="-1" line="0" lc="#000000" lw="1" ls="0" brc="#000000" brs="0">
+				<symbol style="1" size="7" lc="#000000" lw="1" ls="0" brc="#000000"/>
+			</curve>
+			<curve type="0" z="22" table="Linear2" x="1" y="2" from="0" to="-1" line="1" lc="#ff0000" lw="1" ls="0" brc="#000000" brs="0"/>
+			<axis id="0" on="1" type="0" format="0" prec="6" lw="1">
+				<div from="-50" to="10" step="0" maj="7" min="5" type="0"/>
+				<ticks maj="1" majl="8" min="1" minl="5"/>
+				<title text="%(?Y)" color="#000000" font="Lucida Sans Unicode,8.48642,-1,5,75,0,0,0,0,0" align="5124" space="2" fmw="46"/>
+				<labels space="4" font="Lucida Sans Unicode,8.48642,-1,5,50,0,0,0,0,0" align="0"/>
+			</axis>
+			<axis id="1" on="1" type="0" format="0" prec="6" lw="1">
+				<div from="-50" to="10" step="0" maj="7" min="5" type="0"/>
+				<ticks maj="1" majl="8" min="1" minl="5"/>
+				<title text=" " color="#000000" font="Lucida Sans Unicode,8,-1,5,50,0,0,0,0,0" align="132" space="2" fmw="5"/>
+			</axis>
+			<axis id="2" on="1" type="0" format="0" prec="6" lw="1">
+				<div from="-5" to="35" step="0" maj="9" min="5" type="0"/>
+				<ticks maj="1" majl="8" min="1" minl="5"/>
+				<title text="%(?X)" color="#000000" font="Lucida Sans Unicode,8.48642,-1,5,75,0,0,0,0,0" align="5124" space="2" fmw="46"/>
+				<labels space="4" font="Lucida Sans Unicode,8.48642,-1,5,50,0,0,0,0,0" align="0"/>
+			</axis>
+			<axis id="3" on="1" type="0" format="0" prec="6" lw="1">
+				<div from="-5" to="35" step="0" maj="9" min="5" type="0"/>
+				<ticks maj="1" majl="8" min="1" minl="5"/>
+			</axis>
+			<filter type="0" inCrv="0" from="0" to="30" outCrv="1" points="11" outTable="Linear2" recalc="1" sort="0" fmt="e" prec="13" modifiedData="0" sclErr="0" chi2="0.0389600000000004" func="0">
+				<parameter name="B" val="0.0936363636363602" explain="y-intercept" err="0.00137737373737375"/>
+				<parameter name="A" val="-1.5129696969697" explain="slope" err="4.37261503928175e-06"/>
+			</filter>
+		</tab>
+	</window>
+	<window type="3" name="BmagNtypeNGraph" date="2458808.6713025" x="0" y="0" w="1080" h="908" fw="2" fh="46" state="1" dpi="144">
+		<layout cw="1064" ch="820" w="904" h="678" left="5" right="5" top="5" bottom="5" rows="1" cols="1" vSpace="5" hSpace="5" hAlign="0" vAlign="0" align="0" common="0" link="0" scale="1" currentLayer="0" sPrint="0" cmPrint="0" atUnits="1" atdIndex="0" atPolicy="4" alMode="0" luMode="2"/>
+		<tab x="5" y="52" w="1014" h="773" autoscale="1" maxMajorTicks="20" gap="1" scaleFont="1" dataMargins="1">
+			<page x="0.00469925" y="0.0634146" w="0.953008" h="0.942683"/>
+			<title text="Big Magnet N-type N facing" color="#000000" font="Lucida Sans Unicode,10,-1,5,75,0,0,0,0,0" align="4228" fmw="291"/>
+			<frame bg="#ffffff,0"/>
+			<canvas x="65" y="90" w="919" h="678" fixRatio="0" bg="#ffffff,0"/>
+			<grid xAxis="2" yAxis="0">
+				<majx lc="#a0a0a4" lw="1" ls="0"/>
+				<minx lc="#a0a0a4" lw="1" ls="1"/>
+				<majy lc="#a0a0a4" lw="1" ls="0"/>
+				<miny lc="#a0a0a4" lw="1" ls="1"/>
+			</grid>
+			<curve type="1" z="21" table="BmagNtypeNfacing" x="Current" y="Hall Voltage" from="0" to="-1" line="0" lc="#000000" lw="1" ls="0" brc="#000000" brs="0">
+				<symbol style="1" size="7" lc="#000000" lw="1" ls="0" brc="#000000"/>
+			</curve>
+			<curve type="0" z="22" table="Linear5" x="1" y="2" from="0" to="-1" line="1" lc="#ff0000" lw="1" ls="0" brc="#000000" brs="0"/>
+			<axis id="0" on="1" type="0" format="0" prec="6" lw="1">
+				<div from="-5" to="30" step="0" maj="8" min="5" type="0"/>
+				<ticks maj="1" majl="9" min="1" minl="5"/>
+				<title text="%(?Y)" color="#000000" font="Lucida Sans Unicode,8,-1,5,75,0,0,0,0,0" align="5124" space="2" fmw="43"/>
+				<labels space="4" font="Lucida Sans Unicode,8,-1,5,50,0,0,0,0,0" align="0"/>
+			</axis>
+			<axis id="1" on="1" type="0" format="0" prec="6" lw="1">
+				<div from="-0.5" to="3.5" step="0" maj="9" min="5" type="0"/>
+				<ticks maj="1" majl="9" min="1" minl="5"/>
+				<title text=" " color="#000000" font="Lucida Sans Unicode,8,-1,5,50,0,0,0,0,0" align="132" space="2" fmw="5"/>
+			</axis>
+			<axis id="2" on="1" type="0" format="0" prec="6" lw="1">
+				<div from="-5" to="35" step="0" maj="9" min="5" type="0"/>
+				<ticks maj="1" majl="9" min="1" minl="5"/>
+				<title text="%(?X)" color="#000000" font="Lucida Sans Unicode,8,-1,5,75,0,0,0,0,0" align="5124" space="2" fmw="43"/>
+				<labels space="4" font="Lucida Sans Unicode,8,-1,5,50,0,0,0,0,0" align="0"/>
+			</axis>
+			<axis id="3" on="1" type="0" format="0" prec="6" lw="1">
+				<div from="-5" to="35" step="0" maj="9" min="5" type="0"/>
+				<ticks maj="1" majl="9" min="1" minl="5"/>
+			</axis>
+			<filter type="0" inCrv="0" from="0" to="30" outCrv="1" points="11" outTable="Linear5" recalc="1" sort="0" fmt="e" prec="13" modifiedData="0" sclErr="0" chi2="0.0385454545454551" func="0">
+				<parameter name="B" val="0.0545454545454547" explain="y-intercept" err="0.00136271808999084"/>
+				<parameter name="A" val="0.977575757575758" explain="slope" err="4.32608917457409e-06"/>
+			</filter>
+		</tab>
+	</window>
+	<window type="3" name="BmagNtypeSGraph" date="2458808.6785073" x="0" y="0" w="1070" h="908" fw="2" fh="46" state="1" active="1" dpi="144">
+		<layout cw="1054" ch="820" w="904" h="678" left="5" right="5" top="5" bottom="5" rows="1" cols="1" vSpace="5" hSpace="5" hAlign="0" vAlign="0" align="0" common="0" link="0" scale="1" currentLayer="0" sPrint="0" cmPrint="0" atUnits="1" atdIndex="0" atPolicy="4" alMode="0" luMode="2"/>
+		<tab x="5" y="52" w="1009" h="773" autoscale="1" maxMajorTicks="20" gap="1" scaleFont="1" dataMargins="1">
+			<page x="0.00474383" y="0.0634146" w="0.957306" h="0.942683"/>
+			<title text=" Big Magnet N-type S facing" color="#000000" font="Lucida Sans Unicode,10,-1,5,75,0,0,0,0,0" align="4228" fmw="294"/>
+			<frame bg="#ffffff,0"/>
+			<canvas x="75" y="90" w="879" h="678" fixRatio="0" bg="#ffffff,0"/>
+			<grid xAxis="2" yAxis="0">
+				<majx lc="#a0a0a4" lw="1" ls="0"/>
+				<minx lc="#a0a0a4" lw="1" ls="1"/>
+				<majy lc="#a0a0a4" lw="1" ls="0"/>
+				<miny lc="#a0a0a4" lw="1" ls="1"/>
+			</grid>
+			<curve type="1" z="21" table="Table1" x="Current" y="Hall Voltage" from="0" to="-1" line="0" lc="#000000" lw="1" ls="0" brc="#000000" brs="0">
+				<symbol style="1" size="7" lc="#000000" lw="1" ls="0" brc="#000000"/>
+			</curve>
+			<curve type="0" z="22" table="Linear6" x="1" y="2" from="0" to="-1" line="1" lc="#ff0000" lw="1" ls="0" brc="#000000" brs="0"/>
+			<axis id="0" on="1" type="0" format="0" prec="6" lw="1">
+				<div from="-30" to="5" step="0" maj="8" min="5" type="0"/>
+				<ticks maj="1" majl="9" min="1" minl="5"/>
+				<title text="%(?Y)" color="#000000" font="Lucida Sans Unicode,8,-1,5,75,0,0,0,0,0" align="5124" space="2" fmw="43"/>
+				<labels space="4" font="Lucida Sans Unicode,8,-1,5,50,0,0,0,0,0" align="0"/>
+			</axis>
+			<axis id="1" on="1" type="0" format="0" prec="6" lw="1">
+				<div from="-30" to="5" step="0" maj="8" min="5" type="0"/>
+				<ticks maj="1" majl="9" min="1" minl="5"/>
+				<title text=" " color="#000000" font="Lucida Sans Unicode,8,-1,5,50,0,0,0,0,0" align="132" space="2" fmw="5"/>
+			</axis>
+			<axis id="2" on="1" type="0" format="0" prec="6" lw="1">
+				<div from="-5" to="35" step="0" maj="9" min="5" type="0"/>
+				<ticks maj="1" majl="9" min="1" minl="5"/>
+				<title text="%(?X)" color="#000000" font="Lucida Sans Unicode,8,-1,5,75,0,0,0,0,0" align="5124" space="2" fmw="43"/>
+				<labels space="4" font="Lucida Sans Unicode,8,-1,5,50,0,0,0,0,0" align="0"/>
+			</axis>
+			<axis id="3" on="1" type="0" format="0" prec="6" lw="1">
+				<div from="-5" to="35" step="0" maj="9" min="5" type="0"/>
+				<ticks maj="1" majl="9" min="1" minl="5"/>
+			</axis>
+			<filter type="0" inCrv="0" from="0" to="30" outCrv="1" points="11" outTable="Linear6" recalc="1" sort="0" fmt="e" prec="13" modifiedData="0" sclErr="0" chi2="0.0309090909090913" func="0">
+				<parameter name="B" val="0.0636363636363626" explain="y-intercept" err="0.0010927456382002"/>
+				<parameter name="A" val="-0.978787878787879" explain="slope" err="3.46903377206412e-06"/>
+			</filter>
+		</tab>
+	</window>
+</qti>
