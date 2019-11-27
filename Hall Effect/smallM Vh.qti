@@ -1,17 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE qti>
-<qti app="QtiPlot" version="1.0.0-rc10" dpi="144" arch="Win64" script="muParser" windows="12" expand="1" log="[2019-11-21 16:27:48&#9;Plot: ''Graph1'']&#10;Linear Regression of dataset: SmagPtypeNfacing_Hall Voltage, using function: A*x+B&#10;Sort: No&#10;Weighting Method: No weighting&#10;From x = 0.0000000000000e+00 to x = 3.0000000000000e+01&#10;&#10;Parameter                      Value                              Error                               &#10;-----------------------------------------------------------------&#10;B (y-intercept)                2.2727272727272e-02  5.4700956792481e-02  &#10;A (slope)                         1.9787878787879e-01  3.0820497580591e-03  &#10;-----------------------------------------------------------------&#10;Errors were scaled with sqrt(Chi^2/doF) = 9.6974431702591e-02&#10;&#10;Statistics                                       SmagPtypeNfacing_Hall Voltage   &#10;-----------------------------------------------------------&#10;N (data points)                              11                                                 &#10;Degrees of Freedom (doF)            9                                                   &#10;Chi^2/doF                                     9.4040404040404e-03                &#10;RSS (Residual Sum of Squares)      8.4636363636364e-02                &#10;R                                                   9.9891010949050e-01                &#10;R^2                                               9.9782140684233e-01                &#10;Adjusted R^2                                9.9757934093592e-01                &#10;RMSE (Root Mean Squared Error)  9.6974431702591e-02                &#10;-----------------------------------------------------------&#10;[2019-11-21 16:39:09&#9;Plot: ''SmagPtypeSGraph'']&#10;Linear Regression of dataset: Table1_Hall Voltage, using function: A*x+B&#10;Sort: No&#10;Weighting Method: No weighting&#10;From x = 0.0000000000000e+00 to x = 3.0000000000000e+01&#10;&#10;Parameter                        Value                                Error                                 &#10;--------------------------------------------------------------------&#10;B (y-intercept)                  3.1818181818182e-02    4.2386346711075e-02    &#10;A (slope)                           -2.5484848484848e-01  2.3882000843509e-03    &#10;--------------------------------------------------------------------&#10;Errors were scaled with sqrt(Chi^2/doF) = 7.5142961390037e-02&#10;&#10;Statistics                                       Table1_Hall Voltage                      &#10;------------------------------------------------------------&#10;N (data points)                              11                                                 &#10;Degrees of Freedom (doF)            9                                                   &#10;Chi^2/doF                                     5.6464646464647e-03                &#10;RSS (Residual Sum of Squares)      5.0818181818182e-02                &#10;R                                                   9.9960505876478e-01                &#10;R^2                                               9.9921027350814e-01                &#10;Adjusted R^2                                9.9912252612015e-01                &#10;RMSE (Root Mean Squared Error)  7.5142961390037e-02                &#10;------------------------------------------------------------&#10;[2019-11-21 16:49:26&#9;Plot: ''SmagNtypeNGraph'']&#10;Linear Regression of dataset: SmagNtypeNfacing_Hall Voltage, using function: A*x+B&#10;Sort: No&#10;Weighting Method: No weighting&#10;From x = 0.0000000000000e+00 to x = 3.0000000000000e+01&#10;&#10;Parameter                        Value                                Error                                 &#10;--------------------------------------------------------------------&#10;B (y-intercept)                  5.0000000000000e-02    2.9512413537370e-02    &#10;A (slope)                           -1.3424242424242e-01  1.6628361245610e-03    &#10;--------------------------------------------------------------------&#10;Errors were scaled with sqrt(Chi^2/doF) = 5.2319917214898e-02&#10;&#10;Statistics                                       SmagNtypeNfacing_Hall Voltage   &#10;------------------------------------------------------------&#10;N (data points)                              11                                                 &#10;Degrees of Freedom (doF)            9                                                   &#10;Chi^2/doF                                     2.7373737373737e-03                &#10;RSS (Residual Sum of Squares)      2.4636363636364e-02                &#10;R                                                   9.9931026488054e-01                &#10;R^2                                               9.9862100549562e-01                &#10;Adjusted R^2                                9.9846778388403e-01                &#10;RMSE (Root Mean Squared Error)  5.2319917214898e-02                &#10;------------------------------------------------------------&#10;[2019-11-21 16:54:44&#9;Plot: ''Graph1'']&#10;Linear Regression of dataset: SmagNtypeSfacing_Hall Voltage, using function: A*x+B&#10;Sort: No&#10;Weighting Method: No weighting&#10;From x = 0.0000000000000e+00 to x = 3.0000000000000e+01&#10;&#10;Parameter                      Value                              Error                               &#10;-----------------------------------------------------------------&#10;B (y-intercept)                3.6363636363637e-02  3.0843662181817e-02  &#10;A (slope)                         1.3878787878788e-01  1.7378434882914e-03  &#10;-----------------------------------------------------------------&#10;Errors were scaled with sqrt(Chi^2/doF) = 5.4679968817648e-02&#10;&#10;Statistics                                       SmagNtypeSfacing_Hall Voltage   &#10;-----------------------------------------------------------&#10;N (data points)                              11                                                 &#10;Degrees of Freedom (doF)            9                                                   &#10;Chi^2/doF                                     2.9898989898990e-03                &#10;RSS (Residual Sum of Squares)      2.6909090909091e-02                &#10;R                                                   9.9929519102042e-01                &#10;R^2                                               9.9859087879653e-01                &#10;Adjusted R^2                                9.9843430977393e-01                &#10;RMSE (Root Mean Squared Error)  5.4679968817648e-02                &#10;-----------------------------------------------------------&#10;">
-	<window type="1" name="SmagPtypeNfacing" date="2458808.6818905" x="1394" y="2" w="355" h="448" state="1">
+<qti app="QtiPlot" version="1.0.0-rc10" dpi="96" arch="Win64" script="muParser" windows="20" expand="1" log="[2019-11-21 16:27:48&#9;Plot: ''Graph1'']&#10;Linear Regression of dataset: SmagPtypeNfacing_Hall Voltage, using function: A*x+B&#10;Sort: No&#10;Weighting Method: No weighting&#10;From x = 0.0000000000000e+00 to x = 3.0000000000000e+01&#10;&#10;Parameter                      Value                              Error                               &#10;-----------------------------------------------------------------&#10;B (y-intercept)                2.2727272727272e-02  5.4700956792481e-02  &#10;A (slope)                         1.9787878787879e-01  3.0820497580591e-03  &#10;-----------------------------------------------------------------&#10;Errors were scaled with sqrt(Chi^2/doF) = 9.6974431702591e-02&#10;&#10;Statistics                                       SmagPtypeNfacing_Hall Voltage   &#10;-----------------------------------------------------------&#10;N (data points)                              11                                                 &#10;Degrees of Freedom (doF)            9                                                   &#10;Chi^2/doF                                     9.4040404040404e-03                &#10;RSS (Residual Sum of Squares)      8.4636363636364e-02                &#10;R                                                   9.9891010949050e-01                &#10;R^2                                               9.9782140684233e-01                &#10;Adjusted R^2                                9.9757934093592e-01                &#10;RMSE (Root Mean Squared Error)  9.6974431702591e-02                &#10;-----------------------------------------------------------&#10;[2019-11-21 16:39:09&#9;Plot: ''SmagPtypeSGraph'']&#10;Linear Regression of dataset: Table1_Hall Voltage, using function: A*x+B&#10;Sort: No&#10;Weighting Method: No weighting&#10;From x = 0.0000000000000e+00 to x = 3.0000000000000e+01&#10;&#10;Parameter                        Value                                Error                                 &#10;--------------------------------------------------------------------&#10;B (y-intercept)                  3.1818181818182e-02    4.2386346711075e-02    &#10;A (slope)                           -2.5484848484848e-01  2.3882000843509e-03    &#10;--------------------------------------------------------------------&#10;Errors were scaled with sqrt(Chi^2/doF) = 7.5142961390037e-02&#10;&#10;Statistics                                       Table1_Hall Voltage                      &#10;------------------------------------------------------------&#10;N (data points)                              11                                                 &#10;Degrees of Freedom (doF)            9                                                   &#10;Chi^2/doF                                     5.6464646464647e-03                &#10;RSS (Residual Sum of Squares)      5.0818181818182e-02                &#10;R                                                   9.9960505876478e-01                &#10;R^2                                               9.9921027350814e-01                &#10;Adjusted R^2                                9.9912252612015e-01                &#10;RMSE (Root Mean Squared Error)  7.5142961390037e-02                &#10;------------------------------------------------------------&#10;[2019-11-21 16:49:26&#9;Plot: ''SmagNtypeNGraph'']&#10;Linear Regression of dataset: SmagNtypeNfacing_Hall Voltage, using function: A*x+B&#10;Sort: No&#10;Weighting Method: No weighting&#10;From x = 0.0000000000000e+00 to x = 3.0000000000000e+01&#10;&#10;Parameter                        Value                                Error                                 &#10;--------------------------------------------------------------------&#10;B (y-intercept)                  5.0000000000000e-02    2.9512413537370e-02    &#10;A (slope)                           -1.3424242424242e-01  1.6628361245610e-03    &#10;--------------------------------------------------------------------&#10;Errors were scaled with sqrt(Chi^2/doF) = 5.2319917214898e-02&#10;&#10;Statistics                                       SmagNtypeNfacing_Hall Voltage   &#10;------------------------------------------------------------&#10;N (data points)                              11                                                 &#10;Degrees of Freedom (doF)            9                                                   &#10;Chi^2/doF                                     2.7373737373737e-03                &#10;RSS (Residual Sum of Squares)      2.4636363636364e-02                &#10;R                                                   9.9931026488054e-01                &#10;R^2                                               9.9862100549562e-01                &#10;Adjusted R^2                                9.9846778388403e-01                &#10;RMSE (Root Mean Squared Error)  5.2319917214898e-02                &#10;------------------------------------------------------------&#10;[2019-11-21 16:54:44&#9;Plot: ''Graph1'']&#10;Linear Regression of dataset: SmagNtypeSfacing_Hall Voltage, using function: A*x+B&#10;Sort: No&#10;Weighting Method: No weighting&#10;From x = 0.0000000000000e+00 to x = 3.0000000000000e+01&#10;&#10;Parameter                      Value                              Error                               &#10;-----------------------------------------------------------------&#10;B (y-intercept)                3.6363636363637e-02  3.0843662181817e-02  &#10;A (slope)                         1.3878787878788e-01  1.7378434882914e-03  &#10;-----------------------------------------------------------------&#10;Errors were scaled with sqrt(Chi^2/doF) = 5.4679968817648e-02&#10;&#10;Statistics                                       SmagNtypeSfacing_Hall Voltage   &#10;-----------------------------------------------------------&#10;N (data points)                              11                                                 &#10;Degrees of Freedom (doF)            9                                                   &#10;Chi^2/doF                                     2.9898989898990e-03                &#10;RSS (Residual Sum of Squares)      2.6909090909091e-02                &#10;R                                                   9.9929519102042e-01                &#10;R^2                                               9.9859087879653e-01                &#10;Adjusted R^2                                9.9843430977393e-01                &#10;RMSE (Root Mean Squared Error)  5.4679968817648e-02                &#10;-----------------------------------------------------------&#10;[2019-11-26 16:15:02&#9;Plot: ''Graph2'']&#10;Linear Regression of dataset: Table1_N-S N Voltage, using function: A*x+B&#10;Sort: No&#10;Weighting Method: No weighting&#10;From x = 0.0000000000000e+00 to x = 3.0000000000000e+01&#10;&#10;Parameter                          Value                                   Error                                   &#10;-------------------------------------------------------------------&#10;B (y-intercept)                   3.6363636363637e-02  3.0843662181817e-02  &#10;A (slope)                            1.3878787878788e-01  1.7378434882914e-03  &#10;-------------------------------------------------------------------&#10;Errors were scaled with sqrt(Chi^2/doF) = 5.4679968817648e-02&#10;&#10;Statistics                                            Table1_N-S N Voltage                     &#10;------------------------------------------------------------&#10;N (data points)                                 11                                                       &#10;Degrees of Freedom (doF)             9                                                         &#10;Chi^2/doF                                        2.9898989898990e-03                 &#10;RSS (Residual Sum of Squares)      2.6909090909091e-02                 &#10;R                                                         9.9929519102042e-01                 &#10;R^2                                                     9.9859087879653e-01                 &#10;Adjusted R^2                                    9.9843430977393e-01                 &#10;RMSE (Root Mean Squared Error)  5.4679968817648e-02                 &#10;------------------------------------------------------------&#10;[2019-11-26 16:15:34&#9;Plot: ''Graph2'']&#10;Linear Regression of dataset: Table1_S-N N Voltage, using function: A*x+B&#10;Sort: No&#10;Weighting Method: No weighting&#10;From x = 0.0000000000000e+00 to x = 3.0000000000000e+01&#10;&#10;Parameter                            Value                                     Error                                     &#10;----------------------------------------------------------------------&#10;B (y-intercept)                     5.0000000000000e-02    2.9512413537370e-02    &#10;A (slope)                              -1.3424242424242e-01  1.6628361245610e-03    &#10;----------------------------------------------------------------------&#10;Errors were scaled with sqrt(Chi^2/doF) = 5.2319917214898e-02&#10;&#10;Statistics                                            Table1_S-N N Voltage                     &#10;------------------------------------------------------------&#10;N (data points)                                 11                                                       &#10;Degrees of Freedom (doF)             9                                                         &#10;Chi^2/doF                                        2.7373737373737e-03                 &#10;RSS (Residual Sum of Squares)      2.4636363636364e-02                 &#10;R                                                         9.9931026488054e-01                 &#10;R^2                                                     9.9862100549562e-01                 &#10;Adjusted R^2                                    9.9846778388403e-01                 &#10;RMSE (Root Mean Squared Error)  5.2319917214898e-02                 &#10;------------------------------------------------------------&#10;[2019-11-26 16:15:37&#9;Plot: ''Graph2'']&#10;Linear Regression of dataset: Table1_N-S P Voltage, using function: A*x+B&#10;Sort: No&#10;Weighting Method: No weighting&#10;From x = 0.0000000000000e+00 to x = 3.0000000000000e+01&#10;&#10;Parameter                          Value                                   Error                                   &#10;-------------------------------------------------------------------&#10;B (y-intercept)                   2.2727272727272e-02  5.4700956792481e-02  &#10;A (slope)                            1.9787878787879e-01  3.0820497580591e-03  &#10;-------------------------------------------------------------------&#10;Errors were scaled with sqrt(Chi^2/doF) = 9.6974431702591e-02&#10;&#10;Statistics                                            Table1_N-S P Voltage                      &#10;------------------------------------------------------------&#10;N (data points)                                 11                                                       &#10;Degrees of Freedom (doF)             9                                                         &#10;Chi^2/doF                                        9.4040404040404e-03                 &#10;RSS (Residual Sum of Squares)      8.4636363636364e-02                 &#10;R                                                         9.9891010949050e-01                 &#10;R^2                                                     9.9782140684233e-01                 &#10;Adjusted R^2                                    9.9757934093592e-01                 &#10;RMSE (Root Mean Squared Error)  9.6974431702591e-02                 &#10;------------------------------------------------------------&#10;[2019-11-26 16:15:39&#9;Plot: ''Graph2'']&#10;Linear Regression of dataset: Table1_S-N P Voltage, using function: A*x+B&#10;Sort: No&#10;Weighting Method: No weighting&#10;From x = 0.0000000000000e+00 to x = 3.0000000000000e+01&#10;&#10;Parameter                            Value                                     Error                                     &#10;----------------------------------------------------------------------&#10;B (y-intercept)                     3.1818181818182e-02    4.2386346711075e-02    &#10;A (slope)                              -2.5484848484848e-01  2.3882000843509e-03    &#10;----------------------------------------------------------------------&#10;Errors were scaled with sqrt(Chi^2/doF) = 7.5142961390037e-02&#10;&#10;Statistics                                            Table1_S-N P Voltage                      &#10;------------------------------------------------------------&#10;N (data points)                                 11                                                       &#10;Degrees of Freedom (doF)             9                                                         &#10;Chi^2/doF                                        5.6464646464647e-03                 &#10;RSS (Residual Sum of Squares)      5.0818181818182e-02                 &#10;R                                                         9.9960505876478e-01                 &#10;R^2                                                     9.9921027350814e-01                 &#10;Adjusted R^2                                    9.9912252612015e-01                 &#10;RMSE (Root Mean Squared Error)  7.5142961390037e-02                 &#10;------------------------------------------------------------&#10;">
+	<window type="1" name="SmagPtypeNfacing" date="2458808.6818905" x="1045" y="6" w="355" h="448">
 		<tab rows="30" cols="2" labels="2">
 			<col name="Current" type="6" num="0" prec="13" plot="1" width="100" stat="0" unit="mA" data="0;3;6;9;12;15;18;21;24;27;30;"/>
 			<col name="Hall Voltage" type="6" num="0" prec="13" plot="2" width="100" stat="0" unit="mV" data="0;0.7;1.3;1.8;2.3;3;3.4;4.2;4.7;5.5;6;"/>
 		</tab>
 	</window>
-	<window type="3" name="SmagPtypeNGraph" date="2458808.6841406" x="355" y="0" w="1050" h="908" fw="2" fh="46" state="1" dpi="144">
-		<layout cw="1034" ch="820" w="904" h="678" left="5" right="5" top="5" bottom="5" rows="1" cols="1" vSpace="5" hSpace="5" hAlign="0" vAlign="0" align="0" common="0" link="0" scale="1" currentLayer="0" sPrint="0" cmPrint="0" atUnits="1" atdIndex="0" atPolicy="4" alMode="0" luMode="2"/>
-		<tab x="5" y="52" w="974" h="773" autoscale="1" maxMajorTicks="20" gap="1" scaleFont="1" dataMargins="1">
-			<page x="0.00483559" y="0.0634146" w="0.941973" h="0.942683"/>
-			<title text="Small Magnet P-type N facing" color="#000000" font="Lucida Sans Unicode,10,-1,5,75,0,0,0,0,0" align="4228" fmw="312"/>
+	<window type="1" name="Linear1" date="2458808.6859791" x="1405" y="0" w="355" h="448" state="-1" label="Linear Regression of SmagPtypeNfacing_Hall Voltage" title="2" comment="Linear Regression of SmagPtypeNfacing_Hall Voltage">
+		<tab rows="11" cols="2" labels="0">
+			<col name="1" type="6" num="0" prec="13" plot="1" width="100" stat="0" data="0;3;6;9;12;15;18;21;24;27;30;"/>
+			<col name="2" type="6" num="0" prec="13" plot="2" width="100" stat="0" data="0.0227272727272725;0.616363636363636;1.21;1.80363636363636;2.39727272727273;2.99090909090909;3.58454545454545;4.17818181818182;4.77181818181818;5.36545454545455;5.95909090909091;"/>
+		</tab>
+	</window>
+	<window type="1" name="SmagPtypeSfacing" date="2458808.6925841" x="690" y="3" w="355" h="448">
+		<tab rows="30" cols="2" labels="2">
+			<col name="Current" type="6" num="0" prec="13" plot="1" width="100" stat="0" unit="mA" data="0;3;6;9;12;15;18;21;24;27;30;"/>
+			<col name="Hall Voltage" type="6" num="0" prec="13" plot="2" width="100" stat="0" unit="mV" data="0;-0.7;-1.4;-2.3;-3.1;-3.7;-4.7;-5.3;-6.1;-6.8;-7.6;"/>
+		</tab>
+	</window>
+	<window type="1" name="Linear2" date="2458808.693857" x="1445" y="379" w="355" h="448" state="-1" label="Linear Regression of Table1_Hall Voltage" title="2" comment="Linear Regression of Table1_Hall Voltage">
+		<tab rows="11" cols="2" labels="0">
+			<col name="1" type="6" num="0" prec="13" plot="1" width="100" stat="0" data="0;3;6;9;12;15;18;21;24;27;30;"/>
+			<col name="2" type="6" num="0" prec="13" plot="2" width="100" stat="0" data="0.0318181818181822;-0.732727272727272;-1.49727272727273;-2.26181818181818;-3.02636363636364;-3.79090909090909;-4.55545454545455;-5.32;-6.08454545454545;-6.84909090909091;-7.61363636363636;"/>
+		</tab>
+	</window>
+	<window type="1" name="SmagNtypeNfacing" date="2458808.6984468" x="334" y="1" w="355" h="448">
+		<tab rows="30" cols="2" labels="2">
+			<col name="Current" type="6" num="0" prec="13" plot="1" width="100" stat="0" unit="mA" data="0;3;6;9;12;15;18;21;24;27;30;"/>
+			<col name="Hall Voltage" type="6" num="0" prec="13" plot="2" width="100" stat="0" unit="mV" data="0;-0.4;-0.7;-1.1;-1.5;-2;-2.4;-2.8;-3.1;-3.6;-4;"/>
+		</tab>
+	</window>
+	<window type="1" name="Linear3" date="2458808.7009992" x="1445" y="0" w="355" h="448" state="-1" label="Linear Regression of SmagNtypeNfacing_Hall Voltage" title="2" comment="Linear Regression of SmagNtypeNfacing_Hall Voltage">
+		<tab rows="11" cols="2" labels="0">
+			<col name="1" type="6" num="0" prec="13" plot="1" width="100" stat="0" data="0;3;6;9;12;15;18;21;24;27;30;"/>
+			<col name="2" type="6" num="0" prec="13" plot="2" width="100" stat="0" data="0.0500000000000003;-0.352727272727272;-0.755454545454545;-1.15818181818182;-1.56090909090909;-1.96363636363636;-2.36636363636364;-2.76909090909091;-3.17181818181818;-3.57454545454545;-3.97727272727273;"/>
+		</tab>
+	</window>
+	<window type="1" name="SmagNtypeSfacing" date="2458808.7028531" x="0" y="0" w="355" h="448">
+		<tab rows="30" cols="2" labels="2">
+			<col name="Current" type="6" num="0" prec="13" plot="1" width="100" stat="0" unit="mA" data="0;3;6;9;12;15;18;21;24;27;30;"/>
+			<col name="Hall Voltage" type="6" num="0" prec="13" plot="2" width="100" stat="0" unit="mV" data="0;0.4;0.9;1.3;1.8;2.1;2.5;3;3.4;3.7;4.2;"/>
+		</tab>
+	</window>
+	<window type="1" name="Linear4" date="2458808.7046842" x="0" y="379" w="355" h="448" state="-1" label="Linear Regression of SmagNtypeSfacing_Hall Voltage" title="2" comment="Linear Regression of SmagNtypeSfacing_Hall Voltage">
+		<tab rows="11" cols="2" labels="0">
+			<col name="1" type="6" num="0" prec="13" plot="1" width="100" stat="0" data="0;3;6;9;12;15;18;21;24;27;30;"/>
+			<col name="2" type="6" num="0" prec="13" plot="2" width="100" stat="0" data="0.0363636363636366;0.452727272727273;0.869090909090909;1.28545454545455;1.70181818181818;2.11818181818182;2.53454545454545;2.95090909090909;3.36727272727273;3.78363636363636;4.2;"/>
+		</tab>
+	</window>
+	<window type="3" name="SmagPtypeNGraph" date="2458808.6841406" x="0" y="0" w="1050" h="894" fw="2" fh="32" state="1" dpi="96">
+		<layout cw="1034" ch="835" w="904" h="678" left="5" right="5" top="5" bottom="5" rows="1" cols="1" vSpace="5" hSpace="5" hAlign="0" vAlign="0" align="0" common="0" link="0" scale="1" currentLayer="0" sPrint="0" cmPrint="0" atUnits="1" atdIndex="0" atPolicy="4" alMode="0" luMode="2"/>
+		<tab x="5" y="52" w="993" h="773" autoscale="1" maxMajorTicks="20" gap="1" scaleFont="1" dataMargins="1">
+			<page x="0.00483559" y="0.0622754" w="0.960348" h="0.925749"/>
+			<title text="Small Magnet P-type N facing" color="#000000" font="Lucida Sans Unicode,15,-1,5,75,0,0,0,0,0" align="4228" fmw="312"/>
 			<frame bg="#ffffff,0"/>
 			<canvas x="65" y="90" w="904" h="678" fixRatio="0" bg="#ffffff,0"/>
 			<grid xAxis="2" yAxis="0">
@@ -27,18 +69,19 @@
 			<axis id="0" on="1" type="0" format="0" prec="6" lw="1">
 				<div from="-1" to="7" step="0" maj="9" min="5" type="0"/>
 				<ticks maj="1" majl="9" min="1" minl="5"/>
-				<title text="%(?Y)" color="#000000" font="Lucida Sans Unicode,8,-1,5,75,0,0,0,0,0" align="5124" space="2" fmw="43"/>
-				<labels space="4" font="Lucida Sans Unicode,8,-1,5,50,0,0,0,0,0" align="0"/>
+				<title text="%(?Y)" color="#000000" font="Lucida Sans Unicode,12,-1,5,75,0,0,0,0,0" align="5124" space="2" fmw="43"/>
+				<labels space="4" font="Lucida Sans Unicode,12,-1,5,50,0,0,0,0,0" align="0"/>
 			</axis>
 			<axis id="1" on="1" type="0" format="0" prec="6" lw="1">
 				<div from="-1" to="7" step="0" maj="9" min="5" type="0"/>
 				<ticks maj="1" majl="9" min="1" minl="5"/>
+				<title text=" " color="#000000" font="Lucida Sans Unicode,8.25,-1,5,50,0,0,0,0,0" align="132" space="2" fmw="3"/>
 			</axis>
 			<axis id="2" on="1" type="0" format="0" prec="6" lw="1">
 				<div from="-5" to="35" step="0" maj="9" min="5" type="0"/>
 				<ticks maj="1" majl="9" min="1" minl="5"/>
-				<title text="%(?X)" color="#000000" font="Lucida Sans Unicode,8,-1,5,75,0,0,0,0,0" align="5124" space="2" fmw="43"/>
-				<labels space="4" font="Lucida Sans Unicode,8,-1,5,50,0,0,0,0,0" align="0"/>
+				<title text="%(?X)" color="#000000" font="Lucida Sans Unicode,12,-1,5,75,0,0,0,0,0" align="5124" space="2" fmw="43"/>
+				<labels space="4" font="Lucida Sans Unicode,12,-1,5,50,0,0,0,0,0" align="0"/>
 			</axis>
 			<axis id="3" on="1" type="0" format="0" prec="6" lw="1">
 				<div from="-5" to="35" step="0" maj="9" min="5" type="0"/>
@@ -50,23 +93,11 @@
 			</filter>
 		</tab>
 	</window>
-	<window type="1" name="Linear1" date="2458808.6859791" x="1405" y="0" w="355" h="448" state="-1" label="Linear Regression of SmagPtypeNfacing_Hall Voltage" title="2" comment="Linear Regression of SmagPtypeNfacing_Hall Voltage">
-		<tab rows="11" cols="2" labels="0">
-			<col name="1" type="6" num="0" prec="13" plot="1" width="100" stat="0" data="0;3;6;9;12;15;18;21;24;27;30;"/>
-			<col name="2" type="6" num="0" prec="13" plot="2" width="100" stat="0" data="0.0227272727272725;0.616363636363636;1.21;1.80363636363636;2.39727272727273;2.99090909090909;3.58454545454545;4.17818181818182;4.77181818181818;5.36545454545455;5.95909090909091;"/>
-		</tab>
-	</window>
-	<window type="1" name="SmagPtypeSfacing" date="2458808.6925841" x="1405" y="0" w="355" h="448" state="1">
-		<tab rows="30" cols="2" labels="2">
-			<col name="Current" type="6" num="0" prec="13" plot="1" width="100" stat="0" unit="mA" data="0;3;6;9;12;15;18;21;24;27;30;"/>
-			<col name="Hall Voltage" type="6" num="0" prec="13" plot="2" width="100" stat="0" unit="mV" data="0;-0.7;-1.4;-2.3;-3.1;-3.7;-4.7;-5.3;-6.1;-6.8;-7.6;"/>
-		</tab>
-	</window>
-	<window type="3" name="SmagPtypeSGraph" date="2458808.6930874" x="689" y="2" w="1050" h="908" dpi="144">
-		<layout cw="1034" ch="820" w="904" h="678" left="5" right="5" top="5" bottom="5" rows="1" cols="1" vSpace="5" hSpace="5" hAlign="0" vAlign="0" align="0" common="0" link="0" scale="1" currentLayer="0" sPrint="0" cmPrint="0" atUnits="1" atdIndex="0" atPolicy="4" alMode="0" luMode="2"/>
-		<tab x="5" y="5" w="1024" h="820" autoscale="1" maxMajorTicks="20" gap="1" scaleFont="1" dataMargins="1">
-			<page x="0.00483559" y="0.00609756" w="0.990329" h="1"/>
-			<title text="Small Magnet P-type S facing" color="#000000" font="Lucida Sans Unicode,10.608,-1,5,75,0,0,0,0,0" align="4228" fmw="329"/>
+	<window type="3" name="SmagPtypeSGraph" date="2458808.6930874" x="689" y="2" w="1050" h="908" fw="2" fh="32" state="1" dpi="96">
+		<layout cw="1034" ch="849" w="904" h="678" left="5" right="5" top="5" bottom="5" rows="1" cols="1" vSpace="5" hSpace="5" hAlign="0" vAlign="0" align="0" common="0" link="0" scale="1" currentLayer="0" sPrint="0" cmPrint="0" atUnits="1" atdIndex="0" atPolicy="4" alMode="0" luMode="2"/>
+		<tab x="5" y="5" w="1042" h="820" autoscale="1" maxMajorTicks="20" gap="1" scaleFont="1" dataMargins="1">
+			<page x="0.00483559" y="0.00588928" w="1.00774" h="0.965842"/>
+			<title text="Small Magnet P-type S facing" color="#000000" font="Lucida Sans Unicode,15.912,-1,5,75,0,0,0,0,0" align="4228" fmw="329"/>
 			<frame bg="#ffffff,0"/>
 			<canvas x="68" y="45" w="950" h="721" fixRatio="0" bg="#ffffff,0"/>
 			<grid xAxis="2" yAxis="0">
@@ -82,18 +113,19 @@
 			<axis id="0" on="1" type="0" format="0" prec="6" lw="1">
 				<div from="-8" to="1" step="0" maj="10" min="5" type="0"/>
 				<ticks maj="1" majl="9" min="1" minl="5"/>
-				<title text="%(?Y)" color="#000000" font="Lucida Sans Unicode,8.48642,-1,5,75,0,0,0,0,0" align="5124" space="2" fmw="46"/>
-				<labels space="4" font="Lucida Sans Unicode,8.48642,-1,5,50,0,0,0,0,0" align="0"/>
+				<title text="%(?Y)" color="#000000" font="Lucida Sans Unicode,12.7296,-1,5,75,0,0,0,0,0" align="5124" space="2" fmw="46"/>
+				<labels space="4" font="Lucida Sans Unicode,12.7296,-1,5,50,0,0,0,0,0" align="0"/>
 			</axis>
 			<axis id="1" on="1" type="0" format="0" prec="6" lw="1">
 				<div from="-8" to="1" step="0" maj="10" min="5" type="0"/>
 				<ticks maj="1" majl="9" min="1" minl="5"/>
+				<title text=" " color="#000000" font="Lucida Sans Unicode,8.25,-1,5,50,0,0,0,0,0" align="132" space="2" fmw="3"/>
 			</axis>
 			<axis id="2" on="1" type="0" format="0" prec="6" lw="1">
 				<div from="-5" to="35" step="0" maj="9" min="5" type="0"/>
 				<ticks maj="1" majl="9" min="1" minl="5"/>
-				<title text="%(?X)" color="#000000" font="Lucida Sans Unicode,8.48642,-1,5,75,0,0,0,0,0" align="5124" space="2" fmw="46"/>
-				<labels space="4" font="Lucida Sans Unicode,8.48642,-1,5,50,0,0,0,0,0" align="0"/>
+				<title text="%(?X)" color="#000000" font="Lucida Sans Unicode,12.7296,-1,5,75,0,0,0,0,0" align="5124" space="2" fmw="46"/>
+				<labels space="4" font="Lucida Sans Unicode,12.7296,-1,5,50,0,0,0,0,0" align="0"/>
 			</axis>
 			<axis id="3" on="1" type="0" format="0" prec="6" lw="1">
 				<div from="-5" to="35" step="0" maj="9" min="5" type="0"/>
@@ -105,23 +137,11 @@
 			</filter>
 		</tab>
 	</window>
-	<window type="1" name="Linear2" date="2458808.693857" x="1445" y="379" w="355" h="448" state="-1" label="Linear Regression of Table1_Hall Voltage" title="2" comment="Linear Regression of Table1_Hall Voltage">
-		<tab rows="11" cols="2" labels="0">
-			<col name="1" type="6" num="0" prec="13" plot="1" width="100" stat="0" data="0;3;6;9;12;15;18;21;24;27;30;"/>
-			<col name="2" type="6" num="0" prec="13" plot="2" width="100" stat="0" data="0.0318181818181822;-0.732727272727272;-1.49727272727273;-2.26181818181818;-3.02636363636364;-3.79090909090909;-4.55545454545455;-5.32;-6.08454545454545;-6.84909090909091;-7.61363636363636;"/>
-		</tab>
-	</window>
-	<window type="1" name="SmagNtypeNfacing" date="2458808.6984468" x="334" y="1" w="355" h="448">
-		<tab rows="30" cols="2" labels="2">
-			<col name="Current" type="6" num="0" prec="13" plot="1" width="100" stat="0" unit="mA" data="0;3;6;9;12;15;18;21;24;27;30;"/>
-			<col name="Hall Voltage" type="6" num="0" prec="13" plot="2" width="100" stat="0" unit="mV" data="0;-0.4;-0.7;-1.1;-1.5;-2;-2.4;-2.8;-3.1;-3.6;-4;"/>
-		</tab>
-	</window>
-	<window type="3" name="SmagNtypeNGraph" date="2458808.700053" x="640" y="0" w="1050" h="908" fw="2" fh="46" state="1" dpi="144">
-		<layout cw="1034" ch="820" w="904" h="678" left="5" right="5" top="5" bottom="5" rows="1" cols="1" vSpace="5" hSpace="5" hAlign="0" vAlign="0" align="0" common="0" link="0" scale="1" currentLayer="0" sPrint="0" cmPrint="0" atUnits="1" atdIndex="0" atPolicy="4" alMode="0" luMode="2"/>
-		<tab x="5" y="52" w="974" h="773" autoscale="1" maxMajorTicks="20" gap="1" scaleFont="1" dataMargins="1">
-			<page x="0.00483559" y="0.0634146" w="0.941973" h="0.942683"/>
-			<title text="Small Magnet N-type N facing" color="#000000" font="Lucida Sans Unicode,10,-1,5,75,0,0,0,0,0" align="4228" fmw="316"/>
+	<window type="3" name="SmagNtypeNGraph" date="2458808.700053" x="0" y="0" w="1050" h="894" fw="2" fh="32" state="1" dpi="96">
+		<layout cw="1034" ch="835" w="904" h="678" left="5" right="5" top="5" bottom="5" rows="1" cols="1" vSpace="5" hSpace="5" hAlign="0" vAlign="0" align="0" common="0" link="0" scale="1" currentLayer="0" sPrint="0" cmPrint="0" atUnits="1" atdIndex="0" atPolicy="4" alMode="0" luMode="2"/>
+		<tab x="5" y="52" w="993" h="773" autoscale="1" maxMajorTicks="20" gap="1" scaleFont="1" dataMargins="1">
+			<page x="0.00483559" y="0.0622754" w="0.960348" h="0.925749"/>
+			<title text="Small Magnet N-type N facing" color="#000000" font="Lucida Sans Unicode,15,-1,5,75,0,0,0,0,0" align="4228" fmw="316"/>
 			<frame bg="#ffffff,0"/>
 			<canvas x="65" y="90" w="904" h="678" fixRatio="0" bg="#ffffff,0"/>
 			<grid xAxis="2" yAxis="0">
@@ -137,18 +157,19 @@
 			<axis id="0" on="1" type="0" format="0" prec="6" lw="1">
 				<div from="-5" to="1" step="0" maj="7" min="5" type="0"/>
 				<ticks maj="1" majl="9" min="1" minl="5"/>
-				<title text="%(?Y)" color="#000000" font="Lucida Sans Unicode,8,-1,5,75,0,0,0,0,0" align="5124" space="2" fmw="43"/>
-				<labels space="4" font="Lucida Sans Unicode,8,-1,5,50,0,0,0,0,0" align="0"/>
+				<title text="%(?Y)" color="#000000" font="Lucida Sans Unicode,12,-1,5,75,0,0,0,0,0" align="5124" space="2" fmw="43"/>
+				<labels space="4" font="Lucida Sans Unicode,12,-1,5,50,0,0,0,0,0" align="0"/>
 			</axis>
 			<axis id="1" on="1" type="0" format="0" prec="6" lw="1">
 				<div from="-5" to="1" step="0" maj="7" min="5" type="0"/>
 				<ticks maj="1" majl="9" min="1" minl="5"/>
+				<title text=" " color="#000000" font="Lucida Sans Unicode,8.25,-1,5,50,0,0,0,0,0" align="132" space="2" fmw="3"/>
 			</axis>
 			<axis id="2" on="1" type="0" format="0" prec="6" lw="1">
 				<div from="-5" to="35" step="0" maj="9" min="5" type="0"/>
 				<ticks maj="1" majl="9" min="1" minl="5"/>
-				<title text="%(?X)" color="#000000" font="Lucida Sans Unicode,8,-1,5,75,0,0,0,0,0" align="5124" space="2" fmw="43"/>
-				<labels space="4" font="Lucida Sans Unicode,8,-1,5,50,0,0,0,0,0" align="0"/>
+				<title text="%(?X)" color="#000000" font="Lucida Sans Unicode,12,-1,5,75,0,0,0,0,0" align="5124" space="2" fmw="43"/>
+				<labels space="4" font="Lucida Sans Unicode,12,-1,5,50,0,0,0,0,0" align="0"/>
 			</axis>
 			<axis id="3" on="1" type="0" format="0" prec="6" lw="1">
 				<div from="-5" to="35" step="0" maj="9" min="5" type="0"/>
@@ -160,23 +181,11 @@
 			</filter>
 		</tab>
 	</window>
-	<window type="1" name="Linear3" date="2458808.7009992" x="1445" y="0" w="355" h="448" state="-1" label="Linear Regression of SmagNtypeNfacing_Hall Voltage" title="2" comment="Linear Regression of SmagNtypeNfacing_Hall Voltage">
-		<tab rows="11" cols="2" labels="0">
-			<col name="1" type="6" num="0" prec="13" plot="1" width="100" stat="0" data="0;3;6;9;12;15;18;21;24;27;30;"/>
-			<col name="2" type="6" num="0" prec="13" plot="2" width="100" stat="0" data="0.0500000000000003;-0.352727272727272;-0.755454545454545;-1.15818181818182;-1.56090909090909;-1.96363636363636;-2.36636363636364;-2.76909090909091;-3.17181818181818;-3.57454545454545;-3.97727272727273;"/>
-		</tab>
-	</window>
-	<window type="1" name="SmagNtypeSfacing" date="2458808.7028531" x="0" y="0" w="355" h="448">
-		<tab rows="30" cols="2" labels="2">
-			<col name="Current" type="6" num="0" prec="13" plot="1" width="100" stat="0" unit="mA" data="0;3;6;9;12;15;18;21;24;27;30;"/>
-			<col name="Hall Voltage" type="6" num="0" prec="13" plot="2" width="100" stat="0" unit="mV" data="0;0.4;0.9;1.3;1.8;2.1;2.5;3;3.4;3.7;4.2;"/>
-		</tab>
-	</window>
-	<window type="3" name="Graph1" date="2458808.7042555" x="159" y="-24" w="1050" h="908" active="1" dpi="144">
-		<layout cw="1034" ch="820" w="904" h="678" left="5" right="5" top="5" bottom="5" rows="1" cols="1" vSpace="5" hSpace="5" hAlign="0" vAlign="0" align="0" common="0" link="0" scale="1" currentLayer="0" sPrint="0" cmPrint="0" atUnits="1" atdIndex="0" atPolicy="4" alMode="0" luMode="2"/>
-		<tab x="5" y="52" w="974" h="773" autoscale="1" maxMajorTicks="20" gap="1" scaleFont="1" dataMargins="1">
-			<page x="0.00483559" y="0.0634146" w="0.941973" h="0.942683"/>
-			<title text="Small Magnet N-type S facing" color="#000000" font="Lucida Sans Unicode,10,-1,5,75,0,0,0,0,0" align="4228" fmw="312"/>
+	<window type="3" name="Graph1" date="2458808.7042555" x="159" y="-24" w="1050" h="908" fw="2" fh="32" state="1" dpi="96">
+		<layout cw="1034" ch="849" w="904" h="678" left="5" right="5" top="5" bottom="5" rows="1" cols="1" vSpace="5" hSpace="5" hAlign="0" vAlign="0" align="0" common="0" link="0" scale="1" currentLayer="0" sPrint="0" cmPrint="0" atUnits="1" atdIndex="0" atPolicy="4" alMode="0" luMode="2"/>
+		<tab x="5" y="52" w="993" h="773" autoscale="1" maxMajorTicks="20" gap="1" scaleFont="1" dataMargins="1">
+			<page x="0.00483559" y="0.0612485" w="0.960348" h="0.910483"/>
+			<title text="Small Magnet N-type S facing" color="#000000" font="Lucida Sans Unicode,15,-1,5,75,0,0,0,0,0" align="4228" fmw="312"/>
 			<frame bg="#ffffff,0"/>
 			<canvas x="65" y="90" w="904" h="678" fixRatio="0" bg="#ffffff,0"/>
 			<grid xAxis="2" yAxis="0">
@@ -192,18 +201,19 @@
 			<axis id="0" on="1" type="0" format="0" prec="6" lw="1">
 				<div from="-1" to="5" step="0" maj="7" min="5" type="0"/>
 				<ticks maj="1" majl="9" min="1" minl="5"/>
-				<title text="%(?Y)" color="#000000" font="Lucida Sans Unicode,8,-1,5,75,0,0,0,0,0" align="5124" space="2" fmw="43"/>
-				<labels space="4" font="Lucida Sans Unicode,8,-1,5,50,0,0,0,0,0" align="0"/>
+				<title text="%(?Y)" color="#000000" font="Lucida Sans Unicode,12,-1,5,75,0,0,0,0,0" align="5124" space="2" fmw="43"/>
+				<labels space="4" font="Lucida Sans Unicode,12,-1,5,50,0,0,0,0,0" align="0"/>
 			</axis>
 			<axis id="1" on="1" type="0" format="0" prec="6" lw="1">
 				<div from="-1" to="5" step="0" maj="7" min="5" type="0"/>
 				<ticks maj="1" majl="9" min="1" minl="5"/>
+				<title text=" " color="#000000" font="Lucida Sans Unicode,8.25,-1,5,50,0,0,0,0,0" align="132" space="2" fmw="3"/>
 			</axis>
 			<axis id="2" on="1" type="0" format="0" prec="6" lw="1">
 				<div from="-5" to="35" step="0" maj="9" min="5" type="0"/>
 				<ticks maj="1" majl="9" min="1" minl="5"/>
-				<title text="%(?X)" color="#000000" font="Lucida Sans Unicode,8,-1,5,75,0,0,0,0,0" align="5124" space="2" fmw="43"/>
-				<labels space="4" font="Lucida Sans Unicode,8,-1,5,50,0,0,0,0,0" align="0"/>
+				<title text="%(?X)" color="#000000" font="Lucida Sans Unicode,12,-1,5,75,0,0,0,0,0" align="5124" space="2" fmw="43"/>
+				<labels space="4" font="Lucida Sans Unicode,12,-1,5,50,0,0,0,0,0" align="0"/>
 			</axis>
 			<axis id="3" on="1" type="0" format="0" prec="6" lw="1">
 				<div from="-5" to="35" step="0" maj="9" min="5" type="0"/>
@@ -215,10 +225,177 @@
 			</filter>
 		</tab>
 	</window>
-	<window type="1" name="Linear4" date="2458808.7046842" x="0" y="379" w="355" h="448" state="-1" label="Linear Regression of SmagNtypeSfacing_Hall Voltage" title="2" comment="Linear Regression of SmagNtypeSfacing_Hall Voltage">
+	<window type="1" name="DataTable" date="2458813.6697337" x="80" y="499" w="1587" h="322" state="1">
+		<tab rows="30" cols="8" labels="6">
+			<col name="N-S N Current" type="6" num="0" prec="13" plot="1" width="149" stat="0" unit="mA" data="0;3;6;9;12;15;18;21;24;27;30;"/>
+			<col name="N-S N Voltage" type="6" num="0" prec="13" plot="2" width="175" stat="0" unit="mV" data="0;0.4;0.9;1.3;1.8;2.1;2.5;3;3.4;3.7;4.2;"/>
+			<col name="S-N N Current" type="6" num="0" prec="13" plot="1" width="153" stat="0" unit="mA" data="0;3;6;9;12;15;18;21;24;27;30;"/>
+			<col name="S-N N Voltage" type="6" num="0" prec="13" plot="2" width="153" stat="0" unit="mV" data="0;-0.4;-0.7;-1.1;-1.5;-2;-2.4;-2.8;-3.1;-3.6;-4;"/>
+			<col name="N-S P Current" type="6" num="0" prec="13" plot="1" width="168" stat="0" unit="mA" data="0;3;6;9;12;15;18;21;24;27;30;"/>
+			<col name="N-S P Voltage" type="6" num="0" prec="13" plot="2" width="162" stat="0" unit="mV" data="0;0.7;1.3;1.8;2.3;3;3.4;4.2;4.7;5.5;6;"/>
+			<col name="S-N P Current" type="6" num="0" prec="13" plot="1" width="163" stat="0" unit="mA" data="0;3;6;9;12;15;18;21;24;27;30;"/>
+			<col name="S-N P Voltage" type="6" num="0" prec="13" plot="2" width="200" stat="0" unit="mV" data="0;-0.7;-1.4;-2.3;-3.1;-3.7;-4.7;-5.3;-6.1;-6.8;-7.6;"/>
+		</tab>
+	</window>
+	<window type="3" name="maingraph" date="2458813.6738667" x="1049" y="169" w="1139" h="641" dpi="96">
+		<layout cw="1123" ch="582" w="383" h="287" left="5" right="5" top="5" bottom="5" rows="1" cols="1" vSpace="5" hSpace="5" hAlign="0" vAlign="0" align="0" common="0" link="0" scale="1" currentLayer="0" sPrint="0" cmPrint="0" atUnits="1" atdIndex="0" atPolicy="4" alMode="0" luMode="2"/>
+		<tab x="94" y="-6" w="870" h="584" autoscale="1" maxMajorTicks="20" gap="1" scaleFont="1" dataMargins="1">
+			<page x="0.0837044" y="-0.0103093" w="0.774711" h="1.00344"/>
+			<frame bg="#ffffff,0"/>
+			<canvas x="169" y="10" w="779" h="498" fixRatio="0" bg="#ffffff,0"/>
+			<grid xAxis="2" yAxis="0"/>
+			<curve type="1" z="21" table="DataTable" x="N-S N Current" y="N-S N Voltage" from="0" to="-1" line="0" lc="#000000" lw="1" ls="0" brc="#000000" brs="0">
+				<symbol style="1" size="7" lc="#000000" lw="1" ls="0" brc="#000000"/>
+			</curve>
+			<curve type="1" z="22" table="DataTable" x="S-N N Current" y="S-N N Voltage" from="0" to="-1" line="0" lc="#ff0000" lw="1" ls="0" brc="#000000" brs="0">
+				<symbol style="2" size="7" lc="#ff0000" lw="1" ls="0" brc="#ff0000"/>
+			</curve>
+			<curve type="1" z="23" table="DataTable" x="N-S P Current" y="N-S P Voltage" from="0" to="-1" line="0" lc="#00ff00" lw="1" ls="0" brc="#000000" brs="0">
+				<symbol style="3" size="7" lc="#00ff00" lw="1" ls="0" brc="#00ff00"/>
+			</curve>
+			<curve type="1" z="24" table="DataTable" x="S-N P Current" y="S-N P Voltage" from="0" to="-1" line="0" lc="#0000ff" lw="1" ls="0" brc="#000000" brs="0">
+				<symbol style="4" size="7" lc="#0000ff" lw="1" ls="0" brc="#0000ff"/>
+			</curve>
+			<curve type="19" z="25" name="LinearFit1" f="0" y="A*x+B" from="0" to="30" points="2" line="1" lc="#000000" lw="1" ls="0" brc="#000000" brs="0">
+				<param name="A" val="0.138787878787879"/>
+				<param name="B" val="0.0363636363636366"/>
+			</curve>
+			<curve type="0" z="26" table="N-SN" x="1" y="residue" from="0" to="-1" line="1" lc="#00ff00" lw="1" ls="0" brc="#000000" brs="0" on="0"/>
+			<curve type="19" z="27" name="LinearFit2" f="0" y="A*x+B" from="0" to="30" points="1000" line="1" lc="#ff0000" lw="1" ls="0" brc="#000000" brs="0">
+				<param name="A" val="-0.134242424242424"/>
+				<param name="B" val="0.0500000000000003"/>
+			</curve>
+			<curve type="0" z="28" table="S-NN" x="1" y="residue" from="0" to="-1" line="1" lc="#00ff00" lw="1" ls="0" brc="#000000" brs="0" on="0"/>
+			<curve type="19" z="29" name="LinearFit3" f="0" y="A*x+B" from="0" to="30" points="1000" line="1" lc="#00ff00" lw="1" ls="0" brc="#000000" brs="0">
+				<param name="A" val="0.197878787878788"/>
+				<param name="B" val="0.0227272727272725"/>
+			</curve>
+			<curve type="0" z="30" table="N-SP" x="1" y="residue" from="0" to="-1" line="1" lc="#00ff00" lw="1" ls="0" brc="#000000" brs="0" on="0"/>
+			<curve type="19" z="31" name="LinearFit4" f="0" y="A*x+B" from="0" to="30" points="1000" line="1" lc="#0000ff" lw="1" ls="0" brc="#000000" brs="0">
+				<param name="A" val="-0.254848484848485"/>
+				<param name="B" val="0.0318181818181822"/>
+			</curve>
+			<curve type="0" z="32" table="S-NP" x="1" y="residue" from="0" to="-1" line="1" lc="#00ff00" lw="1" ls="0" brc="#000000" brs="0" on="0"/>
+			<axis id="0" on="1" type="0" format="0" prec="6" lw="1">
+				<div from="-7.83556116015133" to="6.56443883984868" step="0" maj="7" min="5" type="0"/>
+				<ticks maj="1" majl="15" min="1" minl="6"/>
+				<title text="Hall Voltage (mV)" color="#000000" font="Lucida Sans Unicode,15.0548,-1,5,75,0,0,0,0,0" align="5124" space="4" fmw="185"/>
+				<labels space="4" font="Lucida Sans Unicode,13.2584,-1,5,75,0,0,0,0,0" align="0"/>
+			</axis>
+			<axis id="1" on="1" type="0" format="0" prec="6" lw="1">
+				<div from="-7.83556116015133" to="6.56443883984868" step="0" maj="7" min="5" type="0"/>
+				<ticks maj="1" majl="15" min="1" minl="6"/>
+			</axis>
+			<axis id="2" on="1" type="0" format="0" prec="6" lw="1">
+				<div from="-3.34641006661732" to="32.6535899333827" step="0" maj="7" min="5" type="0"/>
+				<ticks maj="1" majl="15" min="1" minl="6"/>
+				<title text="Current (mA)" color="#000000" font="Lucida Sans Unicode,15.6821,-1,5,75,0,0,0,0,0" align="5124" space="2" fmw="146"/>
+				<labels space="4" font="Lucida Sans Unicode,13.2584,-1,5,75,0,0,0,0,0" align="0"/>
+			</axis>
+			<axis id="3" on="1" type="0" format="0" prec="6" lw="1">
+				<div from="-3.34641006661732" to="32.6535899333827" step="0" maj="7" min="5" type="0"/>
+				<ticks maj="1" majl="15" min="1" minl="6"/>
+			</axis>
+			<item type="2" x="-3.05329385640266" y="6.40100882723834" frame="1" lc="#000000" lw="1" ls="0" bg="#ffffff,0" onTop="1" at="0" on="1" auto="1" font="Lucida Sans Unicode,15.6821,-1,5,50,0,0,0,0,0" text="\l(1)%(1)&#10;\l(2)%(2)&#10;\l(3)%(3)&#10;\l(4)%(4)"/>
+			<filter type="0" inCrv="0" from="0" to="30" outCrv="4" points="2" recalc="1" sort="0" fmt="e" prec="13" modifiedData="0" sclErr="0" chi2="0.0269090909090909" func="1" residualTable="N-SN" residualCrv="5">
+				<parameter name="B" val="0.0363636363636366" explain="y-intercept" err="0.000951331496786041"/>
+				<parameter name="A" val="0.138787878787879" explain="slope" err="3.02009998979695e-06"/>
+			</filter>
+			<filter type="0" inCrv="1" from="0" to="30" outCrv="6" points="1000" recalc="1" sort="0" fmt="e" prec="13" modifiedData="0" sclErr="0" chi2="0.0246363636363636" func="1" residualTable="S-NN" residualCrv="7">
+				<parameter name="B" val="0.0500000000000003" explain="y-intercept" err="0.000870982552800734"/>
+				<parameter name="A" val="-0.134242424242424" explain="slope" err="2.76502397714519e-06"/>
+			</filter>
+			<filter type="0" inCrv="2" from="0" to="30" outCrv="8" points="1000" recalc="1" sort="0" fmt="e" prec="13" modifiedData="0" sclErr="0" chi2="0.0846363636363636" func="1" residualTable="N-SP" residualCrv="9">
+				<parameter name="B" val="0.0227272727272725" explain="y-intercept" err="0.00299219467401285"/>
+				<parameter name="A" val="0.197878787878788" explain="slope" err="9.49903071115192e-06"/>
+			</filter>
+			<filter type="0" inCrv="3" from="0" to="30" outCrv="10" points="1000" recalc="1" sort="0" fmt="e" prec="13" modifiedData="0" sclErr="0" chi2="0.0508181818181819" func="1" residualTable="S-NP" residualCrv="11">
+				<parameter name="B" val="0.0318181818181822" explain="y-intercept" err="0.00179660238751148"/>
+				<parameter name="A" val="-0.254848484848485" explain="slope" err="5.70349964289359e-06"/>
+			</filter>
+		</tab>
+	</window>
+	<window type="1" name="N-SN" date="2458813.6771154" x="205" y="22" w="255" h="322" state="1" label="Residuals of Linear Regression" title="2">
 		<tab rows="11" cols="2" labels="0">
-			<col name="1" type="6" num="0" prec="13" plot="1" width="100" stat="0" data="0;3;6;9;12;15;18;21;24;27;30;"/>
-			<col name="2" type="6" num="0" prec="13" plot="2" width="100" stat="0" data="0.0363636363636366;0.452727272727273;0.869090909090909;1.28545454545455;1.70181818181818;2.11818181818182;2.53454545454545;2.95090909090909;3.36727272727273;3.78363636363636;4.2;"/>
+			<col name="1" type="6" num="0" prec="13" plot="1" width="34" stat="0" data="0;3;6;9;12;15;18;21;24;27;30;"/>
+			<col name="residue" type="6" num="0" prec="13" plot="2" width="127" stat="0" data="-0.0363636363636366;-0.0527272727272728;0.0309090909090909;0.0145454545454546;0.0981818181818184;-0.0181818181818181;-0.0345454545454542;0.0490909090909093;0.0327272727272732;-0.0836363636363631;8.88178419700125e-16;"/>
+		</tab>
+	</window>
+	<window type="1" name="S-NN" date="2458813.6774839" x="479" y="10" w="255" h="322" state="1" label="Residuals of Linear Regression" title="2">
+		<tab rows="11" cols="2" labels="0">
+			<col name="1" type="6" num="0" prec="13" plot="1" width="34" stat="0" data="0;3;6;9;12;15;18;21;24;27;30;"/>
+			<col name="residue" type="6" num="0" prec="13" plot="2" width="121" stat="0" data="-0.0500000000000003;-0.0472727272727276;0.0554545454545452;0.0581818181818179;0.0609090909090906;-0.0363636363636366;-0.0336363636363637;-0.0309090909090908;0.0718181818181813;-0.0254545454545458;-0.0227272727272729;"/>
+		</tab>
+	</window>
+	<window type="1" name="N-SP" date="2458813.6775119" x="753" y="19" w="255" h="322" state="1" label="Residuals of Linear Regression" title="2">
+		<tab rows="11" cols="2" labels="0">
+			<col name="1" type="6" num="0" prec="13" plot="1" width="34" stat="0" data="0;3;6;9;12;15;18;21;24;27;30;"/>
+			<col name="residue" type="6" num="0" prec="13" plot="2" width="128" stat="0" data="-0.0227272727272725;0.0836363636363638;0.0900000000000003;-0.00363636363636322;-0.0972727272727272;0.00909090909090926;-0.184545454545454;0.0218181818181824;-0.0718181818181813;0.134545454545455;0.040909090909091;"/>
+		</tab>
+	</window>
+	<window type="1" name="S-NP" date="2458813.6775344" x="1463" y="0" w="255" h="322" state="1" label="Residuals of Linear Regression" title="2">
+		<tab rows="11" cols="2" labels="0">
+			<col name="1" type="6" num="0" prec="13" plot="1" width="34" stat="0" data="0;3;6;9;12;15;18;21;24;27;30;"/>
+			<col name="residue" type="6" num="0" prec="13" plot="2" width="121" stat="0" data="-0.0318181818181822;0.0327272727272725;0.0972727272727272;-0.0381818181818181;-0.0736363636363637;0.0909090909090908;-0.144545454545455;0.0200000000000005;-0.0154545454545447;0.0490909090909097;0.0136363636363646;"/>
+		</tab>
+	</window>
+	<window type="1" name="ResidualsTable" date="2458813.7098295" x="116" y="339" w="1022" h="415">
+		<tab rows="30" cols="9" labels="2">
+			<col name="N-S N Current" type="6" num="0" prec="13" plot="1" width="111" stat="0" unit="mA" data="0;3;6;9;12;15;18;21;24;27;30;"/>
+			<col name="N-S N Residual" type="6" num="0" prec="13" plot="2" width="118" stat="0" unit="mV" data="-0.0363636363636366;-0.0527272727272728;0.0309090909090909;0.0145454545454546;0.0981818181818184;-0.0181818181818181;-0.0345454545454542;0.0490909090909093;0.0327272727272732;-0.0836363636363631;8.88178419700125e-16;"/>
+			<col name="S-N N Current" type="6" num="0" prec="13" plot="1" width="115" stat="0" unit="mA" data="0;3;6;9;12;15;18;21;24;27;30;"/>
+			<col name="S-N N Residual" type="6" num="0" prec="13" plot="2" width="108" stat="0" unit="mV" data="-0.0500000000000003;-0.0472727272727276;0.0554545454545452;0.0581818181818179;0.0609090909090906;-0.0363636363636366;-0.0336363636363637;-0.0309090909090908;0.0718181818181813;-0.0254545454545458;-0.0227272727272729;"/>
+			<col name="N-S P Current" type="6" num="0" prec="13" plot="1" width="124" stat="0" unit="mA" data="0;3;6;9;12;15;18;21;24;27;30;"/>
+			<col name="N-S P Residual" type="6" num="0" prec="13" plot="2" width="121" stat="0" unit="mV" data="-0.0227272727272725;0.0836363636363638;0.0900000000000003;-0.00363636363636322;-0.0972727272727272;0.00909090909090926;-0.184545454545454;0.0218181818181824;-0.0718181818181813;0.134545454545455;0.040909090909091;"/>
+			<col name="S-N P Current" type="6" num="0" prec="13" plot="1" width="118" stat="0" unit="mA" data="0;3;6;9;12;15;18;21;24;27;30;"/>
+			<col name="S-N P Residual" type="6" num="0" prec="13" plot="2" width="114" stat="0" unit="mA" data="-0.0318181818181822;0.0327272727272725;0.0972727272727272;-0.0381818181818181;-0.0736363636363637;0.0909090909090908;-0.144545454545455;0.0200000000000005;-0.0154545454545447;0.0490909090909097;0.0136363636363646;"/>
+			<col name="voltage error" type="6" num="0" prec="13" plot="5" width="100" stat="0" data="0.1;0.1;0.1;0.1;0.1;0.1;0.1;0.1;0.1;0.1;0.1;"/>
+		</tab>
+	</window>
+	<window type="3" name="ResidualsGraph" date="2458813.7136318" x="373" y="137" w="539" h="472" fw="2" fh="32" state="2" active="1" dpi="96">
+		<layout cw="1920" ch="922" w="383" h="287" left="5" right="5" top="5" bottom="5" rows="1" cols="1" vSpace="5" hSpace="5" hAlign="0" vAlign="0" align="0" common="0" link="0" scale="1" currentLayer="0" sPrint="0" cmPrint="0" atUnits="1" atdIndex="0" atPolicy="4" alMode="0" luMode="2"/>
+		<tab x="18" y="18" w="1725" h="893" autoscale="1" maxMajorTicks="20" gap="1" scaleFont="1" dataMargins="1">
+			<page x="0.009375" y="0.0195228" w="0.898438" h="0.968547"/>
+			<frame bg="#ffffff,0"/>
+			<canvas x="131" y="39" w="1591" h="788" fixRatio="0" bg="#ffffff,0"/>
+			<grid xAxis="2" yAxis="0"/>
+			<curve type="1" z="21" table="ResidualsTable" x="N-S N Current" y="N-S N Residual" from="0" to="-1" line="0" lc="#000000" lw="1" ls="0" brc="#000000" brs="0">
+				<symbol style="1" size="7" lc="#000000" lw="1" ls="0" brc="#000000"/>
+				<errors type="1" z="26" table="ResidualsTable" col="voltage error" from="0" to="-1" line="0" lc="#000000" lw="1" ls="0" brc="#000000" brs="0" cap="8" plus="1" minus="1" symb="1"/>
+			</curve>
+			<curve type="1" z="22" table="ResidualsTable" x="S-N N Current" y="S-N N Residual" from="0" to="-1" line="0" lc="#ff0000" lw="1" ls="0" brc="#000000" brs="0">
+				<symbol style="2" size="7" lc="#ff0000" lw="1" ls="0" brc="#ff0000"/>
+				<errors type="1" z="25" table="ResidualsTable" col="voltage error" from="0" to="-1" line="0" lc="#ff0000" lw="1" ls="0" brc="#000000" brs="0" cap="8" plus="1" minus="1" symb="1"/>
+			</curve>
+			<curve type="1" z="23" table="ResidualsTable" x="N-S P Current" y="N-S P Residual" from="0" to="-1" line="0" lc="#00ff00" lw="1" ls="0" brc="#000000" brs="0">
+				<symbol style="3" size="7" lc="#00ff00" lw="1" ls="0" brc="#00ff00"/>
+				<errors type="1" z="27" table="ResidualsTable" col="voltage error" from="0" to="-1" line="0" lc="#00ff00" lw="1" ls="0" brc="#000000" brs="0" cap="8" plus="1" minus="1" symb="1"/>
+			</curve>
+			<curve type="1" z="24" table="ResidualsTable" x="S-N P Current" y="S-N P Residual" from="0" to="-1" line="0" lc="#0000ff" lw="1" ls="0" brc="#000000" brs="0">
+				<symbol style="4" size="7" lc="#0000ff" lw="1" ls="0" brc="#0000ff"/>
+				<errors type="1" z="28" table="ResidualsTable" col="voltage error" from="0" to="-1" line="0" lc="#0000ff" lw="1" ls="0" brc="#000000" brs="0" cap="8" plus="1" minus="1" symb="1"/>
+			</curve>
+			<axis id="0" on="1" type="0" format="0" prec="6" lw="1">
+				<div from="-0.3" to="0.3" step="0" maj="7" min="5" type="0"/>
+				<ticks maj="1" majl="20" min="1" minl="11"/>
+				<title text="Residuals (mV)" color="#000000" font="Lucida Sans Unicode,17.86,-1,5,75,0,0,0,0,0" align="5124" space="2" fmw="185"/>
+				<labels space="4" font="Lucida Sans Unicode,17.86,-1,5,50,0,0,0,0,0" align="0"/>
+			</axis>
+			<axis id="1" on="1" type="0" format="0" prec="6" lw="1">
+				<div from="-0.2" to="0.15" step="0" maj="8" min="5" type="0"/>
+				<ticks maj="1" majl="20" min="1" minl="11"/>
+			</axis>
+			<axis id="2" on="1" type="0" format="0" prec="6" lw="1">
+				<div from="-5" to="35" step="0" maj="9" min="5" type="0"/>
+				<ticks maj="1" majl="20" min="1" minl="11"/>
+				<title text="Current (mA)" color="#000000" font="Lucida Sans Unicode,17.86,-1,5,75,0,0,0,0,0" align="5124" space="2" fmw="164"/>
+				<labels space="4" font="Lucida Sans Unicode,17.86,-1,5,50,0,0,0,0,0" align="0"/>
+			</axis>
+			<axis id="3" on="1" type="0" format="0" prec="6" lw="1">
+				<div from="-5" to="35" step="0" maj="9" min="5" type="0"/>
+				<ticks maj="1" majl="20" min="1" minl="11"/>
+			</axis>
+			<item type="2" x="-4.20199501246883" y="-0.173684210526316" frame="1" lc="#000000" lw="1" ls="0" bg="#ffffff,0" onTop="1" at="0" on="1" auto="1" font="Lucida Sans Unicode,18.4181,-1,5,50,0,0,0,0,0" text="\l(1)%(1)&#10;\l(2)%(2)&#10;\l(3)%(3)&#10;\l(4)%(4)"/>
 		</tab>
 	</window>
 </qti>
