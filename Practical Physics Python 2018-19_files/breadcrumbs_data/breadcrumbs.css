@@ -1,0 +1,66 @@
+/* $Id: breadcrumbs.css 3107 2012-08-07 13:09:30Z davemckain $
+ *
+ * Copyright (c) 2010, The University of Edinburgh.
+ * All Rights Reserved.
+ */
+
+/************************************************************/
+
+/* This is the stylesheet for the frame showing the breadcrumb
+ * navigation within a deployment frameset.
+ */
+
+#breadcrumbContainer {
+  padding: 0.3em;
+}
+
+/************************************************************/
+
+.breadcrumb {
+  display: inline;
+}
+
+span.breadcrumbLink {
+  color: #003366;
+  border: 1px solid white;
+}
+
+span.breadcrumbLink:hover {
+  cursor: pointer;
+}
+
+.future span.breadcrumbLink {
+  color: #bcbcdd;
+}
+
+.past span .breadcrumbLink {
+  color: #003366;
+}
+
+.current span.breadcrumbLink {
+  border: 1px dotted #999999;
+  background-color: #e2e5e9;
+}
+
+.current .breadcrumbtitle, .future .breadcrumbtitle, .past .breadcrumbtitle {
+  display: none;
+}
+
+.unused {
+  display: none;
+}
+
+/************************************************************/
+
+/* Breadcrumb separator chevrons */
+
+.breadcrumbseparator {
+  display: inline;
+}
+
+.final {
+  display: none;
+}
+
+.intermediate {
+}

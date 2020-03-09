@@ -1,0 +1,140 @@
+/* $Id: tree-navigation.css 3107 2012-08-07 13:09:30Z davemckain $
+ *
+ * Copyright (c) 2010, The University of Edinburgh.
+ * All Rights Reserved.
+ */
+
+/************************************************************/
+
+/* This contains extra CSS templates for the Navigation Tree
+ * frame.
+ *
+ * Prerequisite: common.css
+ */
+
+/************************************************************/
+
+body {
+  font-size: smaller;
+}
+
+/* Remove normal margin content */
+div#content {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 100%;
+  background-color: #1b496d;
+  padding: 0.8em 0.3em;
+  margin: 0;
+  border-bottom: 1px solid black;
+  color: white;
+}
+
+/************************************************************/
+/* Tree Selection Area */
+
+#treeSelector {
+  margin: 0 0 1em 0;
+}
+
+#treeSelector a:link, #treeSelector a:visited {
+  display: block;
+  padding: 0.3em;
+  text-decoration: none;
+}
+
+.highlighted {
+  border: 1px dotted #999999;
+  background-color: #e6e6e6;
+  padding: 2px;
+}
+
+.unhighlighted {
+}
+
+/************************************************************/
+/* Navigation tree */
+
+.tree {
+  margin: 0;
+  padding: 0.3em;
+}
+
+.hidden {
+  display: none;
+}
+
+.visible {
+  display: block;
+}
+
+.tree ul {
+  padding-left: 1.5em;
+  margin: 0;
+}
+
+.tree li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.tree li {
+  /* Display a wee divider at the end of each section */
+  margin-bottom: 0.3em;
+  padding-bottom: 0.3em;
+  border-bottom: 1px solid #dddddd;
+}
+
+.tree li li {
+  /* Need to override above rule for pages within sections */
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border-bottom: 0;
+}
+
+.tree li.inactive {
+  color: #5d6b87;
+}
+
+.tree a:link,
+.tree a:visited {
+  text-decoration: none;
+  color: #003366;
+}
+
+/* We really want the links to display as block, but IE adds extra
+ * space below the link elements in this case and I'm not really that
+ * interested in fixing it this time. So the following selector will
+ * only do the right thing in sensible browsers; IE will just display
+ * the links inline which is acceptable.
+ */
+.tree li > a:link,
+.tree li > a:visited {
+  display: block;
+}
+
+.tree a:hover {
+  background-color: #e6e6e6;
+}
+
+.tree li.selected a:link,
+.tree li.selected a:visited {
+  border: 1px dotted #999999;
+  background-color: #e6e6e6;
+  padding: 2px;
+}
+
+.tree li.selected li a:link,
+.tree li.selected li a:visited {
+  border: 0;
+  padding: 0;
+  background: none;
+}
+
+.tree li.selected li a:hover {
+  background-color: #e6e6e6;
+}

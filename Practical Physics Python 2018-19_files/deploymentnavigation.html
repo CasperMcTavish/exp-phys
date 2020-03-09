@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" data-aardvark.link-id="Python:Deployments:SciProg_LEARN_18_19" lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+      <meta charset="UTF-8">
+      <title>Practical Physics Python 2018-19</title>
+      <meta name="generator" content="Aardvark"><script type="text/javascript" src="Logger.js"></script>
+      <script type="text/javascript" src="Utilities.js"></script>
+      <script type="text/javascript" src="Config.js"></script>
+      <script type="text/javascript" src="Core.js"></script>
+      <script type="text/javascript" src="AbstractNavigationController.js"></script>
+      <script type="text/javascript" src="MathJax.js"></script>
+      <script type="text/javascript" src="deploymentnavigation_data/DeploymentNavigationController.js"></script>
+      <script type="text/javascript">
+//------------------------------------------------
+// Organisation Tree registration
+
+var controller = getNavigationController();
+var tree;
+
+tree = new OrganisationTree(76218, 'Python:Organisations:SciProgStructure', 'Course Structure');
+tree.registerNode(new TreeNode(75987, 'Python:CourseNotes:SciProg:Synopsis', '1', 'Synopsis', true));
+tree.registerNode(new TreeNode(75993, 'Python:CourseNotes:SciProg:Motivation', '2', 'Why Learn Computing', true));
+tree.registerNode(new TreeNode(76268, 'Python:CourseNotes:SciProg:TeachingMethod', '3', 'Teaching Model', true));
+tree.registerNode(new TreeNode(76226, 'Python:CourseNotes:SciProg:Assessment', '4', 'Course Assessment', true));
+tree.registerNode(new TreeNode(76195, 'Python:CourseNotes:SciProg:Resources', '5', 'Python Resources', true));
+tree.registerNode(new TreeNode(85355, 'Python:CourseNotes:SciProg:TopHat', '6', 'TopHat', true));
+controller.addTree(tree);
+
+tree = new OrganisationTree(76212, 'Python:Organisations:SciProgUnix', 'Use of Linux');
+tree.registerNode(new TreeNode(76202, 'Python:CourseNotes:SciProg:CPLab', '1', 'The CPLab', true));
+tree.registerNode(new TreeNode(76244, 'Python:CourseNotes:SciProg:TerminalWindow', '2', 'Use of Terminal Window', true));
+tree.registerNode(new TreeNode(76257, 'Python:CourseNotes:SciProg:Emacs', '3', 'The Emacs Editor', true));
+tree.registerNode(new TreeNode(80422, 'Python:CourseNotes:SciProg:GettingPython', '4', 'Getting Python on your Own Machine', true));
+tree.registerNode(new TreeNode(76097, 'Python:CourseNotes:SciProg:Bugs', '5', 'Finding and Fixing Bugs', true));
+tree.registerNode(new TreeNode(81987, 'Python:CourseNotes:SciProg:FrequentIssues', '6', 'Frequent Issues', true));
+controller.addTree(tree);
+
+tree = new OrganisationTree(76181, 'Python:Organisations:SciPythonNotes', 'Python Notes');
+tree.registerNode(new TreeNode(76263, 'Python:CourseNotes:SciProg:Program', '1', 'What is a Computer Program', true));
+tree.registerNode(new TreeNode(75997, 'Python:CourseNotes:SciProg:Variables', '2', 'Basic Variables', true));
+tree.registerNode(new TreeNode(76238, 'Python:CourseNotes:SciProg:Comments', '3', 'Adding Comments', true));
+tree.registerNode(new TreeNode(76001, 'Python:CourseNotes:SciProg:TerminalIO', '4', 'Printing and Reading to/from the Terminal', true));
+tree.registerNode(new TreeNode(80190, 'Python:CourseNotes:SciProg:Formatting', '5', 'Formatting Output', true));
+tree.registerNode(new TreeNode(76005, 'Python:CourseNotes:SciProg:MathandCMath', '6', 'Adding Mathematical Functions', true));
+tree.registerNode(new TreeNode(76107, 'Python:CourseNotes:SciProg:RandomNumbers', '7', 'Adding Random Numbers', true));
+tree.registerNode(new TreeNode(83981, 'Python:CourseNotes:SciProg:BasisFunctions', '8', 'Basic Functions', true));
+tree.registerNode(new TreeNode(76009, 'Python:CourseNotes:SciProg:Conditionals', '9', 'Conditional Statements', true));
+tree.registerNode(new TreeNode(76019, 'Python:CourseNotes:SciProg:Lists', '10', 'Simple Lists', true));
+tree.registerNode(new TreeNode(76075, 'Python:CourseNotes:SciProg:Loops', '11', 'Loops and looping', true));
+tree.registerNode(new TreeNode(76036, 'Python:CourseNotes:SciProg:Plotting', '12', 'Simple Graphs', true));
+tree.registerNode(new TreeNode(76117, 'Python:CourseNotes:SciProg:Files', '13', 'File Input and Output', true));
+tree.registerNode(new TreeNode(76171, 'Python:CourseNotes:SciProg:ParsingInput', '14', 'Parsing Input', true));
+tree.registerNode(new TreeNode(76177, 'Python:CourseNotes:SciProg:Functions', '15', 'More on Functions', true));
+tree.registerNode(new TreeNode(81675, 'Python:CourseNotes:SciProg:Scope', '16', 'Scope of Variables', true));
+tree.registerNode(new TreeNode(76364, 'Python:CourseNotes:SciProg:lambda', '17', 'Lambda Functions', true));
+tree.registerNode(new TreeNode(76370, 'Python:CourseNotes:SciProg:MapandGip', '18', 'Advanced List Processing', true));
+tree.registerNode(new TreeNode(76380, 'Python:CourseNotes:SciProg:Objects', '19', 'Objects and OOP', true));
+controller.addTree(tree);
+
+tree = new OrganisationTree(76185, 'Python:Organisations:SciProgCkectpoints', 'Checkpoints');
+tree.registerNode(new TreeNode(76226, 'Python:CourseNotes:SciProg:Assessment', '1', 'Course Assessment', true));
+tree.registerNode(new TreeNode(76032, 'Python:CheckPoints:SciProg:Checkpoint1', '2', 'Checkpoint One', true));
+tree.registerNode(new TreeNode(76091, 'Python:CheckPoints:SciProg:Checkpoint2', '3', 'Checkpoint Two', true));
+tree.registerNode(new TreeNode(76319, 'Python:CheckPoints:SciProg:Checkpoint3', '4', 'Checkpoint Three', true));
+tree.registerNode(new TreeNode(76329, 'Python:CheckPoints:SciProg:Checkpoint4', '5', 'Checkpoint Four', true));
+tree.registerNode(new TreeNode(76444, 'Python:CheckPoints:SciProg:Checkpoint5', '6', 'Checkpoint Five', true));
+tree.registerNode(new TreeNode(87138, 'Python:CheckPoints:SciProg:Checkpoint6', '7', 'Checkpoint Six', true));
+controller.addTree(tree);
+
+tree = new OrganisationTree(76189, 'Python:Organisations:SciProgCodeExamples', 'Code Examples');
+tree.registerNode(new TreeNode(76425, 'Python:CodeExamples:Hello', '1', 'Hello.py', true));
+tree.registerNode(new TreeNode(76049, 'Python:CodeExamples:ReadingandPrintingStrings', '2', 'ReadingandPrintingStrings', true));
+tree.registerNode(new TreeNode(76050, 'Python:CodeExamples:ReadingandPrintingFloats', '3', 'Reading and Printing Floats', true));
+tree.registerNode(new TreeNode(76051, 'Python:CodeExamples:ReadingandFormatFloats', '4', 'Reading and Format Floats', true));
+tree.registerNode(new TreeNode(76052, 'Python:CodeExamples:ReadingIntandFloat', '5', 'Reading Int and Float', true));
+tree.registerNode(new TreeNode(80193, 'Python:CodeExamples:FloatFormat', '6', 'FloatFormat', true));
+tree.registerNode(new TreeNode(80194, 'Python:CodeExamples:IntegerFormat', '7', 'IntegerFormat', true));
+tree.registerNode(new TreeNode(83989, 'Python:CodeExamples:ReadingandPrintingStringMain', '8', 'ReadingandPrintingStringsMain', true));
+tree.registerNode(new TreeNode(83993, 'Python:CodeExamples:ReadingadnPrintingFloatsMain', '9', 'ReadingandPrintingFloatsMain', true));
+tree.registerNode(new TreeNode(83994, 'Python:CodeExamples:ReadingandFormatFloatsMain', '10', 'ReadingandFormatFloatsMain', true));
+tree.registerNode(new TreeNode(76542, 'Python:CodeExamples:TemperatureConverter', '11', 'TemperatureConverter', true));
+tree.registerNode(new TreeNode(84010, 'Python:CodeExamples:QuadraticFunction', '12', 'Quadratic Function', true));
+tree.registerNode(new TreeNode(76489, 'Python:CodeExamples:OneWayConditional', '13', 'OneWayConditional', true));
+tree.registerNode(new TreeNode(76490, 'Python:CodeExamples:TwoWayConditional', '14', 'TwoWayConditional', true));
+tree.registerNode(new TreeNode(76491, 'Python:CodeExamples:ThreeWayConditional', '15', 'ThreeWayConditional', true));
+tree.registerNode(new TreeNode(76505, 'Python:CodeExamples:ComplexQuadrant', '16', 'ComplexQuadrant', true));
+tree.registerNode(new TreeNode(84022, 'Python:CodeExamples:InsideSphere', '17', 'InsideSphere', true));
+tree.registerNode(new TreeNode(76506, 'Python:CodeExamples:MakeandAppendList', '18', 'MakeandAppendList', true));
+tree.registerNode(new TreeNode(76507, 'Python:CodeExamples:ExtractSubList', '19', 'ExtractSubList', true));
+tree.registerNode(new TreeNode(84032, 'Python:CodeExamples:PrintList', '20', 'PrintList', true));
+tree.registerNode(new TreeNode(84050, 'Python:CodeExamples:AppendFunction', '21', 'AppendFunction', true));
+tree.registerNode(new TreeNode(84051, 'Python:CodeExamples:SortFunction', '22', 'SortFunction', true));
+tree.registerNode(new TreeNode(76512, 'Python:CodeExamples:RangeLoop', '23', 'RangeLoop', true));
+tree.registerNode(new TreeNode(76513, 'Python:CodeExamples:RangeLooptoList', '24', 'RangeLooptoList', true));
+tree.registerNode(new TreeNode(76514, 'Python:CodeExamples:WhileLooptoList', '25', 'WhileLooptoList', true));
+tree.registerNode(new TreeNode(76516, 'Python:CodeExamples:GuessGame', '26', 'GuessGame', true));
+tree.registerNode(new TreeNode(76528, 'Python:CodeExamples:WriteFile', '27', 'WriteFile', true));
+tree.registerNode(new TreeNode(76529, 'Python:CodeExamples:RangeLooptoFile', '28', 'RangeLooptoFile', true));
+tree.registerNode(new TreeNode(76531, 'Python:CodeExamples:ReadTextFile', '29', 'ReadTextFile', true));
+tree.registerNode(new TreeNode(76534, 'Python:CodeExamples:CosPlot', '30', 'CosPlot', true));
+tree.registerNode(new TreeNode(76535, 'Python:CodeExamples:GuassNoisePlot', '31', 'GaussNoisePlot', true));
+tree.registerNode(new TreeNode(84061, 'Python:CodeExamples:QuadraticPlot', '32', 'QuadraticPlot', true));
+tree.registerNode(new TreeNode(85206, 'Python:CodeExamples:FunctionPlot', '33', 'FunctionPlot', true));
+tree.registerNode(new TreeNode(76543, 'Python:CodeExamples:PlanckPlot', '34', 'PlanckPlot', true));
+tree.registerNode(new TreeNode(76546, 'Python:CodeExamples:SphereVolume', '35', 'SphereVolume', true));
+tree.registerNode(new TreeNode(78639, 'Python:CodeExamples:Vector', '36', 'Vector', true));
+tree.registerNode(new TreeNode(87143, 'Python:CodeExamples:PiExample', '37', 'PyExample.py', true));
+controller.addTree(tree);
+
+</script><link rel="stylesheet" type="text/css" href="common.css">
+      <link rel="stylesheet" type="text/css" href="deploymentnavigation_data/tree-navigation.css">
+   <style type="text/css">.MathJax_Hover_Frame {border-radius: .25em; -webkit-border-radius: .25em; -moz-border-radius: .25em; -khtml-border-radius: .25em; box-shadow: 0px 0px 15px #83A; -webkit-box-shadow: 0px 0px 15px #83A; -moz-box-shadow: 0px 0px 15px #83A; -khtml-box-shadow: 0px 0px 15px #83A; border: 1px solid #A6D ! important; display: inline-block; position: absolute}
+.MathJax_Menu_Button .MathJax_Hover_Arrow {position: absolute; cursor: pointer; display: inline-block; border: 2px solid #AAA; border-radius: 4px; -webkit-border-radius: 4px; -moz-border-radius: 4px; -khtml-border-radius: 4px; font-family: 'Courier New',Courier; font-size: 9px; color: #F0F0F0}
+.MathJax_Menu_Button .MathJax_Hover_Arrow span {display: block; background-color: #AAA; border: 1px solid; border-radius: 3px; line-height: 0; padding: 4px}
+.MathJax_Hover_Arrow:hover {color: white!important; border: 2px solid #CCC!important}
+.MathJax_Hover_Arrow:hover span {background-color: #CCC!important}
+</style><style type="text/css">#MathJax_About {position: fixed; left: 50%; width: auto; text-align: center; border: 3px outset; padding: 1em 2em; background-color: #DDDDDD; color: black; cursor: default; font-family: message-box; font-size: 120%; font-style: normal; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; border-radius: 15px; -webkit-border-radius: 15px; -moz-border-radius: 15px; -khtml-border-radius: 15px; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+#MathJax_About.MathJax_MousePost {outline: none}
+.MathJax_Menu {position: absolute; background-color: white; color: black; width: auto; padding: 5px 0px; border: 1px solid #CCCCCC; margin: 0; cursor: default; font: menu; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; border-radius: 5px; -webkit-border-radius: 5px; -moz-border-radius: 5px; -khtml-border-radius: 5px; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+.MathJax_MenuItem {padding: 1px 2em; background: transparent}
+.MathJax_MenuArrow {position: absolute; right: .5em; padding-top: .25em; color: #666666; font-size: .75em}
+.MathJax_MenuActive .MathJax_MenuArrow {color: white}
+.MathJax_MenuArrow.RTL {left: .5em; right: auto}
+.MathJax_MenuCheck {position: absolute; left: .7em}
+.MathJax_MenuCheck.RTL {right: .7em; left: auto}
+.MathJax_MenuRadioCheck {position: absolute; left: .7em}
+.MathJax_MenuRadioCheck.RTL {right: .7em; left: auto}
+.MathJax_MenuLabel {padding: 1px 2em 3px 1.33em; font-style: italic}
+.MathJax_MenuRule {border-top: 1px solid #DDDDDD; margin: 4px 3px}
+.MathJax_MenuDisabled {color: GrayText}
+.MathJax_MenuActive {background-color: #606872; color: white}
+.MathJax_MenuDisabled:focus, .MathJax_MenuLabel:focus {background-color: #E8E8E8}
+.MathJax_ContextMenu:focus {outline: none}
+.MathJax_ContextMenu .MathJax_MenuItem:focus {outline: none}
+#MathJax_AboutClose {top: .2em; right: .2em}
+.MathJax_Menu .MathJax_MenuClose {top: -10px; left: -10px}
+.MathJax_MenuClose {position: absolute; cursor: pointer; display: inline-block; border: 2px solid #AAA; border-radius: 18px; -webkit-border-radius: 18px; -moz-border-radius: 18px; -khtml-border-radius: 18px; font-family: 'Courier New',Courier; font-size: 24px; color: #F0F0F0}
+.MathJax_MenuClose span {display: block; background-color: #AAA; border: 1.5px solid; border-radius: 18px; -webkit-border-radius: 18px; -moz-border-radius: 18px; -khtml-border-radius: 18px; line-height: 0; padding: 8px 0 6px}
+.MathJax_MenuClose:hover {color: white!important; border: 2px solid #CCC!important}
+.MathJax_MenuClose:hover span {background-color: #CCC!important}
+.MathJax_MenuClose:hover:focus {outline: none}
+</style><style type="text/css">.MathJax_Preview .MJXf-math {color: inherit!important}
+</style><style type="text/css">.MJX_Assistive_MathML {position: absolute!important; top: 0; left: 0; clip: rect(1px, 1px, 1px, 1px); padding: 1px 0 0 0!important; border: 0!important; height: 1px!important; width: 1px!important; overflow: hidden!important; display: block!important; -webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none}
+.MJX_Assistive_MathML.MJX_Assistive_MathML_Block {width: 100%!important}
+</style><style type="text/css">#MathJax_Zoom {position: absolute; background-color: #F0F0F0; overflow: auto; display: block; z-index: 301; padding: .5em; border: 1px solid black; margin: 0; font-weight: normal; font-style: normal; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; -webkit-box-sizing: content-box; -moz-box-sizing: content-box; box-sizing: content-box; box-shadow: 5px 5px 15px #AAAAAA; -webkit-box-shadow: 5px 5px 15px #AAAAAA; -moz-box-shadow: 5px 5px 15px #AAAAAA; -khtml-box-shadow: 5px 5px 15px #AAAAAA; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+#MathJax_ZoomOverlay {position: absolute; left: 0; top: 0; z-index: 300; display: inline-block; width: 100%; height: 100%; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+#MathJax_ZoomFrame {position: relative; display: inline-block; height: 0; width: 0}
+#MathJax_ZoomEventTrap {position: absolute; left: 0; top: 0; z-index: 302; display: inline-block; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+</style><style type="text/css">.MathJax_Preview {color: #888}
+#MathJax_Message {position: fixed; left: 1px; bottom: 2px; background-color: #E6E6E6; border: 1px solid #959595; margin: 0px; padding: 2px 8px; z-index: 102; color: black; font-size: 80%; width: auto; white-space: nowrap}
+#MathJax_MSIE_Frame {position: absolute; top: 0; left: 0; width: 0px; z-index: 101; border: 0px; margin: 0px; padding: 0px}
+.MathJax_Error {color: #CC0000; font-style: italic}
+</style><style type="text/css">.MJXp-script {font-size: .8em}
+.MJXp-right {-webkit-transform-origin: right; -moz-transform-origin: right; -ms-transform-origin: right; -o-transform-origin: right; transform-origin: right}
+.MJXp-bold {font-weight: bold}
+.MJXp-italic {font-style: italic}
+.MJXp-scr {font-family: MathJax_Script,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-frak {font-family: MathJax_Fraktur,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-sf {font-family: MathJax_SansSerif,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-cal {font-family: MathJax_Caligraphic,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-mono {font-family: MathJax_Typewriter,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-largeop {font-size: 150%}
+.MJXp-largeop.MJXp-int {vertical-align: -.2em}
+.MJXp-math {display: inline-block; line-height: 1.2; text-indent: 0; font-family: 'Times New Roman',Times,STIXGeneral,serif; white-space: nowrap; border-collapse: collapse}
+.MJXp-display {display: block; text-align: center; margin: 1em 0}
+.MJXp-math span {display: inline-block}
+.MJXp-box {display: block!important; text-align: center}
+.MJXp-box:after {content: " "}
+.MJXp-rule {display: block!important; margin-top: .1em}
+.MJXp-char {display: block!important}
+.MJXp-mo {margin: 0 .15em}
+.MJXp-mfrac {margin: 0 .125em; vertical-align: .25em}
+.MJXp-denom {display: inline-table!important; width: 100%}
+.MJXp-denom > * {display: table-row!important}
+.MJXp-surd {vertical-align: top}
+.MJXp-surd > * {display: block!important}
+.MJXp-script-box > *  {display: table!important; height: 50%}
+.MJXp-script-box > * > * {display: table-cell!important; vertical-align: top}
+.MJXp-script-box > *:last-child > * {vertical-align: bottom}
+.MJXp-script-box > * > * > * {display: block!important}
+.MJXp-mphantom {visibility: hidden}
+.MJXp-munderover {display: inline-table!important}
+.MJXp-over {display: inline-block!important; text-align: center}
+.MJXp-over > * {display: block!important}
+.MJXp-munderover > * {display: table-row!important}
+.MJXp-mtable {vertical-align: .25em; margin: 0 .125em}
+.MJXp-mtable > * {display: inline-table!important; vertical-align: middle}
+.MJXp-mtr {display: table-row!important}
+.MJXp-mtd {display: table-cell!important; text-align: center; padding: .5em 0 0 .5em}
+.MJXp-mtr > .MJXp-mtd:first-child {padding-left: 0}
+.MJXp-mtr:first-child > .MJXp-mtd {padding-top: 0}
+.MJXp-mlabeledtr {display: table-row!important}
+.MJXp-mlabeledtr > .MJXp-mtd:first-child {padding-left: 0}
+.MJXp-mlabeledtr:first-child > .MJXp-mtd {padding-top: 0}
+.MJXp-merror {background-color: #FFFF88; color: #CC0000; border: 1px solid #CC0000; padding: 1px 3px; font-style: normal; font-size: 90%}
+.MJXp-scale0 {-webkit-transform: scaleX(.0); -moz-transform: scaleX(.0); -ms-transform: scaleX(.0); -o-transform: scaleX(.0); transform: scaleX(.0)}
+.MJXp-scale1 {-webkit-transform: scaleX(.1); -moz-transform: scaleX(.1); -ms-transform: scaleX(.1); -o-transform: scaleX(.1); transform: scaleX(.1)}
+.MJXp-scale2 {-webkit-transform: scaleX(.2); -moz-transform: scaleX(.2); -ms-transform: scaleX(.2); -o-transform: scaleX(.2); transform: scaleX(.2)}
+.MJXp-scale3 {-webkit-transform: scaleX(.3); -moz-transform: scaleX(.3); -ms-transform: scaleX(.3); -o-transform: scaleX(.3); transform: scaleX(.3)}
+.MJXp-scale4 {-webkit-transform: scaleX(.4); -moz-transform: scaleX(.4); -ms-transform: scaleX(.4); -o-transform: scaleX(.4); transform: scaleX(.4)}
+.MJXp-scale5 {-webkit-transform: scaleX(.5); -moz-transform: scaleX(.5); -ms-transform: scaleX(.5); -o-transform: scaleX(.5); transform: scaleX(.5)}
+.MJXp-scale6 {-webkit-transform: scaleX(.6); -moz-transform: scaleX(.6); -ms-transform: scaleX(.6); -o-transform: scaleX(.6); transform: scaleX(.6)}
+.MJXp-scale7 {-webkit-transform: scaleX(.7); -moz-transform: scaleX(.7); -ms-transform: scaleX(.7); -o-transform: scaleX(.7); transform: scaleX(.7)}
+.MJXp-scale8 {-webkit-transform: scaleX(.8); -moz-transform: scaleX(.8); -ms-transform: scaleX(.8); -o-transform: scaleX(.8); transform: scaleX(.8)}
+.MJXp-scale9 {-webkit-transform: scaleX(.9); -moz-transform: scaleX(.9); -ms-transform: scaleX(.9); -o-transform: scaleX(.9); transform: scaleX(.9)}
+</style></head>
+   <body><div id="MathJax_Message" style="display: none;"></div>
+      <div id="content" class="noControlPanel">
+         <h1>Course Material</h1>
+         <div id="treeSelector"><a href="https://www2.ph.ed.ac.uk/AardvarkDeployments/Protected/88147/views/files/Python/Deployments/SciProg_LEARN_18_19/inner.node/__CourseNotes/SciProg/Synopsis/web.html" id="treeselector_76218" class="unhighlighted" onclick="return getNavigationController().selectTree('Python:Organisations:SciProgStructure')">Course Structure</a><a href="https://www2.ph.ed.ac.uk/AardvarkDeployments/Protected/88147/views/files/Python/Deployments/SciProg_LEARN_18_19/inner.node/__CourseNotes/SciProg/CPLab/web.html" id="treeselector_76212" class="unhighlighted" onclick="return getNavigationController().selectTree('Python:Organisations:SciProgUnix')">Use of Linux</a><a href="https://www2.ph.ed.ac.uk/AardvarkDeployments/Protected/88147/views/files/Python/Deployments/SciProg_LEARN_18_19/inner.node/__CourseNotes/SciProg/Program/web.html" id="treeselector_76181" class="unhighlighted" onclick="return getNavigationController().selectTree('Python:Organisations:SciPythonNotes')">Python Notes</a><a href="https://www2.ph.ed.ac.uk/AardvarkDeployments/Protected/88147/views/files/Python/Deployments/SciProg_LEARN_18_19/inner.node/__CourseNotes/SciProg/Assessment/web.html" id="treeselector_76185" class="highlighted" onclick="return getNavigationController().selectTree('Python:Organisations:SciProgCkectpoints')">Checkpoints</a><a href="https://www2.ph.ed.ac.uk/AardvarkDeployments/Protected/88147/views/files/Python/Deployments/SciProg_LEARN_18_19/inner.node/__CodeExamples/Hello/web.html" id="treeselector_76189" class="unhighlighted" onclick="return getNavigationController().selectTree('Python:Organisations:SciProgCodeExamples')">Code Examples</a></div>
+         <h1 id="navigation">In Checkpoints:</h1>
+         <ul class="tree hidden" id="tree_76218">
+            <li id="node_75987" class="unselected"><a href="https://www2.ph.ed.ac.uk/AardvarkDeployments/Protected/88147/views/files/Python/Deployments/SciProg_LEARN_18_19/inner.node/__CourseNotes/SciProg/Synopsis/web.html" title="1 Synopsis" onclick="return getNavigationController().selectNode(this, 'Python:CourseNotes:SciProg:Synopsis')">1 Synopsis</a></li>
+            <li id="node_75993" class="unselected"><a href="https://www2.ph.ed.ac.uk/AardvarkDeployments/Protected/88147/views/files/Python/Deployments/SciProg_LEARN_18_19/inner.node/__CourseNotes/SciProg/Motivation/web.html" title="2 Why Learn Computing" onclick="return getNavigationController().selectNode(this, 'Python:CourseNotes:SciProg:Motivation')">2 Why Learn Computing</a></li>
+            <li id="node_76268" class="unselected"><a href="https://www2.ph.ed.ac.uk/AardvarkDeployments/Protected/88147/views/files/Python/Deployments/SciProg_LEARN_18_19/inner.node/__CourseNotes/SciProg/TeachingMethod/web.html" title="3 Teaching Model" onclick="return getNavigationController().selectNode(this, 'Python:CourseNotes:SciProg:TeachingMethod')">3 Teaching Model</a></li>
+            <li id="node_76226" class="unselected"><a href="https://www2.ph.ed.ac.uk/AardvarkDeployments/Protected/88147/views/files/Python/Deployments/SciProg_LEARN_18_19/inner.node/__CourseNotes/SciProg/Assessment/web.html" title="4 Course Assessment" onclick="return getNavigationController().selectNode(this, 'Python:CourseNotes:SciProg:Assessment')">4 Course Assessment</a></li>
+            <li id="node_76195" class="unselected"><a href="https://www2.ph.ed.ac.uk/AardvarkDeployments/Protected/88147/views/files/Python/Deployments/SciProg_LEARN_18_19/inner.node/__CourseNotes/SciProg/Resources/web.html" title="5 Python Resources" onclick="return getNavigationController().selectNode(this, 'Python:CourseNotes:SciProg:Resources')">5 Python Resources</a></li>
+            <li id="node_85355" class="unselected"><a href="https://www2.ph.ed.ac.uk/AardvarkDeployments/Protected/88147/views/files/Python/Deployments/SciProg_LEARN_18_19/inner.node/__CourseNotes/SciProg/TopHat/web.html" title="6 TopHat" onclick="return getNavigationController().selectNode(this, 'Python:CourseNotes:SciProg:TopHat')">6 TopHat</a></li>
+         </ul>
+         <ul class="tree hidden" id="tree_76212">
+            <li id="node_76202" class="unselected"><a href="https://www2.ph.ed.ac.uk/AardvarkDeployments/Protected/88147/views/files/Python/Deployments/SciProg_LEARN_18_19/inner.node/__CourseNotes/SciProg/CPLab/web.html" title="1 The CPLab" onclick="return getNavigationController().selectNode(this, 'Python:CourseNotes:SciProg:CPLab')">1 The CPLab</a></li>
+            <li id="node_76244" class="unselected"><a href="https://www2.ph.ed.ac.uk/AardvarkDeployments/Protected/88147/views/files/Python/Deployments/SciProg_LEARN_18_19/inner.node/__CourseNotes/SciProg/TerminalWindow/web.html" title="2 Use of Terminal Window" onclick="return getNavigationController().selectNode(this, 'Python:CourseNotes:SciProg:TerminalWindow')">2 Use of Terminal Window</a></li>
+            <li id="node_76257" class="unselected"><a href="https://www2.ph.ed.ac.uk/AardvarkDeployments/Protected/88147/views/files/Python/Deployments/SciProg_LEARN_18_19/inner.node/__CourseNotes/SciProg/Emacs/web.html" title="3 The Emacs Editor" onclick="return getNavigationController().selectNode(this, 'Python:CourseNotes:SciProg:Emacs')">3 The Emacs Editor</a></li>
+            <li id="node_80422" class="unselected"><a href="https://www2.ph.ed.ac.uk/AardvarkDeployments/Protected/88147/views/files/Python/Deployments/SciProg_LEARN_18_19/inner.node/__CourseNotes/SciProg/GettingPython/web.html" title="4 Getting Python on your Own Machine" onclick="return getNavigationController().selectNode(this, 'Python:CourseNotes:SciProg:GettingPython')">4 Getting Python on your Own Machine</a></li>
+            <li id="node_76097" class="unselected"><a href="https://www2.ph.ed.ac.uk/AardvarkDeployments/Protected/88147/views/files/Python/Deployments/SciProg_LEARN_18_19/inner.node/__CourseNotes/SciProg/Bugs/web.html" title="5 Finding and Fixing Bugs" onclick="return getNavigationController().selectNode(this, 'Python:CourseNotes:SciProg:Bugs')">5 Finding and Fixing Bugs</a></li>
+            <li id="node_81987" class="unselected"><a href="https://www2.ph.ed.ac.uk/AardvarkDeployments/Protected/88147/views/files/Python/Deployments/SciProg_LEARN_18_19/inner.node/__CourseNotes/SciProg/FrequentIssues/web.html" title="6 Frequent Issues" onclick="return getNavigationController().selectNode(this, 'Python:CourseNotes:SciProg:FrequentIssues')">6 Frequent Issues</a></li>
+         </ul>
+         <ul class="tree hidden" id="tree_76181">
+            <li id="node_76263" class="unselected"><a href="https://www2.ph.ed.ac.uk/AardvarkDeployments/Protected/88147/views/files/Python/Deployments/SciProg_LEARN_18_19/inner.node/__CourseNotes/SciProg/Program/web.html" title="1 What is a Computer Program" onclick="return getNavigationController().selectNode(this, 'Python:CourseNotes:SciProg:Program')">1 What is a Computer Program</a></li>
+            <li id="node_75997" class="unselected"><a href="https://www2.ph.ed.ac.uk/AardvarkDeployments/Protected/88147/views/files/Python/Deployments/SciProg_LEARN_18_19/inner.node/__CourseNotes/SciProg/Variables/web.html" title="2 Basic Variables" onclick="return getNavigationController().selectNode(this, 'Python:CourseNotes:SciProg:Variables')">2 Basic Variables</a></li>
+            <li id="node_76238" class="unselected"><a href="https://www2.ph.ed.ac.uk/AardvarkDeployments/Protected/88147/views/files/Python/Deployments/SciProg_LEARN_18_19/inner.node/__CourseNotes/SciProg/Comments/web.html" title="3 Adding Comments" onclick="return getNavigationController().selectNode(this, 'Python:CourseNotes:SciProg:Comments')">3 Adding Comments</a></li>
+            <li id="node_76001" class="unselected"><a href="https://www2.ph.ed.ac.uk/AardvarkDeployments/Protected/88147/views/files/Python/Deployments/SciProg_LEARN_18_19/inner.node/__CourseNotes/SciProg/TerminalIO/web.html" title="4 Printing and Reading to/from the Terminal" onclick="return getNavigationController().selectNode(this, 'Python:CourseNotes:SciProg:TerminalIO')">4 Printing and Reading to/from the Terminal</a></li>
+            <li id="node_80190" class="unselected"><a href="https://www2.ph.ed.ac.uk/AardvarkDeployments/Protected/88147/views/files/Python/Deployments/SciProg_LEARN_18_19/inner.node/__CourseNotes/SciProg/Formatting/web.html" title="5 Formatting Output" onclick="return getNavigationController().selectNode(this, 'Python:CourseNotes:SciProg:Formatting')">5 Formatting Output</a></li>
+            <li id="node_76005" class="unselected"><a href="https://www2.ph.ed.ac.uk/AardvarkDeployments/Protected/88147/views/files/Python/Deployments/SciProg_LEARN_18_19/inner.node/__CourseNotes/SciProg/MathandCMath/web.html" title="6 Adding Mathematical Functions" onclick="return getNavigationController().selectNode(this, 'Python:CourseNotes:SciProg:MathandCMath')">6 Adding Mathematical Functions</a></li>
+            <li id="node_76107" class="unselected"><a href="https://www2.ph.ed.ac.uk/AardvarkDeployments/Protected/88147/views/files/Python/Deployments/SciProg_LEARN_18_19/inner.node/__CourseNotes/SciProg/RandomNumbers/web.html" title="7 Adding Random Numbers" onclick="return getNavigationController().selectNode(this, 'Python:CourseNotes:SciProg:RandomNumbers')">7 Adding Random Numbers</a></li>
+            <li id="node_83981" class="unselected"><a href="https://www2.ph.ed.ac.uk/AardvarkDeployments/Protected/88147/views/files/Python/Deployments/SciProg_LEARN_18_19/inner.node/__CourseNotes/SciProg/BasisFunctions/web.html" title="8 Basic Functions" onclick="return getNavigationController().selectNode(this, 'Python:CourseNotes:SciProg:BasisFunctions')">8 Basic Functions</a></li>
+            <li id="node_76009" class="unselected"><a href="https://www2.ph.ed.ac.uk/AardvarkDeployments/Protected/88147/views/files/Python/Deployments/SciProg_LEARN_18_19/inner.node/__CourseNotes/SciProg/Conditionals/web.html" title="9 Conditional Statements" onclick="return getNavigationController().selectNode(this, 'Python:CourseNotes:SciProg:Conditionals')">9 Conditional Statements</a></li>
+            <li id="node_76019" class="unselected"><a href="https://www2.ph.ed.ac.uk/AardvarkDeployments/Protected/88147/views/files/Python/Deployments/SciProg_LEARN_18_19/inner.node/__CourseNotes/SciProg/Lists/web.html" title="10 Simple Lists" onclick="return getNavigationController().selectNode(this, 'Python:CourseNotes:SciProg:Lists')">10 Simple Lists</a></li>
+            <li id="node_76075" class="unselected"><a href="https://www2.ph.ed.ac.uk/AardvarkDeployments/Protected/88147/views/files/Python/Deployments/SciProg_LEARN_18_19/inner.node/__CourseNotes/SciProg/Loops/web.html" title="11 Loops and looping" onclick="return getNavigationController().selectNode(this, 'Python:CourseNotes:SciProg:Loops')">11 Loops and looping</a></li>
+            <li id="node_76036" class="unselected"><a href="https://www2.ph.ed.ac.uk/AardvarkDeployments/Protected/88147/views/files/Python/Deployments/SciProg_LEARN_18_19/inner.node/__CourseNotes/SciProg/Plotting/web.html" title="12 Simple Graphs" onclick="return getNavigationController().selectNode(this, 'Python:CourseNotes:SciProg:Plotting')">12 Simple Graphs</a></li>
+            <li id="node_76117" class="unselected"><a href="https://www2.ph.ed.ac.uk/AardvarkDeployments/Protected/88147/views/files/Python/Deployments/SciProg_LEARN_18_19/inner.node/__CourseNotes/SciProg/Files/web.html" title="13 File Input and Output" onclick="return getNavigationController().selectNode(this, 'Python:CourseNotes:SciProg:Files')">13 File Input and Output</a></li>
+            <li id="node_76171" class="unselected"><a href="https://www2.ph.ed.ac.uk/AardvarkDeployments/Protected/88147/views/files/Python/Deployments/SciProg_LEARN_18_19/inner.node/__CourseNotes/SciProg/ParsingInput/web.html" title="14 Parsing Input" onclick="return getNavigationController().selectNode(this, 'Python:CourseNotes:SciProg:ParsingInput')">14 Parsing Input</a></li>
+            <li id="node_76177" class="unselected"><a href="https://www2.ph.ed.ac.uk/AardvarkDeployments/Protected/88147/views/files/Python/Deployments/SciProg_LEARN_18_19/inner.node/__CourseNotes/SciProg/Functions/web.html" title="15 More on Functions" onclick="return getNavigationController().selectNode(this, 'Python:CourseNotes:SciProg:Functions')">15 More on Functions</a></li>
+            <li id="node_81675" class="unselected"><a href="https://www2.ph.ed.ac.uk/AardvarkDeployments/Protected/88147/views/files/Python/Deployments/SciProg_LEARN_18_19/inner.node/__CourseNotes/SciProg/Scope/web.html" title="16 Scope of Variables" onclick="return getNavigationController().selectNode(this, 'Python:CourseNotes:SciProg:Scope')">16 Scope of Variables</a></li>
+            <li id="node_76364" class="unselected"><a href="https://www2.ph.ed.ac.uk/AardvarkDeployments/Protected/88147/views/files/Python/Deployments/SciProg_LEARN_18_19/inner.node/__CourseNotes/SciProg/lambda/web.html" title="17 Lambda Functions" onclick="return getNavigationController().selectNode(this, 'Python:CourseNotes:SciProg:lambda')">17 Lambda Functions</a></li>
+            <li id="node_76370" class="unselected"><a href="https://www2.ph.ed.ac.uk/AardvarkDeployments/Protected/88147/views/files/Python/Deployments/SciProg_LEARN_18_19/inner.node/__CourseNotes/SciProg/MapandGip/web.html" title="18 Advanced List Processing" onclick="return getNavigationController().selectNode(this, 'Python:CourseNotes:SciProg:MapandGip')">18 Advanced List Processing</a></li>
+            <li id="node_76380" class="unselected"><a href="https://www2.ph.ed.ac.uk/AardvarkDeployments/Protected/88147/views/files/Python/Deployments/SciProg_LEARN_18_19/inner.node/__CourseNotes/SciProg/Objects/web.html" title="19 Objects and OOP" onclick="return getNavigationController().selectNode(this, 'Python:CourseNotes:SciProg:Objects')">19 Objects and OOP</a></li>
+         </ul>
+         <ul class="tree visible" id="tree_76185">
+            <li id="node_76226" class="unselected"><a href="https://www2.ph.ed.ac.uk/AardvarkDeployments/Protected/88147/views/files/Python/Deployments/SciProg_LEARN_18_19/inner.node/__CourseNotes/SciProg/Assessment/web.html" title="1 Course Assessment" onclick="return getNavigationController().selectNode(this, 'Python:CourseNotes:SciProg:Assessment')">1 Course Assessment</a></li>
+            <li id="node_76032" class="unselected"><a href="https://www2.ph.ed.ac.uk/AardvarkDeployments/Protected/88147/views/files/Python/Deployments/SciProg_LEARN_18_19/inner.node/__CheckPoints/SciProg/Checkpoint1/web.html" title="2 Checkpoint One" onclick="return getNavigationController().selectNode(this, 'Python:CheckPoints:SciProg:Checkpoint1')">2 Checkpoint One</a></li>
+            <li id="node_76091" class="unselected"><a href="https://www2.ph.ed.ac.uk/AardvarkDeployments/Protected/88147/views/files/Python/Deployments/SciProg_LEARN_18_19/inner.node/__CheckPoints/SciProg/Checkpoint2/web.html" title="3 Checkpoint Two" onclick="return getNavigationController().selectNode(this, 'Python:CheckPoints:SciProg:Checkpoint2')">3 Checkpoint Two</a></li>
+            <li id="node_76319" class="unselected"><a href="https://www2.ph.ed.ac.uk/AardvarkDeployments/Protected/88147/views/files/Python/Deployments/SciProg_LEARN_18_19/inner.node/__CheckPoints/SciProg/Checkpoint3/web.html" title="4 Checkpoint Three" onclick="return getNavigationController().selectNode(this, 'Python:CheckPoints:SciProg:Checkpoint3')">4 Checkpoint Three</a></li>
+            <li id="node_76329" class="unselected"><a href="https://www2.ph.ed.ac.uk/AardvarkDeployments/Protected/88147/views/files/Python/Deployments/SciProg_LEARN_18_19/inner.node/__CheckPoints/SciProg/Checkpoint4/web.html" title="5 Checkpoint Four" onclick="return getNavigationController().selectNode(this, 'Python:CheckPoints:SciProg:Checkpoint4')">5 Checkpoint Four</a></li>
+            <li id="node_76444" class="selected"><a href="https://www2.ph.ed.ac.uk/AardvarkDeployments/Protected/88147/views/files/Python/Deployments/SciProg_LEARN_18_19/inner.node/__CheckPoints/SciProg/Checkpoint5/web.html" title="6 Checkpoint Five" onclick="return getNavigationController().selectNode(this, 'Python:CheckPoints:SciProg:Checkpoint5')">6 Checkpoint Five</a></li>
+            <li id="node_87138" class="unselected"><a href="https://www2.ph.ed.ac.uk/AardvarkDeployments/Protected/88147/views/files/Python/Deployments/SciProg_LEARN_18_19/inner.node/__CheckPoints/SciProg/Checkpoint6/web.html" title="7 Checkpoint Six" onclick="return getNavigationController().selectNode(this, 'Python:CheckPoints:SciProg:Checkpoint6')">7 Checkpoint Six</a></li>
+         </ul>
+         <ul class="tree hidden" id="tree_76189">
+            <li id="node_76425" class="unselected"><a href="https://www2.ph.ed.ac.uk/AardvarkDeployments/Protected/88147/views/files/Python/Deployments/SciProg_LEARN_18_19/inner.node/__CodeExamples/Hello/web.html" title="1 Hello.py" onclick="return getNavigationController().selectNode(this, 'Python:CodeExamples:Hello')">1 Hello.py</a></li>
+            <li id="node_76049" class="unselected"><a href="https://www2.ph.ed.ac.uk/AardvarkDeployments/Protected/88147/views/files/Python/Deployments/SciProg_LEARN_18_19/inner.node/__CodeExamples/ReadingandPrintingStrings/web.html" title="2 ReadingandPrintingStrings" onclick="return getNavigationController().selectNode(this, 'Python:CodeExamples:ReadingandPrintingStrings')">2 ReadingandPrintingStrings</a></li>
+            <li id="node_76050" class="unselected"><a href="https://www2.ph.ed.ac.uk/AardvarkDeployments/Protected/88147/views/files/Python/Deployments/SciProg_LEARN_18_19/inner.node/__CodeExamples/ReadingandPrintingFloats/web.html" title="3 Reading and Printing Floats" onclick="return getNavigationController().selectNode(this, 'Python:CodeExamples:ReadingandPrintingFloats')">3 Reading and Printing Floats</a></li>
+            <li id="node_76051" class="unselected"><a href="https://www2.ph.ed.ac.uk/AardvarkDeployments/Protected/88147/views/files/Python/Deployments/SciProg_LEARN_18_19/inner.node/__CodeExamples/ReadingandFormatFloats/web.html" title="4 Reading and Format Floats" onclick="return getNavigationController().selectNode(this, 'Python:CodeExamples:ReadingandFormatFloats')">4 Reading and Format Floats</a></li>
+            <li id="node_76052" class="unselected"><a href="https://www2.ph.ed.ac.uk/AardvarkDeployments/Protected/88147/views/files/Python/Deployments/SciProg_LEARN_18_19/inner.node/__CodeExamples/ReadingIntandFloat/web.html" title="5 Reading Int and Float" onclick="return getNavigationController().selectNode(this, 'Python:CodeExamples:ReadingIntandFloat')">5 Reading Int and Float</a></li>
+            <li id="node_80193" class="unselected"><a href="https://www2.ph.ed.ac.uk/AardvarkDeployments/Protected/88147/views/files/Python/Deployments/SciProg_LEARN_18_19/inner.node/__CodeExamples/FloatFormat/web.html" title="6 FloatFormat" onclick="return getNavigationController().selectNode(this, 'Python:CodeExamples:FloatFormat')">6 FloatFormat</a></li>
+            <li id="node_80194" class="unselected"><a href="https://www2.ph.ed.ac.uk/AardvarkDeployments/Protected/88147/views/files/Python/Deployments/SciProg_LEARN_18_19/inner.node/__CodeExamples/IntegerFormat/web.html" title="7 IntegerFormat" onclick="return getNavigationController().selectNode(this, 'Python:CodeExamples:IntegerFormat')">7 IntegerFormat</a></li>
+            <li id="node_83989" class="unselected"><a href="https://www2.ph.ed.ac.uk/AardvarkDeployments/Protected/88147/views/files/Python/Deployments/SciProg_LEARN_18_19/inner.node/__CodeExamples/ReadingandPrintingStringMain/web.html" title="8 ReadingandPrintingStringsMain" onclick="return getNavigationController().selectNode(this, 'Python:CodeExamples:ReadingandPrintingStringMain')">8 ReadingandPrintingStringsMain</a></li>
+            <li id="node_83993" class="unselected"><a href="https://www2.ph.ed.ac.uk/AardvarkDeployments/Protected/88147/views/files/Python/Deployments/SciProg_LEARN_18_19/inner.node/__CodeExamples/ReadingadnPrintingFloatsMain/web.html" title="9 ReadingandPrintingFloatsMain" onclick="return getNavigationController().selectNode(this, 'Python:CodeExamples:ReadingadnPrintingFloatsMain')">9 ReadingandPrintingFloatsMain</a></li>
+            <li id="node_83994" class="unselected"><a href="https://www2.ph.ed.ac.uk/AardvarkDeployments/Protected/88147/views/files/Python/Deployments/SciProg_LEARN_18_19/inner.node/__CodeExamples/ReadingandFormatFloatsMain/web.html" title="10 ReadingandFormatFloatsMain" onclick="return getNavigationController().selectNode(this, 'Python:CodeExamples:ReadingandFormatFloatsMain')">10 ReadingandFormatFloatsMain</a></li>
+            <li id="node_76542" class="unselected"><a href="https://www2.ph.ed.ac.uk/AardvarkDeployments/Protected/88147/views/files/Python/Deployments/SciProg_LEARN_18_19/inner.node/__CodeExamples/TemperatureConverter/web.html" title="11 TemperatureConverter" onclick="return getNavigationController().selectNode(this, 'Python:CodeExamples:TemperatureConverter')">11 TemperatureConverter</a></li>
+            <li id="node_84010" class="unselected"><a href="https://www2.ph.ed.ac.uk/AardvarkDeployments/Protected/88147/views/files/Python/Deployments/SciProg_LEARN_18_19/inner.node/__CodeExamples/QuadraticFunction/web.html" title="12 Quadratic Function" onclick="return getNavigationController().selectNode(this, 'Python:CodeExamples:QuadraticFunction')">12 Quadratic Function</a></li>
+            <li id="node_76489" class="unselected"><a href="https://www2.ph.ed.ac.uk/AardvarkDeployments/Protected/88147/views/files/Python/Deployments/SciProg_LEARN_18_19/inner.node/__CodeExamples/OneWayConditional/web.html" title="13 OneWayConditional" onclick="return getNavigationController().selectNode(this, 'Python:CodeExamples:OneWayConditional')">13 OneWayConditional</a></li>
+            <li id="node_76490" class="unselected"><a href="https://www2.ph.ed.ac.uk/AardvarkDeployments/Protected/88147/views/files/Python/Deployments/SciProg_LEARN_18_19/inner.node/__CodeExamples/TwoWayConditional/web.html" title="14 TwoWayConditional" onclick="return getNavigationController().selectNode(this, 'Python:CodeExamples:TwoWayConditional')">14 TwoWayConditional</a></li>
+            <li id="node_76491" class="unselected"><a href="https://www2.ph.ed.ac.uk/AardvarkDeployments/Protected/88147/views/files/Python/Deployments/SciProg_LEARN_18_19/inner.node/__CodeExamples/ThreeWayConditional/web.html" title="15 ThreeWayConditional" onclick="return getNavigationController().selectNode(this, 'Python:CodeExamples:ThreeWayConditional')">15 ThreeWayConditional</a></li>
+            <li id="node_76505" class="unselected"><a href="https://www2.ph.ed.ac.uk/AardvarkDeployments/Protected/88147/views/files/Python/Deployments/SciProg_LEARN_18_19/inner.node/__CodeExamples/ComplexQuadrant/web.html" title="16 ComplexQuadrant" onclick="return getNavigationController().selectNode(this, 'Python:CodeExamples:ComplexQuadrant')">16 ComplexQuadrant</a></li>
+            <li id="node_84022" class="unselected"><a href="https://www2.ph.ed.ac.uk/AardvarkDeployments/Protected/88147/views/files/Python/Deployments/SciProg_LEARN_18_19/inner.node/__CodeExamples/InsideSphere/web.html" title="17 InsideSphere" onclick="return getNavigationController().selectNode(this, 'Python:CodeExamples:InsideSphere')">17 InsideSphere</a></li>
+            <li id="node_76506" class="unselected"><a href="https://www2.ph.ed.ac.uk/AardvarkDeployments/Protected/88147/views/files/Python/Deployments/SciProg_LEARN_18_19/inner.node/__CodeExamples/MakeandAppendList/web.html" title="18 MakeandAppendList" onclick="return getNavigationController().selectNode(this, 'Python:CodeExamples:MakeandAppendList')">18 MakeandAppendList</a></li>
+            <li id="node_76507" class="unselected"><a href="https://www2.ph.ed.ac.uk/AardvarkDeployments/Protected/88147/views/files/Python/Deployments/SciProg_LEARN_18_19/inner.node/__CodeExamples/ExtractSubList/web.html" title="19 ExtractSubList" onclick="return getNavigationController().selectNode(this, 'Python:CodeExamples:ExtractSubList')">19 ExtractSubList</a></li>
+            <li id="node_84032" class="unselected"><a href="https://www2.ph.ed.ac.uk/AardvarkDeployments/Protected/88147/views/files/Python/Deployments/SciProg_LEARN_18_19/inner.node/__CodeExamples/PrintList/web.html" title="20 PrintList" onclick="return getNavigationController().selectNode(this, 'Python:CodeExamples:PrintList')">20 PrintList</a></li>
+            <li id="node_84050" class="unselected"><a href="https://www2.ph.ed.ac.uk/AardvarkDeployments/Protected/88147/views/files/Python/Deployments/SciProg_LEARN_18_19/inner.node/__CodeExamples/AppendFunction/web.html" title="21 AppendFunction" onclick="return getNavigationController().selectNode(this, 'Python:CodeExamples:AppendFunction')">21 AppendFunction</a></li>
+            <li id="node_84051" class="unselected"><a href="https://www2.ph.ed.ac.uk/AardvarkDeployments/Protected/88147/views/files/Python/Deployments/SciProg_LEARN_18_19/inner.node/__CodeExamples/SortFunction/web.html" title="22 SortFunction" onclick="return getNavigationController().selectNode(this, 'Python:CodeExamples:SortFunction')">22 SortFunction</a></li>
+            <li id="node_76512" class="unselected"><a href="https://www2.ph.ed.ac.uk/AardvarkDeployments/Protected/88147/views/files/Python/Deployments/SciProg_LEARN_18_19/inner.node/__CodeExamples/RangeLoop/web.html" title="23 RangeLoop" onclick="return getNavigationController().selectNode(this, 'Python:CodeExamples:RangeLoop')">23 RangeLoop</a></li>
+            <li id="node_76513" class="unselected"><a href="https://www2.ph.ed.ac.uk/AardvarkDeployments/Protected/88147/views/files/Python/Deployments/SciProg_LEARN_18_19/inner.node/__CodeExamples/RangeLooptoList/web.html" title="24 RangeLooptoList" onclick="return getNavigationController().selectNode(this, 'Python:CodeExamples:RangeLooptoList')">24 RangeLooptoList</a></li>
+            <li id="node_76514" class="unselected"><a href="https://www2.ph.ed.ac.uk/AardvarkDeployments/Protected/88147/views/files/Python/Deployments/SciProg_LEARN_18_19/inner.node/__CodeExamples/WhileLooptoList/web.html" title="25 WhileLooptoList" onclick="return getNavigationController().selectNode(this, 'Python:CodeExamples:WhileLooptoList')">25 WhileLooptoList</a></li>
+            <li id="node_76516" class="unselected"><a href="https://www2.ph.ed.ac.uk/AardvarkDeployments/Protected/88147/views/files/Python/Deployments/SciProg_LEARN_18_19/inner.node/__CodeExamples/GuessGame/web.html" title="26 GuessGame" onclick="return getNavigationController().selectNode(this, 'Python:CodeExamples:GuessGame')">26 GuessGame</a></li>
+            <li id="node_76528" class="unselected"><a href="https://www2.ph.ed.ac.uk/AardvarkDeployments/Protected/88147/views/files/Python/Deployments/SciProg_LEARN_18_19/inner.node/__CodeExamples/WriteFile/web.html" title="27 WriteFile" onclick="return getNavigationController().selectNode(this, 'Python:CodeExamples:WriteFile')">27 WriteFile</a></li>
+            <li id="node_76529" class="unselected"><a href="https://www2.ph.ed.ac.uk/AardvarkDeployments/Protected/88147/views/files/Python/Deployments/SciProg_LEARN_18_19/inner.node/__CodeExamples/RangeLooptoFile/web.html" title="28 RangeLooptoFile" onclick="return getNavigationController().selectNode(this, 'Python:CodeExamples:RangeLooptoFile')">28 RangeLooptoFile</a></li>
+            <li id="node_76531" class="unselected"><a href="https://www2.ph.ed.ac.uk/AardvarkDeployments/Protected/88147/views/files/Python/Deployments/SciProg_LEARN_18_19/inner.node/__CodeExamples/ReadTextFile/web.html" title="29 ReadTextFile" onclick="return getNavigationController().selectNode(this, 'Python:CodeExamples:ReadTextFile')">29 ReadTextFile</a></li>
+            <li id="node_76534" class="unselected"><a href="https://www2.ph.ed.ac.uk/AardvarkDeployments/Protected/88147/views/files/Python/Deployments/SciProg_LEARN_18_19/inner.node/__CodeExamples/CosPlot/web.html" title="30 CosPlot" onclick="return getNavigationController().selectNode(this, 'Python:CodeExamples:CosPlot')">30 CosPlot</a></li>
+            <li id="node_76535" class="unselected"><a href="https://www2.ph.ed.ac.uk/AardvarkDeployments/Protected/88147/views/files/Python/Deployments/SciProg_LEARN_18_19/inner.node/__CodeExamples/GuassNoisePlot/web.html" title="31 GaussNoisePlot" onclick="return getNavigationController().selectNode(this, 'Python:CodeExamples:GuassNoisePlot')">31 GaussNoisePlot</a></li>
+            <li id="node_84061" class="unselected"><a href="https://www2.ph.ed.ac.uk/AardvarkDeployments/Protected/88147/views/files/Python/Deployments/SciProg_LEARN_18_19/inner.node/__CodeExamples/QuadraticPlot/web.html" title="32 QuadraticPlot" onclick="return getNavigationController().selectNode(this, 'Python:CodeExamples:QuadraticPlot')">32 QuadraticPlot</a></li>
+            <li id="node_85206" class="unselected"><a href="https://www2.ph.ed.ac.uk/AardvarkDeployments/Protected/88147/views/files/Python/Deployments/SciProg_LEARN_18_19/inner.node/__CodeExamples/FunctionPlot/web.html" title="33 FunctionPlot" onclick="return getNavigationController().selectNode(this, 'Python:CodeExamples:FunctionPlot')">33 FunctionPlot</a></li>
+            <li id="node_76543" class="unselected"><a href="https://www2.ph.ed.ac.uk/AardvarkDeployments/Protected/88147/views/files/Python/Deployments/SciProg_LEARN_18_19/inner.node/__CodeExamples/PlanckPlot/web.html" title="34 PlanckPlot" onclick="return getNavigationController().selectNode(this, 'Python:CodeExamples:PlanckPlot')">34 PlanckPlot</a></li>
+            <li id="node_76546" class="unselected"><a href="https://www2.ph.ed.ac.uk/AardvarkDeployments/Protected/88147/views/files/Python/Deployments/SciProg_LEARN_18_19/inner.node/__CodeExamples/SphereVolume/web.html" title="35 SphereVolume" onclick="return getNavigationController().selectNode(this, 'Python:CodeExamples:SphereVolume')">35 SphereVolume</a></li>
+            <li id="node_78639" class="unselected"><a href="https://www2.ph.ed.ac.uk/AardvarkDeployments/Protected/88147/views/files/Python/Deployments/SciProg_LEARN_18_19/inner.node/__CodeExamples/Vector/web.html" title="36 Vector" onclick="return getNavigationController().selectNode(this, 'Python:CodeExamples:Vector')">36 Vector</a></li>
+            <li id="node_87143" class="unselected"><a href="https://www2.ph.ed.ac.uk/AardvarkDeployments/Protected/88147/views/files/Python/Deployments/SciProg_LEARN_18_19/inner.node/__CodeExamples/PiExample/web.html" title="37 PyExample.py" onclick="return getNavigationController().selectNode(this, 'Python:CodeExamples:PiExample')">37 PyExample.py</a></li>
+         </ul>
+      </div>
+   
+</body></html>
