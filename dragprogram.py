@@ -9,14 +9,14 @@ import numpy as np #Just precautionary, used in last checkpoint for arange funct
 
 def initialvar(v0,thet): #Finds x,y,vx and vy at the start of the graph
     nx = 0 #Sets x & y as lists that can be appended to, for graph plotting
-    ny = 0
+    ny = 0.22 #Set to 22cm as that is how high the ball is
     theta = m.radians(thet)#converts into radians, which is required
     vx = v0*m.cos(theta) #creating the initial hor velocity
     vy = v0*m.sin(theta) #creating the initial ver velocity
     return nx,ny,vx,vy #returns initial values
 
 def acceleration(vx,vy,B): #acceleration finding function
-    v = m.sqrt(vx**2 + vy**2) #finds magnitude of velocity 
+    v = m.sqrt(vx**2 + vy**2) #finds magnitude of velocity
     g = 9.81 #set gravity
     ax = (-B)*v*vx #finds x component of acceleration
     ay = ((-B)*v*vy)-g #finds y component of acceleration
@@ -32,18 +32,19 @@ def step_forward(x,y,vx,vy,ax,ay,delt): #stepping forward to create the new poin
 
 def main():
     v0 = float(input("Please input the initial velocity: ")) #obtains v0 data from user
-    theta = float(input("Please input the projectile angle from the horizontal in degrees: ")) #obtains theta data from user
+    theta = 0 #Setting for gravity lab
+    #theta = float(input("Please input the projectile angle from the horizontal in degrees: ")) #obtains theta data from user
     B = float(input("Please input the normalised drag coefficient: ")) #obtains B data from user
     delt = float(input("Please input the step interval in seconds: ")) #obtains delt data from user
     x = [0] #creates the list that will hold the plotted x, nx is the changing value
     y = [0] #creates the list that will hold the plotted y, ny is the changing value
     nx,ny,vx,vy = initialvar(v0,theta) #find initial variables for position and velocity.
 
-    while ny >= 0 : #while y greater than or equal to zero, once below 0, its in the ground 
+    while ny >= 0 : #while y greater than or equal to zero, once below 0, its in the ground
         ax,ay = acceleration(vx,vy,B) # finds acceleration at certain point
         nx,ny,vx,vy = step_forward(nx,ny,vx,vy,ax,ay,delt) #creating the new point to be appended.
         x.append(nx) #adds to list of x and y values
-        y.append(ny) 
+        y.append(ny)
 
     plt.plot(x,y) #plot graph
     plt.title("Projectile Motion")
