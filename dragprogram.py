@@ -6,6 +6,7 @@
 import math as m #math functions
 import matplotlib.pyplot as plt #graph plotting
 import numpy as np #Just precautionary, used in last checkpoint for arange function
+import csv #creating csv files
 
 def initialvar(v0,thet): #Finds x,y,vx and vy at the start of the graph
     nx = 0 #Sets x & y as lists that can be appended to, for graph plotting
@@ -45,6 +46,12 @@ def main():
         nx,ny,vx,vy = step_forward(nx,ny,vx,vy,ax,ay,delt) #creating the new point to be appended.
         x.append(nx) #adds to list of x and y values
         y.append(ny)
+
+    #write y values to csv file
+    with open('yvalues.csv', 'w') as file:
+        writer = csv.writer(file, dialect='excel')
+        for val in y:
+            writer.writerow([val])
 
     plt.plot(x,y) #plot graph
     plt.title("Projectile Motion")
